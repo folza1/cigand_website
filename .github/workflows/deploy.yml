@@ -1,0 +1,23 @@
+name: Deploy to Server via FTP
+
+on:
+  push:
+    branches:
+      - main  # Ha nem a main branchot használod, akkor cseréld ki a megfelelő branch-ra
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2  # A kód letöltése a repóból
+
+    - name: Deploy via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ftp.nethely.hu
+        username: fodorzoltan317
+        password: fodorzoltan317
+        local-dir: ./  # Az aktuális mappa, amit fel szeretnél tölteni
+        server-dir: ./  # A szerver mappája, ahová feltöltenéd
