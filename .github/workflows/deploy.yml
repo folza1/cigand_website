@@ -20,4 +20,4 @@ jobs:
         username: fodorzoltan317
         password: fodorzoltan317
         local-dir: ./  # Az aktuális mappa, amit fel szeretnél tölteni
-        server-dir: ./cigand_website  # A szerver mappája, ahová feltöltenéd
+        server-dir: ./cigand_website/  # A szerver mappája, ahová feltöltenéd
