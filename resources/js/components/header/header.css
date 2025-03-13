@@ -3,10 +3,10 @@
     display: flex;
     justify-content: center; /* Horizontálisan középre igazítja */
     align-items: center;     /* Vertikálisan középre igazítja */
-    height: 150px;           /* A szülő div magasságát a teljes viewport magasságára állítja */
+    height: 7vw;         /* A szülő div magasságát a teljes viewport magasságára állítja */
 }
 
 .header img {
-    width: 100px;   /* Biztosítja, hogy a kép rugalmasan igazodjon */
-    height: 120;  /* Biztosítja, hogy a kép ne legyen nagyobb, mint a szülő elem */
+    width: 5vw;   /* Biztosítja, hogy a kép rugalmasan igazodjon */
+    height: auto;  /* Biztosítja, hogy a kép ne legyen nagyobb, mint a szülő elem */
 }

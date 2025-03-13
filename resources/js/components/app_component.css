@@ -1,7 +1,7 @@
 #app_component{
     height: 100vh;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 0.1vw solid black;
+    border-left: 0.1vw solid black;
+    border-right: 0.1vw solid black;
+    border-bottom: 0.1vw solid black;
 }
