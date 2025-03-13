@@ -13,6 +13,16 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2  # A kód letöltése a repóból
 
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'  # Az általad használt Node.js verzió
+
+    - name: Build project
+      run: |
+        npm run build  # Lefuttatja a build parancsot (React vagy más frontend esetén)
+
+
     - name: Deploy via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
