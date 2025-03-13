@@ -1,9 +1,11 @@
 import React from "react";
 import { createRoot } from 'react-dom/client';
+import Header from "./header/Header";
+import './app_component.css';
 export default function App(){
     return(
-        <div>
-            <h1>Cigánd Website!</h1>
+        <div id="app_component">
+            < Header />
         </div>
     );
 };

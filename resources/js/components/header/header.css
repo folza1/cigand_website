@@ -1,0 +1,12 @@
+/* header.css */
+.header {
+    display: flex;
+    justify-content: center; /* Horizontálisan középre igazítja */
+    align-items: center;     /* Vertikálisan középre igazítja */
+    height: 150px;           /* A szülő div magasságát a teljes viewport magasságára állítja */
+}
+
+.header img {
+    width: 100px;   /* Biztosítja, hogy a kép rugalmasan igazodjon */
+    height: 120;  /* Biztosítja, hogy a kép ne legyen nagyobb, mint a szülő elem */
+}
