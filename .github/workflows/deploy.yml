@@ -18,6 +18,10 @@ jobs:
       with:
         node-version: '18'  # Az általad használt Node.js verzió
 
+    - name: Install dependencies
+      run: |
+        npm install  # Telepíti a függőségeket
+
     - name: Build project
       run: |
         npm run build  # Lefuttatja a build parancsot (React vagy más frontend esetén)
