@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 export default function App(){
     return(
         <div>
-            <h1>Hello React! Builded! It is working automatically!</h1>
+            <h1>Cigánd Website!</h1>
         </div>
     );
 };
