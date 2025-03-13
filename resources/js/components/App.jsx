@@ -2,7 +2,7 @@ import React from "react";
 import { createRoot } from 'react-dom/client';
 export default function App(){
     return(
-        <div className="container text-center">
+        <div>
             Hello React! Builded! It is working automatically!
         </div>
     );
