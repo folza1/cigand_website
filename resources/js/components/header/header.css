@@ -9,32 +9,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: var(--base-height); /* A bázis magasság használata */
+    height: 7vw; /* A bázis magasság használata */
 }
 
 .header img {
-    width: var(--base-img-width);  /* A bázis kép szélesség használata */
+    width: 5vw;  /* A bázis kép szélesség használata */
     height: auto;
-}
-
-/* 2x pixel rátára */
-@media screen and (min-resolution: 192dpi) {
-    .header {
-        height: calc(var(--base-height) * 2); /* Szorozza meg kétszer a bázis értéket */
-    }
-
-    .header img {
-        width: calc(var(--base-img-width) * 2); /* Szorozza meg kétszer a bázis kép szélességét */
-    }
-}
-
-/* 3x pixel rátára */
-@media screen and (min-resolution: 288dpi) {
-    .header {
-        height: calc(var(--base-height) * 3); /* Szorozza meg háromszor a bázis értéket */
-    }
-
-    .header img {
-        width: calc(var(--base-img-width) * 3); /* Szorozza meg háromszor a bázis kép szélességét */
-    }
 }
