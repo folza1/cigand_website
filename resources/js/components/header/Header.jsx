@@ -4,7 +4,7 @@ export default function Header(){
     return(
         <div className='header'>
             <img src="/images/cigand_favicon.png" />
-            <p>Cigand</p>
+            <p>Így több gép fogy!</p>
         </div>
     );
 };
