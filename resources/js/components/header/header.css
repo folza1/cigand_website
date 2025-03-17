@@ -1,18 +1,11 @@
-/* header.css */
-:root {
-    --base-height: 7vw;  /* Bázis magasság */
-    --base-img-width: 5vw; /* Bázis kép szélesség */
-}
-
-/* Alapértelmezett stílusok */
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 7vw; /* A bázis magasság használata */
+    height: 7vw;
 }
 
 .header img {
-    width: 5vw;  /* A bázis kép szélesség használata */
+    width: 5vw;
     height: auto;
 }
