@@ -1,12 +1,40 @@
 /* header.css */
+:root {
+    --base-height: 7vw;  /* Bázis magasság */
+    --base-img-width: 5vw; /* Bázis kép szélesség */
+}
+
+/* Alapértelmezett stílusok */
 .header {
     display: flex;
-    justify-content: center; /* Horizontálisan középre igazítja */
-    align-items: center;     /* Vertikálisan középre igazítja */
-    height: 7vw;         /* A szülő div magasságát a teljes viewport magasságára állítja */
+    justify-content: center;
+    align-items: center;
+    height: var(--base-height); /* A bázis magasság használata */
 }
 
 .header img {
-    width: 5vw;   /* Biztosítja, hogy a kép rugalmasan igazodjon */
-    height: auto;  /* Biztosítja, hogy a kép ne legyen nagyobb, mint a szülő elem */
+    width: var(--base-img-width);  /* A bázis kép szélesség használata */
+    height: auto;
+}
+
+/* 2x pixel rátára */
+@media screen and (min-resolution: 192dpi) {
+    .header {
+        height: calc(var(--base-height) * 2); /* Szorozza meg kétszer a bázis értéket */
+    }
+
+    .header img {
+        width: calc(var(--base-img-width) * 2); /* Szorozza meg kétszer a bázis kép szélességét */
+    }
+}
+
+/* 3x pixel rátára */
+@media screen and (min-resolution: 288dpi) {
+    .header {
+        height: calc(var(--base-height) * 3); /* Szorozza meg háromszor a bázis értéket */
+    }
+
+    .header img {
+        width: calc(var(--base-img-width) * 3); /* Szorozza meg háromszor a bázis kép szélességét */
+    }
 }
