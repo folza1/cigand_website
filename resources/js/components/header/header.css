@@ -18,7 +18,7 @@
 }
 
 /* 2x pixel rátára */
-@media screen and (min-resolution: 192dpi) {
+@media screen and (min-resolution: 326dpi) {
     .header {
         height: calc(var(--base-height) * 2); /* Szorozza meg kétszer a bázis értéket */
     }
@@ -29,7 +29,7 @@
 }
 
 /* 3x pixel rátára */
-@media screen and (min-resolution: 288dpi) {
+@media screen and (min-resolution: 480dpi) {
     .header {
         height: calc(var(--base-height) * 3); /* Szorozza meg háromszor a bázis értéket */
     }
