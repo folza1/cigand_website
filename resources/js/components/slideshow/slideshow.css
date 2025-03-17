@@ -4,3 +4,7 @@
     border-top: 0.1vw solid black;
     border-bottom: 0.1vw solid black;
 }
+.slideshow_text{
+    text-align: center;
+    font-size: 3vw;
+}
