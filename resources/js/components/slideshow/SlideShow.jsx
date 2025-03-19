@@ -7,7 +7,11 @@ const SlideShow = () => {
   const images = [
     "/images/slideshow/kep1.jpg",
     "/images/slideshow/kep2.jpg",
-    "/images/slideshow/kep3.jpg"
+    "/images/slideshow/kep3.jpg",
+    "/images/slideshow/kep4.jpg",
+    "/images/slideshow/kep5.jpg",
+    "/images/slideshow/kep6.jpg",
+    "/images/slideshow/kep7.jpg"
   ];
 
   useEffect(() => {
@@ -17,7 +21,7 @@ const SlideShow = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length); // Képváltás
         setFade(true); // Fade-in animáció
       }, 1000); // 1 másodperc várakozás fade-out után
-    }, 3000); // 3 másodpercenként vált a kép
+    }, 4000); // 3 másodpercenként vált a kép
 
     return () => clearInterval(intervalId); // Takarítás, ha a komponens eltűnik
   }, []);
