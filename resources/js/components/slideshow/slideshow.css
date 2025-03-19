@@ -1,36 +1,56 @@
-/* Alapértelmezett slideshow beállítások */
 .slideshow {
     width: 100%;
-    height: 32vw;
+    height: 30vw;
     border-top: 0.1vw solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* A képek középre igazítása */
     position: relative;
     overflow: hidden;
 }
 
-/* Képernyő szélességére szabott stílusok */
-@media screen and (max-width: 1200px) {
+@media (orientation: landscape) and (max-width: 1200px) {
     .slideshow {
-        height: 45vw;
+        height: 50vw;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media (orientation: landscape) and (max-width: 600px) {
     .slideshow {
         height: 55vw;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media (orientation: landscape) and (max-width: 300px) {
     .slideshow {
         height: 65vw;
+        width: 100%;
     }
 }
 
-/* .slideshow_container stílusok */
+@media (orientation: portrait) and (max-width: 1200px) {
+    .slideshow {
+        height: 65vw;
+        width: 100%;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 600px) {
+    .slideshow {
+        height: 70vw;
+        width: 100%;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 300px) {
+    .slideshow {
+        height: 75vw;
+        width: 100%;
+    }
+}
+
 .slideshow_container {
     width: 100%;
     height: 100%;
@@ -39,37 +59,35 @@
     align-items: center;
     position: absolute;
     transition: opacity 1s ease-in-out;
-    /* Fokozatos áttűnés az animációhoz */
     opacity: 1;
-    /* Kezdő opacity (látható a kép) */
 }
 
-/* Animációk */
 .fade-out {
     opacity: 0;
-    /* Fade-out animáció: elhalványulás */
 }
 
 .fade-in {
     opacity: 1;
-    /* Fade-in animáció: fokozatos megjelenés */
 }
 
-/* Kép beállítások */
 .slideshow_container img {
     width: auto;
-    /* Szélesség automatikus, hogy ne legyen túl széles */
     height: 100%;
-    /* A kép magassága a rendelkezésre álló magassághoz igazodik */
 }
 
-@media screen and (max-width: 600px) {
+@media (orientation: portrait) and (max-width: 1200px) {
     .slideshow_container img {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media (orientation: portrait) and (max-width: 600px) {
+    .slideshow_container img {
+        width: 100%;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 300px) {
     .slideshow_container img {
         width: 100%;
     }
