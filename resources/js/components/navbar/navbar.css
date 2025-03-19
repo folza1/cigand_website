@@ -1,0 +1,23 @@
+.navbar{
+    height: 3.5vw;
+    width: 100%;
+    border-top: 0.1vw solid black;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        height: 6vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .navbar {
+        display: none;
+    }
+}

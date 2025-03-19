@@ -1,11 +1,18 @@
 import './slideshow.css';
 
-export default function SlideShow(){
-    return(
-        <div className='slideshow'>
-            <p className='slideshow_text'>Cigánd Website!</p>
-            <p className='slideshow_text2'>Cigánd Website!</p>
-            <p className='slideshow_text3'>Cigánd Website!</p>
+const SlideShow = () => {
+  return (
+    <>
+      <div className='slideshow'>
+        <div className='slideshow_container'>
+          <img src="/images/slideshow/kep1.jpg" />
         </div>
-    );
+      </div>
+      <p className='slideshow_text1'>Cigánd Website!</p>
+      <p className='slideshow_text2'>Cigánd Website!</p>
+      <p className='slideshow_text3'>Cigánd Website!</p>
+    </>
+  );
 };
+
+export default SlideShow;
