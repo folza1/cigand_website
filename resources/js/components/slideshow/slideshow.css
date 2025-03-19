@@ -5,54 +5,72 @@
     border-top: 0.1vw solid black;
     display: flex;
     justify-content: center;
-    align-items: center; /* A képek középre igazítása */
+    align-items: center;
+    /* A képek középre igazítása */
     position: relative;
     overflow: hidden;
-  }
-  
-  /* Képernyő szélességére szabott stílusok */
-  @media screen and (max-width: 1200px) {
+}
+
+/* Képernyő szélességére szabott stílusok */
+@media screen and (max-width: 1200px) {
     .slideshow {
-      height: 45vw;
+        height: 45vw;
     }
-  }
-  
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     .slideshow {
-      height: 55vw;
+        height: 55vw;
     }
-  }
-  
-  @media screen and (max-width: 300px) {
+}
+
+@media screen and (max-width: 300px) {
     .slideshow {
-      height: 65vw;
+        height: 65vw;
     }
-  }
-  
-  /* .slideshow_container stílusok */
-  .slideshow_container {
+}
+
+/* .slideshow_container stílusok */
+.slideshow_container {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    transition: opacity 1s ease-in-out; /* Fokozatos áttűnés az animációhoz */
-    opacity: 1; /* Kezdő opacity (látható a kép) */
-  }
-  
-  /* Animációk */
-  .fade-out {
-    opacity: 0; /* Fade-out animáció: elhalványulás */
-  }
-  
-  .fade-in {
-    opacity: 1; /* Fade-in animáció: fokozatos megjelenés */
-  }
-  
-  /* Kép beállítások */
-  .slideshow_container img {
-    width: auto;   /* Szélesség automatikus, hogy ne legyen túl széles */
-    height: 100%;   /* A kép magassága a rendelkezésre álló magassághoz igazodik */
-  }
-  
+    transition: opacity 1s ease-in-out;
+    /* Fokozatos áttűnés az animációhoz */
+    opacity: 1;
+    /* Kezdő opacity (látható a kép) */
+}
+
+/* Animációk */
+.fade-out {
+    opacity: 0;
+    /* Fade-out animáció: elhalványulás */
+}
+
+.fade-in {
+    opacity: 1;
+    /* Fade-in animáció: fokozatos megjelenés */
+}
+
+/* Kép beállítások */
+.slideshow_container img {
+    width: auto;
+    /* Szélesség automatikus, hogy ne legyen túl széles */
+    height: 100%;
+    /* A kép magassága a rendelkezésre álló magassághoz igazodik */
+}
+
+@media screen and (max-width: 600px) {
+    .slideshow_container img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .slideshow_container img {
+        width: 100%;
+    }
+}
