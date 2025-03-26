@@ -16,12 +16,6 @@
     }
 }
 
-@media screen and (max-width: 300px) {
-    .navbar-container {
-        display: none;
-    }
-}
-
 .navbar {
     display: flex;
     /* Flexbox használata */
