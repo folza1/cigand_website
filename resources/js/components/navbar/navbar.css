@@ -47,3 +47,33 @@
     font-size: 1.7vw;
     padding: 1vw 0 1vw 0;
 }
+
+.mobile-navbar-container{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .mobile-navbar-container {
+        display: block;
+    }
+}
+
+.mobile-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 350px) {
+    .mobile-navbar {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 125px) {
+    .mobile-navbar {
+        font-size: 16px;
+    }
+}

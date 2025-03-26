@@ -30,48 +30,53 @@ const Navbar = () => {
   }, [openDropdown]);
 
   return (
-    <div className="navbar-container">
-      <div className="navbar">
-        <div className="dropbtn">Kezdőlap</div>
-        <div className="dropbtn">Hírek</div>
+    <>
+      <div className="navbar-container">
+        <div className="navbar">
+          <div className="dropbtn">Kezdőlap</div>
+          <div className="dropbtn">Hírek</div>
 
-        {/* Városunk legördülő menü */}
-        <div className="dropdown" ref={(el) => (dropdownRef.current[1] = el)}>
-          <div className="dropbtn" onClick={() => toggleDropdown(1)}>
-            Városunk
+          {/* Városunk legördülő menü */}
+          <div className="dropdown" ref={(el) => (dropdownRef.current[1] = el)}>
+            <div className="dropbtn" onClick={() => toggleDropdown(1)}>
+              Városunk
+            </div>
+            <div
+              className={`dropdown-content ${openDropdown === 1 ? "show" : ""}`}
+            >
+              Megamenu 11111111
+            </div>
           </div>
-          <div
-            className={`dropdown-content ${openDropdown === 1 ? "show" : ""}`}
-          >
-            Megamenu 11111111
-          </div>
-        </div>
 
-        {/* Önkormányzat legördülő menü */}
-        <div className="dropdown" ref={(el) => (dropdownRef.current[2] = el)}>
-          <div className="dropbtn" onClick={() => toggleDropdown(2)}>
-            Önkormányzat
+          {/* Önkormányzat legördülő menü */}
+          <div className="dropdown" ref={(el) => (dropdownRef.current[2] = el)}>
+            <div className="dropbtn" onClick={() => toggleDropdown(2)}>
+              Önkormányzat
+            </div>
+            <div
+              className={`dropdown-content ${openDropdown === 2 ? "show" : ""}`}
+            >
+              Megamenu 22222222
+            </div>
           </div>
-          <div
-            className={`dropdown-content ${openDropdown === 2 ? "show" : ""}`}
-          >
-            Megamenu 22222222
-          </div>
-        </div>
 
-        {/* Kultúra legördülő menü */}
-        <div className="dropdown" ref={(el) => (dropdownRef.current[3] = el)}>
-          <div className="dropbtn" onClick={() => toggleDropdown(3)}>
-            Kultúra
-          </div>
-          <div
-            className={`dropdown-content ${openDropdown === 3 ? "show" : ""}`}
-          >
-            Megamenu 33333333
+          {/* Kultúra legördülő menü */}
+          <div className="dropdown" ref={(el) => (dropdownRef.current[3] = el)}>
+            <div className="dropbtn" onClick={() => toggleDropdown(3)}>
+              Kultúra
+            </div>
+            <div
+              className={`dropdown-content ${openDropdown === 3 ? "show" : ""}`}
+            >
+              Megamenu 33333333
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <div className="mobile-navbar-container">
+        <div className="mobile-navbar">Menü</div>
+      </div>
+    </>
   );
 };
 
