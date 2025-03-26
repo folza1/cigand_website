@@ -10,14 +10,14 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-    .navbar {
+@media screen and (max-width: 800px) {
+    .navbar-container {
         display: none;
     }
 }
 
 @media screen and (max-width: 300px) {
-    .navbar {
+    .navbar-container {
         display: none;
     }
 }
