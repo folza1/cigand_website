@@ -4,6 +4,8 @@ import "./navbar.css";
 const Navbar = () => {
   // Állapot a legördülő menük nyitásához
   const [openDropdown, setOpenDropdown] = useState(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);  // Mobil menü állapot
+  const [isClosing, setIsClosing] = useState(false);  // Bezárás animáció állapota
   const dropdownRef = useRef([]);
 
   // Eseménykezelő a legördülő menü nyitásához
@@ -28,6 +30,21 @@ const Navbar = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [openDropdown]);
+
+  // Mobil menü kezelése
+  const toggleMobileMenu = () => {
+    if (isMobileMenuOpen) {
+      // Ha a menü nyitva van, akkor először indítjuk az animációt
+      setIsClosing(true);
+      // Várunk, amíg az animáció befejeződik, és csak utána zárjuk be a menüt
+      setTimeout(() => {
+        setIsMobileMenuOpen(false);
+        setIsClosing(false);
+      }, 500); // Az animáció hossza (0.5s)
+    } else {
+      setIsMobileMenuOpen(true); // Menüt nyitunk
+    }
+  };
 
   return (
     <>
@@ -73,13 +90,26 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
+      {/* Mobil navigáció */}
       <div className="mobile-navbar-container">
-        <div className="mobile-navbar">Menü</div>
+        <div className="mobile-navbar" onClick={toggleMobileMenu}>
+          Menü
+        </div>
       </div>
+
+      {/* Mobil menü, ha nyitva van */}
+      {isMobileMenuOpen && (
+        <div className={`mobile-menu ${isClosing ? "mobile-menu-closing" : ""}`}>
+          {/* X gomb a menü bezárásához */}
+          <div className="close-btn" onClick={toggleMobileMenu}>
+            X
+          </div>
+          <div>Mobil menü tartalma</div>
+        </div>
+      )}
     </>
   );
 };
 
 export default Navbar;
-
-

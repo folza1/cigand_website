@@ -2,6 +2,14 @@
     height: auto;
     width: 100%;
     border-top: 0.1vw solid black;
+    display: flex;
+    /* Flexbox használata */
+    justify-content: space-around;
+    /* Elemek közötti térköz */
+    align-items: center;
+    /* Vertikálisan középre igazítja az elemeket */
+    background-color: white;
+    /* Háttérszín (választható) */
 }
 
 @media screen and (max-width: 1200px) {
@@ -16,16 +24,6 @@
     }
 }
 
-.navbar {
-    display: flex;
-    /* Flexbox használata */
-    justify-content: space-around;
-    /* Elemek közötti térköz */
-    align-items: center;
-    /* Vertikálisan középre igazítja az elemeket */
-    background-color: white;
-    /* Háttérszín (választható) */
-}
 .dropdown-content {
     display: none;
     position: absolute;
@@ -46,6 +44,7 @@
 .dropbtn{
     font-size: 1.7vw;
     padding: 1vw 0 1vw 0;
+    cursor: pointer;
 }
 
 .mobile-navbar-container{
@@ -64,6 +63,7 @@
     align-items: center;
     font-size: 32px;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 350px) {
@@ -76,4 +76,60 @@
     .mobile-navbar {
         font-size: 16px;
     }
+}
+
+/* Mobil menü animáció */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%); /* Kezdő pozíció, balról kilép */
+    }
+    to {
+        transform: translateX(0); /* Befejező pozíció, középre */
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0); /* Kezdő pozíció, középen */
+    }
+    to {
+        transform: translateX(-100%); /* Befejező pozíció, balra */
+    }
+}
+
+/* Mobil menü 100%-os szélesség és magasság, piros háttér */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    z-index: 1000; /* Biztosítja, hogy a menü a tartalom felett legyen */
+    animation: slideIn 0.5s ease-out; /* Animáció hozzáadása a megjelenéshez */
+    border: 2px solid black;
+}
+
+/* Mobil menü animáció eltűnéskor */
+.mobile-menu-closing {
+    animation: slideOut 0.5s ease-in; /* Animáció a bezáráskor */
+}
+
+/* Bezáró X gomb a mobil menüben */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2em;
+    color: black;
+    cursor: pointer;
+    z-index: 1100; /* Biztosítja, hogy a gomb a tartalom felett legyen */
+}
+
+.close-btn:hover {
+    color: red; /* Hover effekt */
 }
