@@ -7,6 +7,15 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);  // Mobil menü állapot
   const [isClosing, setIsClosing] = useState(false);  // Bezárás animáció állapota
   const dropdownRef = useRef([]);
+  const [isMobileSubMenu1Open, setIsMobileSubMenu1Open] = useState(false);  // Mobil menü állapot
+  const [isSubmenu1Closing, setIsSubmenu1Closing] = useState(false);  // Bezárás animáció állapota
+  const [isMobileSubMenu2Open, setIsMobileSubMenu2Open] = useState(false);  // Mobil menü állapot
+  const [isSubmenu2Closing, setIsSubmenu2Closing] = useState(false);  // Bezárás animáció állapota
+  const [isMobileSubMenu3Open, setIsMobileSubMenu3Open] = useState(false);  // Mobil menü állapot
+  const [isSubmenu3Closing, setIsSubmenu3Closing] = useState(false);  // Bezárás animáció állapota
+
+
+
 
   // Eseménykezelő a legördülő menü nyitásához
   const toggleDropdown = (index) => {
@@ -43,6 +52,48 @@ const Navbar = () => {
       }, 500); // Az animáció hossza (0.5s)
     } else {
       setIsMobileMenuOpen(true); // Menüt nyitunk
+    }
+  };
+
+  const toggleMobileSubMenu1 = () => {
+    if (isMobileSubMenu1Open) {
+      // Ha a menü nyitva van, akkor élöször indítjuk az animációt
+      setIsSubmenu1Closing(true);
+      // Várunk, amíg az animáció befejeződik, és csak utána zárjuk be a menüt
+      setTimeout(() => {
+        setIsMobileSubMenu1Open(false);
+        setIsSubmenu1Closing(false);
+      }, 500); // Az animáció hossza (0.5s)
+    } else {
+      setIsMobileSubMenu1Open(true); // Menüt nyitunk
+    }
+  };
+
+  const toggleMobileSubMenu2 = () => {
+    if (isMobileSubMenu2Open) {
+      // Ha a menü nyitva van, akkor élöször indítjuk az animációt
+      setIsSubmenu2Closing(true);
+      // Várunk, amíg az animáció befejeződik, és csak utána zárjuk be a menüt
+      setTimeout(() => {
+        setIsMobileSubMenu2Open(false);
+        setIsSubmenu2Closing(false);
+      }, 500); // Az animáció hossza (0.5s)
+    } else {
+      setIsMobileSubMenu2Open(true); // Menüt nyitunk
+    }
+  };
+
+  const toggleMobileSubMenu3 = () => {
+    if (isMobileSubMenu3Open) {
+      // Ha a menü nyitva van, akkor élöször indítjuk az animációt
+      setIsSubmenu3Closing(true);
+      // Várunk, amíg az animáció befejeződik, és csak utána zárjuk be a menüt
+      setTimeout(() => {
+        setIsMobileSubMenu3Open(false);
+        setIsSubmenu3Closing(false);
+      }, 500); // Az animáció hossza (0.5s)
+    } else {
+      setIsMobileSubMenu3Open(true); // Menüt nyitunk
     }
   };
 
@@ -105,7 +156,66 @@ const Navbar = () => {
           <div className="close-btn" onClick={toggleMobileMenu}>
             X
           </div>
-          <div>Mobil menü tartalma</div>
+          <div className="mobile-menu-items">
+            <div className="mobile-menu-item">
+              Kezdőlap
+            </div>
+
+            <div className="mobile-menu-item">
+              Hírek
+            </div>
+            <div className="mobile-menu-item" onClick={toggleMobileSubMenu1}>
+              Városunk <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+            </div>
+
+            <div className="mobile-menu-item" onClick={toggleMobileSubMenu2}>
+              Önkormányzat <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+            </div>
+
+            <div className="mobile-menu-item" onClick={toggleMobileSubMenu3}>
+              Kultúra <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Sub-menük */}
+      {isMobileSubMenu1Open && (
+        <div className={`sub-menu1 ${isSubmenu1Closing ? "mobile-submenu-closing" : ""}`}>
+          <div className="close-btn" onClick={toggleMobileSubMenu1}>
+            X
+          </div>
+          <div className="mobile-submenu-items">
+            <div>Városunk 1</div>
+            <div>Városunk 2</div>
+            <div>Városunk 3</div>
+          </div>
+        </div>
+      )}
+
+      {isMobileSubMenu2Open && (
+        <div className={`sub-menu2 ${isSubmenu2Closing ? "mobile-submenu-closing" : ""}`}>
+          <div className="close-btn" onClick={toggleMobileSubMenu2}>
+            X
+          </div>
+          <div className="mobile-submenu-items">
+            <div>Önkormányzat 1</div>
+            <div>Önkormányzat 2</div>
+            <div>Önkormányzat 3</div>
+          </div>
+        </div>
+      )}
+
+      {isMobileSubMenu3Open && (
+        <div className={`sub-menu3 ${isSubmenu3Closing ? "mobile-submenu-closing" : ""}`}>
+          <div className="close-btn" onClick={toggleMobileSubMenu3}>
+            X
+          </div>
+          <div className="mobile-submenu-items">
+            <div>Kultúra 1</div>
+            <div>Kultúra 2</div>
+            <div>Kultúra 3</div>
+          </div>
         </div>
       )}
     </>

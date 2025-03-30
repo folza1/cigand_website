@@ -32,22 +32,22 @@
     height: 37vw;
     width: 100%;
     left: 0;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 /* A dropdown megnyitásakor */
 .dropdown-content.show {
     display: block;
-  }
+}
 
-.dropbtn{
+.dropbtn {
     font-size: 1.7vw;
     padding: 1vw 0 1vw 0;
     cursor: pointer;
 }
 
-.mobile-navbar-container{
+.mobile-navbar-container {
     display: none;
 }
 
@@ -57,7 +57,7 @@
     }
 }
 
-.mobile-navbar{
+.mobile-navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,23 +81,29 @@
 /* Mobil menü animáció */
 @keyframes slideIn {
     from {
-        transform: translateX(-100%); /* Kezdő pozíció, balról kilép */
+        transform: translateX(-100%);
+        /* Kezdő pozíció, balról kilép */
     }
+
     to {
-        transform: translateX(0); /* Befejező pozíció, középre */
+        transform: translateX(0);
+        /* Befejező pozíció, középre */
     }
 }
 
 @keyframes slideOut {
     from {
-        transform: translateX(0); /* Kezdő pozíció, középen */
+        transform: translateX(0);
+        /* Kezdő pozíció, középen */
     }
+
     to {
-        transform: translateX(-100%); /* Befejező pozíció, balra */
+        transform: translateX(-100%);
+        /* Befejező pozíció, balra */
     }
 }
 
-/* Mobil menü 100%-os szélesség és magasság, piros háttér */
+/* Mobil menü 100%-os szélesség és magasság */
 .mobile-menu {
     position: fixed;
     top: 0;
@@ -109,14 +115,17 @@
     justify-content: center;
     align-items: center;
     color: black;
-    z-index: 1000; /* Biztosítja, hogy a menü a tartalom felett legyen */
-    animation: slideIn 0.5s ease-out; /* Animáció hozzáadása a megjelenéshez */
+    z-index: 1000;
+    /* Biztosítja, hogy a menü a tartalom felett legyen */
+    animation: slideIn 0.5s ease-out;
+    /* Animáció hozzáadása a megjelenéshez */
     border: 2px solid black;
 }
 
 /* Mobil menü animáció eltűnéskor */
 .mobile-menu-closing {
-    animation: slideOut 0.5s ease-in; /* Animáció a bezáráskor */
+    animation: slideOut 0.5s ease-in;
+    /* Animáció a bezáráskor */
 }
 
 /* Bezáró X gomb a mobil menüben */
@@ -127,9 +136,94 @@
     font-size: 2em;
     color: black;
     cursor: pointer;
-    z-index: 1100; /* Biztosítja, hogy a gomb a tartalom felett legyen */
+    z-index: 1100;
+    /* Biztosítja, hogy a gomb a tartalom felett legyen */
 }
 
 .close-btn:hover {
-    color: red; /* Hover effekt */
+    color: red;
+    /* Hover effekt */
+}
+
+.mobile-menu-items {
+    display: flex;
+    flex-direction: column;
+    /* Ez biztosítja, hogy az elemek egymás alatt jelenjenek meg */
+    gap: 1vw;
+    /* Térköz az elemek között */
+    font-size: 10vw;
+    cursor: pointer;
+}
+
+.mobile-menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.right-angle {
+    width: 40px;
+    height: 40px;
+}
+
+/* Mobil submenü animáció */
+@keyframes slideInSubmenu {
+    from {
+        transform: translateX(100%);
+        /* Kezdő pozíció, jobbról kilép:
+           Az elem a képernyő jobb oldalán kívül helyezkedik el (+100%).
+           A translateX(100%) azt jelenti, hogy az elem vízszintesen 100%-kal el van tolva a képernyő jobb széle felé. */
+    }
+
+    to {
+        transform: translateX(0);
+        /* Befejező pozíció, középre:
+           Az elem a végső pozícióban a képernyő közepén lesz (0 érték, ami a normál helyzetet jelenti). */
+    }
+}
+
+@keyframes slideOutSubmenu {
+    from {
+        transform: translateX(0);
+        /* Kezdő pozíció, középen */
+    }
+
+    to {
+        transform: translateX(100%);
+        /* Befejező pozíció, jobbra */
+    }
+}
+
+/* Mobil submenü 100%-os szélesség és magasság */
+.sub-menu1, .sub-menu2, .sub-menu3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    z-index: 2000;
+    /* Biztosítja, hogy a menü a tartalom felett legyen */
+    animation: slideInSubmenu 0.5s ease-out;
+    /* Animáció hozzáadása a megjelenéshez */
+    border: 2px solid black;
+}
+
+/* Mobil submenü animáció eltűnéskor */
+.mobile-submenu-closing {
+    animation: slideOutSubmenu 0.5s ease-in;
+    /* Animáció a bezáráskor */
+}
+
+.mobile-submenu-items {
+    display: flex;
+    flex-direction: column;
+    /* Ez biztosítja, hogy az elemek egymás alatt jelenjenek meg */
+    gap: 1vw;
+    /* Térköz az elemek között */
+    font-size: 10vw;
+    cursor: pointer;
 }
