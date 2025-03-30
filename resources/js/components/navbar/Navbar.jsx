@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useState, useEffect, useRef } from "react";
 import "./navbar.css";
 
@@ -101,8 +102,8 @@ const Navbar = () => {
     <>
       <div className="navbar-container">
         <div className="navbar">
-          <div className="dropbtn">Kezdőlap</div>
-          <div className="dropbtn">Hírek</div>
+          <div className="dropbtn"><Link to="/">Kezdőlap</Link></div>
+          <div className="dropbtn"><Link to="/news">Hírek</Link></div>
 
           {/* Városunk legördülő menü */}
           <div className="dropdown" ref={(el) => (dropdownRef.current[1] = el)}>

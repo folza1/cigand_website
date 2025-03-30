@@ -1,17 +1,32 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
 import Header from "./header/Header";
 import './app_component.css';
 import SlideShow from "./slideshow/SlideShow";
 import Navbar from "./navbar/Navbar";
+import MainContent from "./main_content/MainContent";
 
 export default function App() {
 
   return (
-    <div id="app_component">
-      <Header />
-      <Navbar />
-      <SlideShow />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={
+          <div id="app_component">
+            <Header />
+            <Navbar />
+            <SlideShow />
+            <MainContent />
+          </div>
+        }>
+          {/* Itt rendeljük hozzá a különböző aloldalakat */}
+          <Route path="/news" element={<div>Middle Content</div>} />
+          <Route path="/" element={<div>Content</div>} />
+
+          {/* Más aloldalak, ha szükséges */}
+        </Route>
+      </Routes>
+    </Router>
   );
 };
 
