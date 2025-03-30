@@ -98,12 +98,20 @@ const Navbar = () => {
     }
   };
 
+  const scrollToOutlet = () => {
+    // Görgessünk le az Outlet-hez
+    const outletElement = document.getElementById('outlet');
+    if (outletElement) {
+      outletElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
       <div className="navbar-container">
         <div className="navbar">
           <div className="dropbtn"><Link className='no-underline' to="/">Kezdőlap</Link></div>
-          <div className="dropbtn"><Link className='no-underline' to="/news">Hírek</Link></div>
+          <div className="dropbtn"><Link onClick={scrollToOutlet} className='no-underline' to="/news">Hírek</Link></div>
 
           {/* Városunk legördülő menü */}
           <div className="dropdown" ref={(el) => (dropdownRef.current[1] = el)}>
