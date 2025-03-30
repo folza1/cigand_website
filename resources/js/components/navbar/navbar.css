@@ -24,6 +24,11 @@
     }
 }
 
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
