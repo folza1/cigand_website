@@ -145,6 +145,13 @@
     /* Hover effekt */
 }
 
+.close-btn svg {
+    width: 30px; /* Állítsd be a kívánt szélességet */
+    height: 30px; /* Állítsd be a kívánt magasságot */
+    fill: black; /* Alapértelmezett szín (fekete) */
+  }
+  
+
 .mobile-menu-items {
     display: flex;
     flex-direction: column;
@@ -227,3 +234,21 @@
     font-size: 10vw;
     cursor: pointer;
 }
+
+/* Bezáró X gomb a mobil menüben */
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2em;
+    color: black;
+    cursor: pointer;
+    z-index: 1100;
+    /* Biztosítja, hogy a gomb a tartalom felett legyen */
+}
+
+.left-arrow {
+    width: 30px;  /* A nyíl mérete */
+    height: 30px;
+    fill: black;  /* Szín, lehet más szín is */
+  }
