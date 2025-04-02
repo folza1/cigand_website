@@ -24,7 +24,9 @@ export default function App() {
           <Route path="/news" element={<div>Middle Content</div>} />
           <Route path="/" element={<div>Content</div>} />
           <Route path="/szechenyi2020" element={<div><Link onClick={scrollToOutlet} to="/projekt1">Projekt Link</Link></div>} />
-          <Route path="/projekt1" element={<div>Projekt 1</div>} />
+          <Route path="/projekt1" element={<div><Link onClick={scrollToOutlet} to="/projekt1.1" >Projekt 1.1</Link></div>} />
+          <Route path="/projekt1.1" element={<div>Projekt 1.1</div>} />
+
 
           {/* Más aloldalak, ha szükséges */}
         </Route>
