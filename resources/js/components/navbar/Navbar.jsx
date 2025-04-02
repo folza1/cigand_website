@@ -114,7 +114,16 @@ const Navbar = () => {
             <div
               className={`dropdown-content ${openDropdown === 1 ? "show" : ""}`}
             >
-              Megamenu 11111111
+              <Link
+                onClick={() => {
+                  setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/projekt1"
+              >
+                Megamenü Link 1
+              </Link>
             </div>
           </div>
 
@@ -160,16 +169,16 @@ const Navbar = () => {
           </div>
           <div className="mobile-menu-items">
             <div className="mobile-menu-item">
-            <Link
-              onClick={() => {
-                setIsMobileMenuOpen(false); // A mobil menü bezárása
-                scrollToOutlet(); // A scrollToOutlet funkció meghívása
-              }}
-              className='no-underline'
-              to="/"
-            >
-              Kezdőlap
-            </Link>
+              <Link
+                onClick={() => {
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/"
+              >
+                Kezdőlap
+              </Link>
             </div>
 
             <Link
@@ -207,17 +216,17 @@ const Navbar = () => {
           </div>
           <div className="mobile-submenu-items">
             <div>
-            <Link
-              onClick={() => {
-                setIsMobileSubMenu1Open(false); // A mobil menü bezárása
-                setIsMobileMenuOpen(false); // A mobil menü bezárása
-                scrollToOutlet(); // A scrollToOutlet funkció meghívása
-              }}
-              className='no-underline'
-              to="/szechenyi2020"
-            >
-              Városunk 1
-            </Link>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Városunk 1
+              </Link>
             </div>
             <div>Városunk 2</div>
             <div>Városunk 3</div>
