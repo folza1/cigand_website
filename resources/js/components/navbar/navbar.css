@@ -212,7 +212,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: greenyellow;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,6 +231,8 @@
 }
 
 .mobile-submenu-items {
+    padding-top: 60px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     /* Ez biztosítja, hogy az elemek egymás alatt jelenjenek meg */
