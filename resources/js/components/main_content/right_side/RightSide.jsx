@@ -2,7 +2,7 @@ import './rightside.css';
 
 export default function RightSide(){
     return(
-        <div>
+        <div className='right_side'>
             BBBB
         </div>
     );

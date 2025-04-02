@@ -236,7 +236,7 @@
     /* Ez biztosítja, hogy az elemek egymás alatt jelenjenek meg */
     gap: 1vw;
     /* Térköz az elemek között */
-    font-size: 10vw;
+    font-size: 5vw;
     cursor: pointer;
 }
 

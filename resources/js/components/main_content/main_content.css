@@ -1,16 +1,5 @@
 .main_content {
-    display: flex; /* Flexbox elrendezés */
-    justify-content: space-between; /* Kiegyenlíti a tartalmat */
-    width: 100%; /* Biztosítja, hogy a szülő elem teljes szélességű legyen */
-  }
-  
-  .left-side,
-  .right-side {
-    width: 25%; /* Bal és jobb oldal 25%-os szélességet kap */
-    border: 0.1vw solid black;
-  }
-  
-  .middle {
-    width: 50%; /* Középső rész 50%-ot kap */
-    border: 0.1vw solid black;
-  }  
+  display: flex;
+  width: 100%;
+  /* Biztosítja, hogy a szülő elem teljes szélességű legyen */
+}

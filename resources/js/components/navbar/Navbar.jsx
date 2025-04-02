@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect, useRef } from "react";
 import "./navbar.css";
+import { scrollToOutlet } from '../utils/scrollToOutlet';
 
 const Navbar = () => {
   // Állapot a legördülő menük nyitásához
@@ -95,14 +96,6 @@ const Navbar = () => {
       }, 500); // Az animáció hossza (0.5s)
     } else {
       setIsMobileSubMenu3Open(true); // Menüt nyitunk
-    }
-  };
-
-  const scrollToOutlet = () => {
-    // Görgessünk le az Outlet-hez
-    const outletElement = document.getElementById('outlet');
-    if (outletElement) {
-      outletElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
 

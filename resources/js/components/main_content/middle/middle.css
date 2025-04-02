@@ -1,3 +1,8 @@
+.middle{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 .container {
     border: 0.1vw solid black;
     height: 1000px;

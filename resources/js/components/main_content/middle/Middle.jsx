@@ -3,7 +3,7 @@ import './middle.css';
 export default function Middle({ children }) {
 
     return (
-      <div className='container'>
+      <div className='middle container'>
         {children}
       </div>
     );
