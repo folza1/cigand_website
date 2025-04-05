@@ -30,8 +30,11 @@ const SlideShow = () => {
     <>
     <div className='ev_and_doc_and_slideshow'>
       <div className='events_and_documents'>
-        <div className='events'>Legfrissebb Hírek, események</div>
         <div className='documents'>Friss dokumentumok</div>
+        <div className='events'>
+          <div className='event1'>Friss események1</div>
+          <div className='event2'>Friss események2</div>
+        </div>
       </div>
       <div className='slideshow'>
         <div className={`slideshow_container ${fade ? 'fade-in' : 'fade-out'}`}>
