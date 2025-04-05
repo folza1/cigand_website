@@ -1,4 +1,4 @@
-.ev_and_doc_and_slideshow{
+.ev_and_doc_and_slideshow {
     width: 100%;
     height: 30vw;
     display: flex;
@@ -14,7 +14,8 @@
     position: relative;
     overflow: hidden;
     position: relative;
-    z-index: 0; /* SlideShow a háttérben marad */
+    z-index: 0;
+    /* SlideShow a háttérben marad */
 }
 
 @media (orientation: landscape) and (max-width: 1200px) {
@@ -101,32 +102,33 @@
     }
 }
 
-.events_and_documents{
+.events_and_documents {
     width: 40%;
     height: 100%;
     display: flex;
     border: 0.1vw solid black;
 }
 
-.documents{
+.documents {
     width: 50%;
     height: 100%;
     border: 0.1vw solid black;
 }
 
-.events{
+.events {
     display: block;
     width: 50%;
     height: 100%;
     border: 0.1vw solid black;
 }
 
-.event1{
+.event1 {
     width: 100%;
     height: 50%;
     border: 0.1vw solid black;
 }
-.event2{
+
+.event2 {
     width: 100%;
     height: 50%;
     border: 0.1vw solid black;
