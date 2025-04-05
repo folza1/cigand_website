@@ -4,6 +4,8 @@
     justify-content: center;
 }
 .container {
-    border: 0.1vw solid black;
+    border-left: 0.1vw solid black;
+    border-right: 0.1vw solid black;
+    border-bottom: 0.1vw solid black;
     height: 1000px;
 }
