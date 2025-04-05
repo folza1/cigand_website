@@ -4,6 +4,48 @@
     display: flex;
 }
 
+@media (orientation: landscape) and (max-width: 1200px) {
+    .ev_and_doc_and_slideshow {
+        height: 100vw;
+        display: block;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 600px) {
+    .ev_and_doc_and_slideshow {
+        height: 110vw;
+        display: block;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 300px) {
+    .ev_and_doc_and_slideshow {
+        height: 130vw;
+        display: block;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 1200px) {
+    .ev_and_doc_and_slideshow {
+        height: 130vw;
+        display: block;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 600px) {
+    .ev_and_doc_and_slideshow {
+        height: 140vw;
+        display: block;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 300px) {
+    .ev_and_doc_and_slideshow {
+        height: 150vw;
+        display: block;
+    }
+}
+
 .slideshow {
     width: 60%;
     height: 30vw;
@@ -106,7 +148,6 @@
     width: 40%;
     height: 100%;
     display: flex;
-    border: 0.1vw solid black;
 }
 
 .documents {
@@ -132,4 +173,51 @@
     width: 100%;
     height: 50%;
     border: 0.1vw solid black;
+}
+
+@media (orientation: landscape) and (max-width: 1200px) {
+    .events_and_documents {
+        height: 50vw;
+        width: 100%;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 600px) {
+    .events_and_documents {
+        height: 55vw;
+        width: 100%;
+
+    }
+}
+
+@media (orientation: landscape) and (max-width: 300px) {
+    .events_and_documents {
+        height: 65vw;
+        width: 100%;
+
+    }
+}
+
+@media (orientation: portrait) and (max-width: 1200px) {
+    .events_and_documents {
+        height: 65vw;
+        width: 100%;
+
+    }
+}
+
+@media (orientation: portrait) and (max-width: 600px) {
+    .events_and_documents {
+        height: 70vw;
+        width: 100%;
+
+    }
+}
+
+@media (orientation: portrait) and (max-width: 300px) {
+    .events_and_documents {
+        height: 75vw;
+        width: 100%;
+
+    }
 }
