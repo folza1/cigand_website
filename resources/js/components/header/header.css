@@ -3,6 +3,9 @@
     justify-content: center;
     align-items: center;
     height: 7vw;
+    /*https: //cssgradient.io/*/
+    /* background: rgb(15,46,231);
+    background: radial-gradient(circle, blue 0%, orange 100%); */
 }
 
 @media screen and (max-width: 1200px) {
