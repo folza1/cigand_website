@@ -46,6 +46,19 @@
     display: block;
 }
 
+.megamenu-link-block {
+    display: flex;
+}
+
+.megamenu-link-sub-block{
+    padding: 2vw;
+}
+
+.megamenu-link-sub-block a{
+    display: block;
+    font-size: 1.5vw;
+}
+
 .dropbtn {
     font-size: 1.7vw;
     padding: 1vw 0 1vw 0;

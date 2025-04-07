@@ -114,16 +114,172 @@ const Navbar = () => {
             <div
               className={`dropdown-content ${openDropdown === 1 ? "show" : ""}`}
             >
-              <Link
-                onClick={() => {
-                  setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                }}
-                className='no-underline'
-                to="/projekt1"
-              >
-                Megamenü Link 1
-              </Link>
+              <div className='megamenu-link-block'>
+              <div className='megamenu-link-sub-block'>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+              </div>
+              <div className='megamenu-link-sub-block'>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+                <Link
+                  onClick={() => {
+                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                  }}
+                  className='no-underline'
+                  to="/projekt1"
+                >
+                  Megamenü Link 1
+                </Link>
+              </div>
+              </div>
             </div>
           </div>
 
