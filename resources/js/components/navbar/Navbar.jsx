@@ -252,6 +252,7 @@ const Navbar = () => {
                   </Link>
                 </div>
                 <div className='megamenu-link-sub-block'>
+                  <h1></h1>
                   <Link
                     onClick={() => {
                       setOpenDropdown(null);  // Bezárjuk a legördülő menüt
@@ -282,6 +283,9 @@ const Navbar = () => {
                   >
                     Kistérség
                   </Link>
+
+                  <h1>Oktatás</h1>
+
                   <Link
                     onClick={() => {
                       setOpenDropdown(null);  // Bezárjuk a legördülő menüt
@@ -473,6 +477,7 @@ const Navbar = () => {
                   </Link>
                 </div>
                 <div className='megamenu-link-sub-block'>
+                  <h1></h1>
                   <Link
                     onClick={() => {
                       setOpenDropdown(null);  // Bezárjuk a legördülő menüt
@@ -651,7 +656,7 @@ const Navbar = () => {
                   </Link>
                 </div>
                 <div className='megamenu-link-sub-block'>
-                    <h1>Sport</h1>
+                  <h1>Sport</h1>
                   <Link
                     onClick={() => {
                       setOpenDropdown(null);  // Bezárjuk a legördülő menüt
