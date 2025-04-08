@@ -115,170 +115,224 @@ const Navbar = () => {
               className={`dropdown-content ${openDropdown === 1 ? "show" : ""}`}
             >
               <div className='megamenu-link-block'>
-              <div className='megamenu-link-sub-block'>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-              </div>
-              <div className='megamenu-link-sub-block'>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-                <Link
-                  onClick={() => {
-                    setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                  }}
-                  className='no-underline'
-                  to="/projekt1"
-                >
-                  Megamenü Link 1
-                </Link>
-              </div>
+                <div className='megamenu-link-sub-block'>
+                  <h1>Információk</h1>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Köszöntő
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Földrajz
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Története
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Heraldika
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Álláslehetőségek
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Közszolgálati intézmények
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Közszolgáltatások
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Civil szervezetek
+                  </Link>
+                </div>
+                <div className='megamenu-link-sub-block'>
+                  <h1>Egészségügy</h1>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Háziorvosok
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Fogorvos
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Központi Orvosi Ügyelet
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Védőnői Szolgálat
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Járóbeteg Szakrendelő
+                  </Link>
+                </div>
+                <div className='megamenu-link-sub-block'>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Gazdahírek
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Eladó ingatlanok
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Kistérség
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Cigánd Óvoda
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Cigánd Iskola
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Oktatás Révleányvár
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Oktatás Zemplénagárd
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Iskolakonyha
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -291,7 +345,236 @@ const Navbar = () => {
             <div
               className={`dropdown-content ${openDropdown === 2 ? "show" : ""}`}
             >
-              Megamenu 22222222
+              <div className='megamenu-link-block'>
+                <div className='megamenu-link-sub-block'>
+                  <h1>Közös Önkormányzati Hivatal</h1>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Polgármester
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Alpolgármester
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Jegyző
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Titkárság
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Hatósági és Igazgatási Osztály
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Városfejlesztési Osztály
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Pénzügyi Osztály
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Letölthető Dokumentumok
+                  </Link>
+                </div>
+                <div className='megamenu-link-sub-block'>
+                  <h1>Képviselő Testület</h1>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Képviselők
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Határozatok, Rendeletek
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Rendelet-tervezetek
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Testületi Ülések
+                  </Link>
+                </div>
+                <div className='megamenu-link-sub-block'>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Helyi Választási Iroda Határozatok
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Telefonszámok
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    RNÖ
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Közérdekű Adatok
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Adatvédelem
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Választás 2019
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Cigánd Járási Hivatal
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Település-üzemeltetés
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    START Programok
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Választási információk
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -303,7 +586,198 @@ const Navbar = () => {
             <div
               className={`dropdown-content ${openDropdown === 3 ? "show" : ""}`}
             >
-              Megamenu 33333333
+              <div className='megamenu-link-block'>
+                <div className='megamenu-link-sub-block'>
+                  <h1>Kultúra</h1>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Művelődési Ház
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Városi Könyvtár
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Múzeumporta
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Tájház
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Óvoda Múzeum
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Művészeti Csoportok
+                  </Link>
+                </div>
+                <div className='megamenu-link-sub-block'>
+                    <h1>Sport</h1>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Szabadidő Központ
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Kis Műfüves-pálya
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Nagy Műfüves-pálya
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Labdarúgó-pálya
+                  </Link>
+
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Cigánd Sport Egyesület
+                  </Link>
+                </div>
+                <div className='megamenu-link-sub-block'>
+                  <h1>Szabadidő</h1>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Református Egyház
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Katolikus Egyház
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Vadászat
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Horgászat
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Túrázás
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Szálláslehetőségek
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Kulturális rendezvények
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
