@@ -142,7 +142,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
+    height: auto;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -154,7 +155,7 @@
     /* Animáció hozzáadása a megjelenéshez */
     border: 2px solid black;
     padding: 15px;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 /* Mobil menü animáció eltűnéskor */
@@ -195,6 +196,8 @@
     /* Térköz az elemek között */
     font-size: 10vw;
     cursor: pointer;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 .mobile-menu-item {
