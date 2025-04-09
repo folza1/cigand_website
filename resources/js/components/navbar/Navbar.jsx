@@ -23,6 +23,10 @@ const Navbar = () => {
   const [isSubmenu6Closing, setIsSubmenu6Closing] = useState(false);  // Bezárás animáció állapota
   const [isMobileSubMenu7Open, setIsMobileSubMenu7Open] = useState(false);  // Mobil menü állapot
   const [isSubmenu7Closing, setIsSubmenu7Closing] = useState(false);  // Bezárás animáció állapota
+  const [isMobileSubMenu8Open, setIsMobileSubMenu8Open] = useState(false);  // Mobil menü állapot
+  const [isSubmenu8Closing, setIsSubmenu8Closing] = useState(false);  // Bezárás animáció állapota
+  const [isMobileSubMenu9Open, setIsMobileSubMenu9Open] = useState(false);  // Mobil menü állapot
+  const [isSubmenu9Closing, setIsSubmenu9Closing] = useState(false);  // Bezárás animáció állapota
 
 
 
@@ -160,6 +164,34 @@ const Navbar = () => {
       }, 500); // Az animáció hossza (0.5s)
     } else {
       setIsMobileSubMenu7Open(true); // Menüt nyitunk
+    }
+  };
+
+  const toggleMobileSubMenu8 = () => {
+    if (isMobileSubMenu8Open) {
+      // Ha a menü nyitva van, akkor élöször indítjuk az animációt
+      setIsSubmenu8Closing(true);
+      // Várunk, amíg az animáció befejeződik, és csak utána zárjuk be a menüt
+      setTimeout(() => {
+        setIsMobileSubMenu8Open(false);
+        setIsSubmenu8Closing(false);
+      }, 500); // Az animáció hossza (0.5s)
+    } else {
+      setIsMobileSubMenu8Open(true); // Menüt nyitunk
+    }
+  };
+
+  const toggleMobileSubMenu9 = () => {
+    if (isMobileSubMenu9Open) {
+      // Ha a menü nyitva van, akkor élöször indítjuk az animációt
+      setIsSubmenu9Closing(true);
+      // Várunk, amíg az animáció befejeződik, és csak utána zárjuk be a menüt
+      setTimeout(() => {
+        setIsMobileSubMenu9Open(false);
+        setIsSubmenu9Closing(false);
+      }, 500); // Az animáció hossza (0.5s)
+    } else {
+      setIsMobileSubMenu9Open(true); // Menüt nyitunk
     }
   };
 
@@ -919,6 +951,14 @@ const Navbar = () => {
             <div className="mobile-menu-item" onClick={toggleMobileSubMenu7}>
               Kultúra <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
             </div>
+
+            <div className="mobile-menu-item" onClick={toggleMobileSubMenu8}>
+              Sport <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+            </div>
+
+            <div className="mobile-menu-item" onClick={toggleMobileSubMenu9}>
+              Szabadidő <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+            </div>
           </div>
         </div>
       )}
@@ -1237,7 +1277,7 @@ const Navbar = () => {
       )}
 
       {isMobileSubMenu4Open && (
-        <div className={`sub-menu3 ${isSubmenu4Closing ? "mobile-submenu-closing" : ""}`}>
+        <div className={`sub-menu4 ${isSubmenu4Closing ? "mobile-submenu-closing" : ""}`}>
           <div className="back-btn" onClick={toggleMobileSubMenu4}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="left-arrow">
               <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
@@ -1352,8 +1392,8 @@ const Navbar = () => {
         </div>
       )}
 
-{isMobileSubMenu5Open && (
-        <div className={`sub-menu3 ${isSubmenu5Closing ? "mobile-submenu-closing" : ""}`}>
+      {isMobileSubMenu5Open && (
+        <div className={`sub-menu5 ${isSubmenu5Closing ? "mobile-submenu-closing" : ""}`}>
           <div className="back-btn" onClick={toggleMobileSubMenu5}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="left-arrow">
               <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
@@ -1416,8 +1456,8 @@ const Navbar = () => {
         </div>
       )}
 
-{isMobileSubMenu6Open && (
-        <div className={`sub-menu3 ${isSubmenu6Closing ? "mobile-submenu-closing" : ""}`}>
+      {isMobileSubMenu6Open && (
+        <div className={`sub-menu6 ${isSubmenu6Closing ? "mobile-submenu-closing" : ""}`}>
           <div className="back-btn" onClick={toggleMobileSubMenu6}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="left-arrow">
               <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
@@ -1558,8 +1598,8 @@ const Navbar = () => {
         </div>
       )}
 
-{isMobileSubMenu7Open && (
-        <div className={`sub-menu3 ${isSubmenu7Closing ? "mobile-submenu-closing" : ""}`}>
+      {isMobileSubMenu7Open && (
+        <div className={`sub-menu7 ${isSubmenu7Closing ? "mobile-submenu-closing" : ""}`}>
           <div className="back-btn" onClick={toggleMobileSubMenu7}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="left-arrow">
               <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
@@ -1642,6 +1682,186 @@ const Navbar = () => {
                 to="/szechenyi2020"
               >
                 Művészeti Csoportok
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
+
+{isMobileSubMenu8Open && (
+        <div className={`sub-menu8 ${isSubmenu8Closing ? "mobile-submenu-closing" : ""}`}>
+          <div className="back-btn" onClick={toggleMobileSubMenu8}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="left-arrow">
+              <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </div>
+          <div className="mobile-submenu-items">
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu8Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Szabadidő Központ
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu8Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Kis Műfüves-pálya
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu8Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Nagy Műfüves-pálya
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu8Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Labdarúgó-pálya
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu8Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Cigánd Sport Egyesület
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
+
+{isMobileSubMenu9Open && (
+        <div className={`sub-menu9 ${isSubmenu9Closing ? "mobile-submenu-closing" : ""}`}>
+          <div className="back-btn" onClick={toggleMobileSubMenu9}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="left-arrow">
+              <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </div>
+          <div className="mobile-submenu-items">
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu9Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Református Egyház
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu9Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Katolikus Egyház
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu9Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Vadászat
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu9Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Horgászat
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu9Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Túrázás
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu9Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Szálláslehetőségek
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu9Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Kulturális Rendezvények
               </Link>
             </div>
           </div>
