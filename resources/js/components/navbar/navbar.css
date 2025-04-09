@@ -192,6 +192,7 @@
     cursor: pointer;
     max-height: 90vh;
     overflow-y: auto;
+    padding-bottom: 30px;
 }
 
 .mobile-menu-item {
