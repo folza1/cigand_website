@@ -148,6 +148,7 @@
     /* Animáció hozzáadása a megjelenéshez */
     border: 2px solid black;
     padding: 15px;
+    overflow-y: scroll;
 }
 
 /* Mobil menü animáció eltűnéskor */
