@@ -15,6 +15,10 @@ const Navbar = () => {
   const [isSubmenu2Closing, setIsSubmenu2Closing] = useState(false);  // Bezárás animáció állapota
   const [isMobileSubMenu3Open, setIsMobileSubMenu3Open] = useState(false);  // Mobil menü állapot
   const [isSubmenu3Closing, setIsSubmenu3Closing] = useState(false);  // Bezárás animáció állapota
+  const [isMobileSubMenu4Open, setIsMobileSubMenu4Open] = useState(false);  // Mobil menü állapot
+  const [isSubmenu4Closing, setIsSubmenu4Closing] = useState(false);  // Bezárás animáció állapota
+  const [isMobileSubMenu5Open, setIsMobileSubMenu5Open] = useState(false);  // Mobil menü állapot
+  const [isSubmenu5Closing, setIsSubmenu5Closing] = useState(false);  // Bezárás animáció állapota
 
 
 
@@ -96,6 +100,34 @@ const Navbar = () => {
       }, 500); // Az animáció hossza (0.5s)
     } else {
       setIsMobileSubMenu3Open(true); // Menüt nyitunk
+    }
+  };
+
+  const toggleMobileSubMenu4 = () => {
+    if (isMobileSubMenu4Open) {
+      // Ha a menü nyitva van, akkor élöször indítjuk az animációt
+      setIsSubmenu4Closing(true);
+      // Várunk, amíg az animáció befejeződik, és csak utána zárjuk be a menüt
+      setTimeout(() => {
+        setIsMobileSubMenu4Open(false);
+        setIsSubmenu4Closing(false);
+      }, 500); // Az animáció hossza (0.5s)
+    } else {
+      setIsMobileSubMenu4Open(true); // Menüt nyitunk
+    }
+  };
+
+  const toggleMobileSubMenu5 = () => {
+    if (isMobileSubMenu5Open) {
+      // Ha a menü nyitva van, akkor élöször indítjuk az animációt
+      setIsSubmenu5Closing(true);
+      // Várunk, amíg az animáció befejeződik, és csak utána zárjuk be a menüt
+      setTimeout(() => {
+        setIsMobileSubMenu5Open(false);
+        setIsSubmenu5Closing(false);
+      }, 500); // Az animáció hossza (0.5s)
+    } else {
+      setIsMobileSubMenu5Open(true); // Menüt nyitunk
     }
   };
 
@@ -816,26 +848,36 @@ const Navbar = () => {
               </Link>
             </div>
 
-            <Link
-              onClick={() => {
-                setIsMobileMenuOpen(false); // A mobil menü bezárása
-                scrollToOutlet(); // A scrollToOutlet funkció meghívása
-              }}
-              className='no-underline'
-              to="/news"
-            >
-              Hírek
-            </Link>
+            <div className="mobile-menu-item">
+              <Link
+                onClick={() => {
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/news"
+              >
+                Hírek
+              </Link>
+            </div>
             <div className="mobile-menu-item" onClick={toggleMobileSubMenu1}>
               Városunk <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
             </div>
 
             <div className="mobile-menu-item" onClick={toggleMobileSubMenu2}>
-              Önkormányzat <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+              Egészségügy <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
             </div>
 
             <div className="mobile-menu-item" onClick={toggleMobileSubMenu3}>
-              Kultúra <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+              Oktatás <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+            </div>
+
+            <div className="mobile-menu-item" onClick={toggleMobileSubMenu4}>
+              Közös Önkormányzati Hivatal <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+            </div>
+
+            <div className="mobile-menu-item" onClick={toggleMobileSubMenu5}>
+              Képviselő Testület <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
             </div>
           </div>
         </div>
@@ -860,29 +902,141 @@ const Navbar = () => {
                 className='no-underline'
                 to="/szechenyi2020"
               >
-                Városunk 1
+                Köszöntő
               </Link>
             </div>
-            <div>Városunk 2</div>
-            <div>Városunk 3</div>
-            <div>Városunk 4</div>
-            <div>Városunk 5</div>
-            <div>Városunk 6</div>
-            <div>Városunk 7</div>
-            <div>Városunk 8</div>
-            <div>Városunk 9</div>
-            <div>Városunk 10</div>
-            <div>Városunk 11</div>
-            <div>Városunk 12</div>
-            <div>Városunk 13</div>
-            <div>Városunk 14</div>
-            <div>Városunk 15</div>
-            <div>Városunk 16</div>
-            <div>Városunk 17</div>
-            <div>Városunk 18</div>
-            <div>Városunk 19</div>
-            <div>Városunk 20</div>
-            <div>Városunk 21</div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Földrajz
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Története
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Heraldika
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Álláslehetőségek
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Közszolgálati Intézmények
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Közszolgáltatások
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Civil Szervezetek
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Gazdahírek
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Eladó Ingatlanok
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Kistérség
+              </Link>
+            </div>
+            <div>
+            </div>
           </div>
         </div>
       )}
@@ -896,9 +1050,71 @@ const Navbar = () => {
             </svg>
           </div>
           <div className="mobile-submenu-items">
-            <div>Önkormányzat 1</div>
-            <div>Önkormányzat 2</div>
-            <div>Önkormányzat 3</div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu2Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Háziorvosok
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu2Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Fogorvos
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu2Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Központi Orvosi Ügyelet
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu2Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Védőnői Szolgálat
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu2Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Járóbeteg Szakrendelő
+              </Link>
+            </div>
           </div>
         </div>
       )}
@@ -911,9 +1127,251 @@ const Navbar = () => {
             </svg>
           </div>
           <div className="mobile-submenu-items">
-            <div>Kultúra 1</div>
-            <div>Kultúra 2</div>
-            <div>Kultúra 3</div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu3Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Cigánd Óvoda
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu3Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Cigánd Iskola
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu3Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Oktatás Révleányvár
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu3Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Oktatás Zemplénagárd
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu3Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Iskolakonyha
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {isMobileSubMenu4Open && (
+        <div className={`sub-menu3 ${isSubmenu4Closing ? "mobile-submenu-closing" : ""}`}>
+          <div className="back-btn" onClick={toggleMobileSubMenu4}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="left-arrow">
+              <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </div>
+          <div className="mobile-submenu-items">
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu4Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Polgármester
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu4Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Alpolgármester
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu4Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Jegyző
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu4Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Titkárság
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu4Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Hatósági és Igazgatási Osztály
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu4Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Városfejlesztési Osztály
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu4Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Pénzügyi Osztály
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu4Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Letölthető Dokumentumok
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
+
+{isMobileSubMenu5Open && (
+        <div className={`sub-menu3 ${isSubmenu5Closing ? "mobile-submenu-closing" : ""}`}>
+          <div className="back-btn" onClick={toggleMobileSubMenu5}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="left-arrow">
+              <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </div>
+          <div className="mobile-submenu-items">
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu5Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Képviselők
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu5Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Határozatok, Rendeletek
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu5Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Rendelet-tervezetek
+              </Link>
+            </div>
+            <div>
+              <Link
+                onClick={() => {
+                  setIsMobileSubMenu5Open(false); // A mobil menü bezárása
+                  setIsMobileMenuOpen(false); // A mobil menü bezárása
+                  scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                }}
+                className='no-underline'
+                to="/szechenyi2020"
+              >
+                Testületi Ülések
+              </Link>
+            </div>
           </div>
         </div>
       )}

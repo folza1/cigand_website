@@ -147,6 +147,7 @@
     animation: slideIn 0.5s ease-out;
     /* Animáció hozzáadása a megjelenéshez */
     border: 2px solid black;
+    padding: 15px;
 }
 
 /* Mobil menü animáció eltűnéskor */
@@ -192,6 +193,7 @@
 .mobile-menu-item {
     display: flex;
     align-items: center;
+    font-size: 30px;
 }
 
 .right-angle {
