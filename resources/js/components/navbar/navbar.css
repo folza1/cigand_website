@@ -1,9 +1,3 @@
-@media screen and (max-width: 800px) {
-    body {
-        overflow: hidden;
-    }
-}
-
 .navbar {
     height: auto;
     width: 100%;
