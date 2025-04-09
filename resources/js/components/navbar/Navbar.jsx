@@ -263,59 +263,6 @@ const Navbar = () => {
                   </Link>
                 </div>
                 <div className='megamenu-link-sub-block'>
-                  <h1>Egészségügy</h1>
-                  <Link
-                    onClick={() => {
-                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                    }}
-                    className='no-underline'
-                    to="/projekt1"
-                  >
-                    Háziorvosok
-                  </Link>
-                  <Link
-                    onClick={() => {
-                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                    }}
-                    className='no-underline'
-                    to="/projekt1"
-                  >
-                    Fogorvos
-                  </Link>
-                  <Link
-                    onClick={() => {
-                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                    }}
-                    className='no-underline'
-                    to="/projekt1"
-                  >
-                    Központi Orvosi Ügyelet
-                  </Link>
-                  <Link
-                    onClick={() => {
-                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                    }}
-                    className='no-underline'
-                    to="/projekt1"
-                  >
-                    Védőnői Szolgálat
-                  </Link>
-                  <Link
-                    onClick={() => {
-                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
-                    }}
-                    className='no-underline'
-                    to="/projekt1"
-                  >
-                    Járóbeteg Szakrendelő
-                  </Link>
-                </div>
-                <div className='megamenu-link-sub-block'>
                   <h1></h1>
                   <Link
                     onClick={() => {
@@ -399,6 +346,59 @@ const Navbar = () => {
                     to="/projekt1"
                   >
                     Iskolakonyha
+                  </Link>
+                </div>
+                <div className='megamenu-link-sub-block'>
+                  <h1>Egészségügy</h1>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Háziorvosok
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Fogorvos
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Központi Orvosi Ügyelet
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Védőnői Szolgálat
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+                      scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                    }}
+                    className='no-underline'
+                    to="/projekt1"
+                  >
+                    Járóbeteg Szakrendelő
                   </Link>
                 </div>
               </div>
