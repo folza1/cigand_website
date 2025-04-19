@@ -32,10 +32,13 @@
 .dropdown-content {
     display: none;
     position: absolute;
+    border: 0.1vw solid black;
+    background-color: navy;
     min-height: 15vw;
     height: auto;
     width: 100%;
     left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -52,7 +55,7 @@
 .megamenu-link-sub-block{
     padding: 2vw;
     border: 0.1vw solid black;
-    background-color: orange;
+    background-color: white;
 }
 
 .megamenu-link-sub-block a{
