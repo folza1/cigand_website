@@ -153,6 +153,12 @@
     overflow-y: hidden;
 }
 
+@media screen and (min-width: 800px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
 /* Mobil menü animáció eltűnéskor */
 .mobile-menu-closing {
     animation: slideOut 0.5s ease-in;
