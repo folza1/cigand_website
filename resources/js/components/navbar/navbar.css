@@ -160,7 +160,7 @@
     overflow-y: hidden;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
     .mobile-menu {
         display: none;
     }
