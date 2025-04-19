@@ -1128,8 +1128,6 @@ const Navbar = () => {
                 Kistérség
               </Link>
             </div>
-            <div>
-            </div>
           </div>
         </div>
       )}

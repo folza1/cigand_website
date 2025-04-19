@@ -282,6 +282,11 @@
     cursor: pointer;
 }
 
+.mobile-submenu-items div {
+    border-bottom: 1px solid black;
+}
+
+
 /* Bezáró X gomb a mobil menüben */
 .back-btn {
     position: absolute;
