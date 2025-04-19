@@ -77,11 +77,18 @@
 
 .mobile-navbar-container {
     display: none;
+    position: sticky; /* Sticky pozíció */
+    top: 2vw; /* A gomb a viewport tetején marad */
+    background-color: white; /* Háttérszín */
+    z-index: 3000; /* Biztosítja, hogy a gomb a tartalom felett legyen */
+    min-width: 0;
+    width: 30vw;
+    margin: 0 0 2vw 2vw;
 }
 
 @media screen and (max-width: 800px) {
     .mobile-navbar-container {
-        display: block;
+        display: inline-block;
     }
 }
 
@@ -144,7 +151,7 @@
     justify-content: center;
     align-items: center;
     color: black;
-    z-index: 1000;
+    z-index: 4000;
     /* Biztosítja, hogy a menü a tartalom felett legyen */
     animation: slideIn 0.5s ease-out;
     /* Animáció hozzáadása a megjelenéshez */
@@ -257,7 +264,7 @@
     justify-content: center;
     align-items: center;
     color: black;
-    z-index: 2000;
+    z-index: 5000;
     /* Biztosítja, hogy a menü a tartalom felett legyen */
     animation: slideInSubmenu 0.5s ease-out;
     /* Animáció hozzáadása a megjelenéshez */

@@ -26,6 +26,21 @@ export default function LeftSide() {
                     <img src="/images/left_images/interreg.png" />
                 </Link>
             </div>
+            <div className='left_side_pic_container'>
+                <Link to="/szechenyi2020" onClick={scrollToOutlet}>
+                    <img src="/images/left_images/ugyintezes_szabadon.png" />
+                </Link>
+            </div>
+            <div className='left_side_pic_container'>
+                <Link to="/szechenyi2020" onClick={scrollToOutlet}>
+                    <img src="/images/left_images/magyar_allamkincstar.gif" />
+                </Link>
+            </div>
+            <div className='left_side_pic_container'>
+                <Link to="/szechenyi2020" onClick={scrollToOutlet}>
+                    <img src="/images/left_images/magyar_falu.jpg" />
+                </Link>
+            </div>
         </div>
     );
 };
