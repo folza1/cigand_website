@@ -1,5 +1,15 @@
 .left_side{
-    width: 25%;
-    display: flex;
-    justify-content: center;
+    width: 25vw;
+}
+
+.left_side_pic_container{
+    width: 100%;
+    min-height: 0;
+    height: auto;
+    border-bottom: 0.1vw solid black;
+}
+
+.left_side_pic_container img{
+    width: 100%;
+    height: auto;
 }
