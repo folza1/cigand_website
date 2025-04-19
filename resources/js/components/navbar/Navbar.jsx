@@ -212,7 +212,7 @@ const Navbar = () => {
     <>
       <div className="navbar-container">
         <div className="navbar">
-          <div className="dropbtn"><Link className='no-underline' to="/">Kezdőlap</Link></div>
+          <div className="dropbtn"><Link className='no-underline' to="/">KezdőlapPPP</Link></div>
           <div className="dropbtn"><Link onClick={scrollToOutlet} className='no-underline' to="/news">Hírek</Link></div>
 
           {/* Városunk legördülő menü */}
