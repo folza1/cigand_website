@@ -21,6 +21,11 @@ export default function LeftSide() {
                     <img src="/images/left_images/sztp_logo.jpg" />
                 </Link>
             </div>
+            <div className='left_side_pic_container padding_pic'>
+                <Link to="/szechenyi2020" onClick={scrollToOutlet}>
+                    <img src="/images/left_images/interreg.png" />
+                </Link>
+            </div>
         </div>
     );
 };
