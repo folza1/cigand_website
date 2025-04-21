@@ -3,3 +3,9 @@
   width: 100%;
   /* Biztosítja, hogy a szülő elem teljes szélességű legyen */
 }
+
+@media screen and (max-width: 800px) {
+  .main_content{
+    display: block;
+  }
+}

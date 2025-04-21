@@ -3,6 +3,13 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 800px) {
+    .middle{
+        width: 100%;
+    }
+}
+
 .container {
     border-left: 0.1vw solid black;
     border-right: 0.1vw solid black;
