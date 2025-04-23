@@ -1,8 +1,12 @@
+.right_side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .right_side {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-top: 0.1vw solid black;
     min-height: 200px;
     height: auto;

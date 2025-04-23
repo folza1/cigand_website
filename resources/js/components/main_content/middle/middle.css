@@ -1,15 +1,15 @@
-.middle{
-    width: 70%;
-    height: 2000px;
-    border-left: 0.1vw solid black;
-    border-right: 0.1vw solid black;
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 2000px;
+  border-left: 0.1vw solid black;
+  border-right: 0.1vw solid black;
 }
 
 @media screen and (max-width: 1200px) {
-    .middle {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-right: none;
-    }
+  .middle {
+    border-right: none;
   }
+}
