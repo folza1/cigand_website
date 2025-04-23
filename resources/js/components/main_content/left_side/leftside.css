@@ -2,6 +2,12 @@
     width: 33.3%;
 }
 
+@media screen and (max-width: 600px) {
+    .left_side {
+      width: 100%;
+    }
+  }
+
 .left_side_pic_container{
     width: 100%;
     min-height: 0;
