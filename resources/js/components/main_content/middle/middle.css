@@ -17,5 +17,6 @@
 @media screen and (max-width: 600px) {
   .middle{
     width: 100%;
+    border-left: none;
   }
 }
