@@ -7,7 +7,9 @@
 
 @media screen and (max-width: 1200px) {
     .middle {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-right: none;
     }
   }
