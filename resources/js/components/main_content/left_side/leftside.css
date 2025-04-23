@@ -1,11 +1,5 @@
 .left_side{
-    width: 25vw;
-}
-
-@media screen and (max-width: 800px) {
-    .left_side{
-        width: 100%;
-    }
+    width: 33.3%;
 }
 
 .left_side_pic_container{

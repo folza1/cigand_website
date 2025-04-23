@@ -4,8 +4,24 @@
   /* Biztosítja, hogy a szülő elem teljes szélességű legyen */
 }
 
-@media screen and (max-width: 800px) {
-  .main_content{
+.main_content_left {
+  display: flex;
+  width: 75%;
+}
+
+.main_content_right {
+  width: 25%;
+}
+
+@media screen and (max-width: 1200px) {
+  .main_content {
     display: block;
+  }
+
+  .main_content_left {
+    width: 100%;
+  }
+  .main_content_right {
+    width: 100%;
   }
 }

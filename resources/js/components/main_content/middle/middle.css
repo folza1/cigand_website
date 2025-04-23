@@ -1,18 +1,13 @@
 .middle{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-@media screen and (max-width: 800px) {
-    .middle{
-        width: 100%;
-    }
-}
-
-.container {
+    width: 70%;
+    height: 2000px;
     border-left: 0.1vw solid black;
     border-right: 0.1vw solid black;
-    border-bottom: 0.1vw solid black;
-    height: 2000px;
 }
+
+@media screen and (max-width: 1200px) {
+    .middle {
+      display: block;
+      border-right: none;
+    }
+  }

@@ -8,13 +8,17 @@ import { Outlet } from 'react-router-dom';  // Importáld az Outlet-et
 export default function MainContent() {
     return (
         <div className='main_content'>
-            <LeftSide />
-            <Middle>
-                <div id="outlet">
-                    <Outlet />
-                </div>
-            </Middle>
-            <RightSide />
+            <div className='main_content_left'>
+                <LeftSide />
+                <Middle>
+                    <div id="outlet">
+                        <Outlet />
+                    </div>
+                </Middle>
+            </div>
+            <div className='main_content_right'>
+                <RightSide />
+            </div>
         </div>
     );
 };
