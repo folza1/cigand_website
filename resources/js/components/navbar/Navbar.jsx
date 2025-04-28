@@ -44,7 +44,6 @@ const Navbar = () => {
       // Ellenőrizzük, hogy a kattintás nem a dropdown menüben történt
       if (dropdownRef.current[openDropdown] && !dropdownRef.current[openDropdown].contains(event.target)) {
         setOpenDropdown(null);  // Bezárjuk a legördülő menüt
-        setActiveDropdown(null); // Reset active dropdown if clicked outside
       }
     };
 
@@ -55,6 +54,13 @@ const Navbar = () => {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
+  }, [openDropdown]);
+
+  // Ha a legördülő menü bezáródik, akkor az activeDropdown is null-ra áll
+  useEffect(() => {
+    if (openDropdown === null) {
+      setActiveDropdown(null); // Az activeDropdown null-ra állítása
+    }
   }, [openDropdown]);
 
   // Mobil menü kezelése
