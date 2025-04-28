@@ -52,39 +52,57 @@
     justify-content: center;
 }
 
-.megamenu-link-sub-block{
+.megamenu-link-sub-block {
     padding: 2vw;
     border: 0.1vw solid black;
     background-color: white;
 }
 
-.megamenu-link-sub-block h1{
+.megamenu-link-sub-block h1 {
     font-size: 1.8vw;
 }
 
-.megamenu-link-sub-block a{
+.megamenu-link-sub-block a {
     display: block;
     padding: 0.3vw;
     font-size: 1.5vw;
 }
 
-.megamenu-link-sub-block a:hover{
+.megamenu-link-sub-block a:hover {
     color: white;
     background-color: navy;
 }
 
 .dropbtn {
     font-size: 1.7vw;
-    padding: 1vw 0 1vw 0;
+    font-weight: bolder;
+    padding: 1vw 1vw 1vw 1vw;
     cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: white;
+    /* Hover effekt */
+}
+
+.dropbtn.active {
+    background-color: lightgoldenrodyellow;
+    border-left: 0.1vw solid black;
+    border-right: 0.1vw solid black;
+
+    /* Aktív állapot */
 }
 
 .mobile-navbar-container {
     display: none;
-    position: sticky; /* Sticky pozíció */
-    top: 2vw; /* A gomb a viewport tetején marad */
-    background-color: white; /* Háttérszín */
-    z-index: 3000; /* Biztosítja, hogy a gomb a tartalom felett legyen */
+    position: sticky;
+    /* Sticky pozíció */
+    top: 2vw;
+    /* A gomb a viewport tetején marad */
+    background-color: white;
+    /* Háttérszín */
+    z-index: 3000;
+    /* Biztosítja, hogy a gomb a tartalom felett legyen */
     min-width: 0;
     width: 30vw;
     margin: 0 0 2vw 2vw;
@@ -194,11 +212,14 @@
 }
 
 .close-btn svg {
-    width: 30px; /* Állítsd be a kívánt szélességet */
-    height: 30px; /* Állítsd be a kívánt magasságot */
-    fill: black; /* Alapértelmezett szín (fekete) */
-  }
-  
+    width: 30px;
+    /* Állítsd be a kívánt szélességet */
+    height: 30px;
+    /* Állítsd be a kívánt magasságot */
+    fill: black;
+    /* Alapértelmezett szín (fekete) */
+}
+
 
 .mobile-menu-items {
     display: flex;
@@ -256,7 +277,15 @@
 }
 
 /* Mobil submenü 100%-os szélesség és magasság */
-.sub-menu1, .sub-menu2, .sub-menu3, .sub-menu4, .sub-menu5, .sub-menu6, .sub-menu7, .sub-menu8, .sub-menu9 {
+.sub-menu1,
+.sub-menu2,
+.sub-menu3,
+.sub-menu4,
+.sub-menu5,
+.sub-menu6,
+.sub-menu7,
+.sub-menu8,
+.sub-menu9 {
     position: fixed;
     top: 0;
     left: 0;
@@ -310,7 +339,9 @@
 }
 
 .left-arrow {
-    width: 30px;  /* A nyíl mérete */
+    width: 30px;
+    /* A nyíl mérete */
     height: 30px;
-    fill: black;  /* Szín, lehet más szín is */
-  }
+    fill: black;
+    /* Szín, lehet más szín is */
+}

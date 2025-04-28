@@ -6,6 +6,7 @@ import { scrollToOutlet } from '../utils/scrollToOutlet';
 const Navbar = () => {
   // Állapot a legördülő menük nyitásához
   const [openDropdown, setOpenDropdown] = useState(null);
+  const [activeDropdown, setActiveDropdown] = useState(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);  // Mobil menü állapot
   const [isClosing, setIsClosing] = useState(false);  // Bezárás animáció állapota
   const dropdownRef = useRef([]);
@@ -34,6 +35,7 @@ const Navbar = () => {
   // Eseménykezelő a legördülő menü nyitásához
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
+    setActiveDropdown(activeDropdown === index ? null : index);
   };
 
   // Az eseménykezelő, ami figyeli a kattintásokat kívül
@@ -42,6 +44,7 @@ const Navbar = () => {
       // Ellenőrizzük, hogy a kattintás nem a dropdown menüben történt
       if (dropdownRef.current[openDropdown] && !dropdownRef.current[openDropdown].contains(event.target)) {
         setOpenDropdown(null);  // Bezárjuk a legördülő menüt
+        setActiveDropdown(null); // Reset active dropdown if clicked outside
       }
     };
 
@@ -217,7 +220,9 @@ const Navbar = () => {
 
           {/* Városunk legördülő menü */}
           <div className="dropdown" ref={(el) => (dropdownRef.current[1] = el)}>
-            <div className="dropbtn" onClick={() => toggleDropdown(1)}>
+            <div
+              className={`dropbtn ${activeDropdown === 1 ? 'active' : ''}`}
+              onClick={() => toggleDropdown(1)}>
               Városunk
             </div>
             <div
@@ -452,7 +457,9 @@ const Navbar = () => {
 
           {/* Önkormányzat legördülő menü */}
           <div className="dropdown" ref={(el) => (dropdownRef.current[2] = el)}>
-            <div className="dropbtn" onClick={() => toggleDropdown(2)}>
+            <div
+              className={`dropbtn ${activeDropdown === 2 ? 'active' : ''}`}
+              onClick={() => toggleDropdown(2)}>
               Önkormányzat
             </div>
             <div
@@ -694,7 +701,9 @@ const Navbar = () => {
 
           {/* Kultúra legördülő menü */}
           <div className="dropdown" ref={(el) => (dropdownRef.current[3] = el)}>
-            <div className="dropbtn" onClick={() => toggleDropdown(3)}>
+            <div
+              className={`dropbtn ${activeDropdown === 3 ? 'active' : ''}`}
+              onClick={() => toggleDropdown(3)}>
               Kultúra
             </div>
             <div
@@ -1699,7 +1708,7 @@ const Navbar = () => {
         </div>
       )}
 
-{isMobileSubMenu8Open && (
+      {isMobileSubMenu8Open && (
         <div className={`sub-menu8 ${isSubmenu8Closing ? "mobile-submenu-closing" : ""}`}>
           <div className="back-btn" onClick={toggleMobileSubMenu8}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="left-arrow">
@@ -1776,7 +1785,7 @@ const Navbar = () => {
         </div>
       )}
 
-{isMobileSubMenu9Open && (
+      {isMobileSubMenu9Open && (
         <div className={`sub-menu9 ${isSubmenu9Closing ? "mobile-submenu-closing" : ""}`}>
           <div className="back-btn" onClick={toggleMobileSubMenu9}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="left-arrow">
