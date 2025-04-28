@@ -6,6 +6,7 @@ import SlideShow from "./slideshow/SlideShow";
 import Navbar from "./navbar/Navbar";
 import MainContent from "./main_content/MainContent";
 import { scrollToOutlet } from './utils/scrollToOutlet';
+import Footer from './footer/Footer';
 
 export default function App() {
 
@@ -18,6 +19,7 @@ export default function App() {
             <Navbar />
             <SlideShow />
             <MainContent />
+            <Footer />
           </div>
         }>
           {/* Itt rendeljük hozzá a különböző aloldalakat */}

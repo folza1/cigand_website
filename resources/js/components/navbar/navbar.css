@@ -8,7 +8,7 @@
     /* Elemek közötti térköz */
     align-items: center;
     /* Vertikálisan középre igazítja az elemeket */
-    background-color: white;
+    background-color: lightblue;
     /* Háttérszín (választható) */
 }
 
@@ -33,7 +33,7 @@
     display: none;
     position: absolute;
     border: 0.1vw solid black;
-    background-color: navy;
+    background-color: lightblue;
     min-height: 15vw;
     height: auto;
     width: 100%;

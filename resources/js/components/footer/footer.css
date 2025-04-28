@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    height: 20vw;
+    width: 100%;
+    border-top: 0.1vw solid black;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        display: block;
+        height: auto;
+    }
+}
+
+.footer1, .footer2, .footer3{
+    height: 100%;
+    width: 33.33%;
+    border: 0.1vw solid black;
+}
+
+@media screen and (max-width: 800px) {
+    .footer1, .footer2, .footer3{
+        display: block;
+        width: 100%;
+        height: 20vw;
+    }
+    .footer2, .footer3{
+        border-top: none;
+    }
+}
