@@ -1,7 +1,4 @@
 .middle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 70%;
   height: 2000px;
   border-left: 0.1vw solid black;
