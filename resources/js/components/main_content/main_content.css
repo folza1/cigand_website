@@ -2,6 +2,8 @@
   display: flex;
   width: 100%;
   /* Biztosítja, hogy a szülő elem teljes szélességű legyen */
+  margin-top: 3vw;
+  border-top: 0.1vw solid black;
 }
 
 .main_content_left {
