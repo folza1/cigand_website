@@ -56,3 +56,22 @@
     margin-left: 0.5vw;
     margin-right: 0.5vw;
 }
+
+.header_arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_triangle_container{
+    display: flex;
+    justify-content: center;
+}
+
+.header_triangle {
+    width: 0;
+    height: 0;
+    border-left: 1vw solid transparent; /* Háromszög bal oldala */
+    border-right: 1vw solid transparent; /* Háromszög jobb oldala */
+    border-top: 1vw solid black; /* Háromszög színe (a szülő háttérszínével egyezzen) */
+}
