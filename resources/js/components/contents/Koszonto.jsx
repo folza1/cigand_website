@@ -4,8 +4,8 @@ import HeaderModule from './modules/HeaderModule';
 export default function Koszonto() {
     return (
         <>
-            <HeaderModule>
-                Köszöntő
+            <HeaderModule breadcrumb={["Városunk", "Információk", "Köszöntő"]}>
+            Köszöntő
             </HeaderModule>
         </>
     );

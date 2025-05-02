@@ -8,6 +8,8 @@ import MainContent from "./main_content/MainContent";
 import { scrollToOutlet } from './utils/scrollToOutlet';
 import Footer from './footer/Footer';
 import Koszonto from './contents/Koszonto';
+import Fooldal from './contents/Fooldal';
+import News from './contents/News';
 
 export default function App() {
 
@@ -24,8 +26,8 @@ export default function App() {
           </div>
         }>
           {/* Itt rendeljük hozzá a különböző aloldalakat */}
-          <Route path="/news" element={<div>News content</div>} />
-          <Route path="/" element={<div>Content</div>} />
+          <Route path="/news" element={<News />} />
+          <Route path="/" element={<Fooldal />} />
           <Route path="/koszonto" element={<Koszonto />} />
           <Route path="/szechenyi2020" element={<div><Link onClick={scrollToOutlet} to="/projekt1">Projekt Link</Link></div>} />
           <Route path="/projekt1" element={<div><Link onClick={scrollToOutlet} to="/projekt1.1" >Projekt 1.1</Link></div>} />
