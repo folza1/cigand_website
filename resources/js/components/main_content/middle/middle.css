@@ -1,6 +1,7 @@
 .middle {
   width: 70%;
-  height: 2000px;
+  min-height: 100px;
+  height: auto;
   border-left: 0.1vw solid black;
   border-right: 0.1vw solid black;
   border-bottom: 0.1vw solid black;
@@ -10,15 +11,9 @@
   margin-bottom: 1vw;
 }
 
-@media screen and (max-width: 1200px) {
-  .middle {
-    border-right: none;
-  }
-}
-
 @media screen and (max-width: 600px) {
   .middle{
-    width: 100%;
-    border-left: none;
+    width: auto;
+    margin: 0;
   }
 }
