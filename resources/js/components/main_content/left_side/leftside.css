@@ -14,8 +14,11 @@
     width: 100%;
     min-height: 0;
     height: auto;
-    border-bottom: 0.1vw solid black;
     background-color: white;
+}
+
+.left_side_pic_container:not(:last-child) {
+    border-bottom: 0.1vw solid black;
 }
 
 .left_side_pic_container img{
