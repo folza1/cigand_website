@@ -33,7 +33,7 @@
     display: none;
     position: absolute;
     border: 0.1vw solid black;
-    background-color: lightblue;
+    background: linear-gradient(to right, white, rgb(245, 197, 108), white);
     min-height: 15vw;
     height: auto;
     width: 100%;
@@ -54,8 +54,12 @@
 
 .megamenu-link-sub-block {
     padding: 2vw;
-    border: 0.1vw solid black;
-    background-color: white;
+    opacity: 1;
+    border-right: 0.1vw solid black;
+}
+
+.megamenu-link-sub-block:first-child {
+    border-left: 0.1vw solid black;
 }
 
 .megamenu-link-sub-block h1 {
