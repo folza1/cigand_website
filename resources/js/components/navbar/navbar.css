@@ -8,7 +8,7 @@
     /* Elemek közötti térköz */
     align-items: center;
     /* Vertikálisan középre igazítja az elemeket */
-    background-color: lightblue;
+    background: linear-gradient(to bottom, lightblue, white);
     /* Háttérszín (választható) */
 }
 
@@ -78,15 +78,17 @@
     font-weight: bolder;
     padding: 1vw 1vw 1vw 1vw;
     cursor: pointer;
+    border-left: 0.1vw solid white;
+    border-right: 0.1vw solid white;
 }
 
 .dropbtn:hover {
-    background-color: white;
+    background: linear-gradient(to bottom, rgb(245, 197, 108), white);
     /* Hover effekt */
 }
 
 .dropbtn.active {
-    background-color: lightgoldenrodyellow;
+    background: linear-gradient(to bottom, rgb(252, 252, 164), white);
     border-left: 0.1vw solid black;
     border-right: 0.1vw solid black;
 
