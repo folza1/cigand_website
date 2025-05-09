@@ -78,8 +78,8 @@
     font-weight: bolder;
     padding: 1vw 1vw 1vw 1vw;
     cursor: pointer;
-    border-left: 0.1vw solid white;
-    border-right: 0.1vw solid white;
+    border-left: 0.2vw solid white;
+    border-right: 0.2vw solid white;
 }
 
 .dropbtn:hover {
