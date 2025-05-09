@@ -263,7 +263,7 @@ const Navbar = () => {
                       scrollToOutlet(); // A scrollToOutlet funkció meghívása
                     }}
                     className='no-underline'
-                    to="/projekt1"
+                    to="/tortenete"
                   >
                     Története
                   </Link>
@@ -1034,7 +1034,7 @@ const Navbar = () => {
                   scrollToOutlet(); // A scrollToOutlet funkció meghívása
                 }}
                 className='no-underline'
-                to="/szechenyi2020"
+                to="/tortenete"
               >
                 Története
               </Link>

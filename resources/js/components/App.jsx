@@ -11,6 +11,7 @@ import Koszonto from './contents/Koszonto';
 import Fooldal from './contents/Fooldal';
 import News from './contents/News';
 import Foldrajz from './contents/Foldrajz';
+import Tortenete from './contents/Tortenete';
 
 export default function App() {
 
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/" element={<Fooldal />} />
           <Route path="/koszonto" element={<Koszonto />} />
           <Route path="/foldrajz" element={<Foldrajz />} />
+          <Route path="/tortenete" element={<Tortenete />} />
           <Route path="/szechenyi2020" element={<div><Link onClick={scrollToOutlet} to="/projekt1">Projekt Link</Link></div>} />
           <Route path="/projekt1" element={<div><Link onClick={scrollToOutlet} to="/projekt1.1" >Projekt 1.1</Link></div>} />
           <Route path="/projekt1.1" element={<div>Projekt 1.1</div>} />
