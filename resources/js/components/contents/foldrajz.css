@@ -1,0 +1,17 @@
+@media screen and (min-width: 2500px) {
+    .foldrajz iframe {
+        height: 1000px;
+    }
+}
+
+@media screen and (min-width: 4000px) {
+    .foldrajz iframe {
+        height: 1500px;
+    }
+}
+
+@media screen and (min-width: 6000px) {
+    .foldrajz iframe {
+        height: 2000px;
+    }
+}
