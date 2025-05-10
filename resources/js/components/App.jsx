@@ -7,11 +7,11 @@ import Navbar from "./navbar/Navbar";
 import MainContent from "./main_content/MainContent";
 import { scrollToOutlet } from './utils/scrollToOutlet';
 import Footer from './footer/Footer';
-import Koszonto from './contents/Koszonto';
-import Fooldal from './contents/Fooldal';
-import News from './contents/News';
-import Foldrajz from './contents/Foldrajz';
-import Tortenete from './contents/Tortenete';
+import Koszonto from './contents/koszonto_conts/Koszonto';
+import Fooldal from './contents/fooldal_conts/Fooldal';
+import News from './contents/news_conts/News';
+import Foldrajz from './contents/foldrajz_conts/Foldrajz';
+import Tortenete from './contents/tortenete_conts/Tortenete';
 
 export default function App() {
 

@@ -1,0 +1,18 @@
+.koszonto_container{
+    padding: 2vw;
+}
+
+.koszonto_container p{
+    margin: 1.5vw;
+}
+
+.koszonto_img{
+    display: flex;
+    justify-content: center;
+}
+.koszonto_img img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+}

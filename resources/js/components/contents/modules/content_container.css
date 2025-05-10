@@ -1,51 +1,35 @@
-.koszonto_container{
-    padding: 2vw;
+.content_container{
     font-size: 1.5vw;
 }
 
 @media screen and (max-width: 1400px) {
-    .koszonto_container{
+    .content_container{
         font-size: 2vw;
         
     }
 }
 
 @media screen and (max-width: 1100px) {
-    .koszonto_container{
+    .content_container{
         font-size: 2.5vw;
         
     }
 }
 
 @media screen and (max-width: 800px) {
-    .koszonto_container{
+    .content_container{
         font-size: 3.5vw;
         
     }
 }
 
 @media screen and (max-width: 600px) {
-    .koszonto_container{
+    .content_container{
         font-size: 5vw;
         
     }
 }
 
-.koszonto_container p{
+.content_container p{
     margin: 1.5vw;
-}
-
-.koszonto_img{
-    display: flex;
-    justify-content: center;
-}
-.koszonto_img img{
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    height: auto;
-}
-
-.signature{
-    text-align: right;
 }

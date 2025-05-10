@@ -221,8 +221,8 @@ const Navbar = () => {
     <>
       <div className="navbar-container">
         <div className="navbar">
-          <div className="dropbtn"><Link className='no-underline' to="/">Kezdőlap</Link></div>
-          <div className="dropbtn"><Link onClick={scrollToOutlet} className='no-underline' to="/news">Hírek</Link></div>
+          <Link className='no-underline' to="/"><div className="dropbtn">Kezdőlap</div></Link>
+          <Link onClick={scrollToOutlet} className='no-underline' to="/news"><div className="dropbtn">Hírek</div></Link>
 
           {/* Városunk legördülő menü */}
           <div className="dropdown" ref={(el) => (dropdownRef.current[1] = el)}>

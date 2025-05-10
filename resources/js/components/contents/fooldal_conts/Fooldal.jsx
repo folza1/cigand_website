@@ -1,7 +1,7 @@
-import './news.css';
-import HeaderModule from './modules/HeaderModule';
+import './fooldal.css';
+import HeaderModule from '../modules/HeaderModule';
 
-export default function News(){
+export default function Fooldal(){
     return(
         <>
             <HeaderModule breadcrumb={["Főoldal", "Tartalom", "Hírek"]}>
