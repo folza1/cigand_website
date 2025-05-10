@@ -1,0 +1,9 @@
+.heraldika_img {
+    display: flex;
+    justify-content: center;
+}
+
+.heraldika_container img {
+    width: 50%;
+    height: auto;
+}

@@ -12,6 +12,7 @@ import Fooldal from './contents/fooldal_conts/Fooldal';
 import News from './contents/news_conts/News';
 import Foldrajz from './contents/foldrajz_conts/Foldrajz';
 import Tortenete from './contents/tortenete_conts/Tortenete';
+import Heraldika from './contents/heraldika_conts/Heraldika';
 
 export default function App() {
 
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/koszonto" element={<Koszonto />} />
           <Route path="/foldrajz" element={<Foldrajz />} />
           <Route path="/tortenete" element={<Tortenete />} />
+          <Route path="/heraldika" element={<Heraldika />} />
           <Route path="/szechenyi2020" element={<div><Link onClick={scrollToOutlet} to="/projekt1">Projekt Link</Link></div>} />
           <Route path="/projekt1" element={<div><Link onClick={scrollToOutlet} to="/projekt1.1" >Projekt 1.1</Link></div>} />
           <Route path="/projekt1.1" element={<div>Projekt 1.1</div>} />
