@@ -114,3 +114,19 @@
     border-right: 1vw solid transparent; /* Háromszög jobb oldala */
     border-top: 1vw solid black; /* Háromszög színe (a szülő háttérszínével egyezzen) */
 }
+
+@media screen and (max-width: 1200px) {
+    .header_triangle{
+        border-left: 2vw solid transparent; /* Háromszög bal oldala */
+        border-right: 2vw solid transparent; /* Háromszög jobb oldala */
+        border-top: 2vw solid black; /* Háromszög színe (a szülő háttérszínével egyezzen) */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header_triangle{
+        border-left: 3vw solid transparent; /* Háromszög bal oldala */
+        border-right: 3vw solid transparent; /* Háromszög jobb oldala */
+        border-top: 3vw solid black; /* Háromszög színe (a szülő háttérszínével egyezzen) */
+    }
+}
