@@ -13,7 +13,7 @@ export default function Koszonto() {
                     <p>Barátsággal és szeretettel köszöntöm Önt Cigánd város hivatalos honlapján! Örömmel üdvözlöm Önt, aki tájékozódni szeretne a mindennapok történéseivel kapcsolatban, és eligazodni a helyi szolgáltatások terén; Önt, aki internet-böngészőként oldalunkra tévedt, vagy országjáróként érdeklődik településünk és térségünk iránt; s végül, de nem utolsó sorban, Önt, akinek cége régiónkban találta meg - vagy éppen most keresi - gazdasági számításait!
                     </p>
                     <div className='koszonto_img'>
-                        <img src="/images/middle_content_pics/polgarmester.jpg" />
+                        <img src="/images/middle_content_pics/koszonto_pics/polgarmester.jpg" />
                     </div>
                     <p>
                         A Tisza- Bodrog-Latorca folyók ölelésében élte évszázadok során napjait Cigánd,sok más Bodrogközi településsel együtt. Ez az ölelés áldásos is volt, mert távol tartott tőlünk tatárt, törököt, de sokszor szenvedni kellett a túlcsordult szeretettől, ha kiléptek a medrükből, s meglátogatták őseink földjeit, házait. Helységünk néveredete nem teljesen tisztázott.

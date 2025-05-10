@@ -1,0 +1,9 @@
+.tortenete_img {
+    display: flex;
+    justify-content: center;
+}
+
+.tortenete_container img {
+    width: 70%;
+    height: auto;
+}
