@@ -1,0 +1,9 @@
+.allas_img {
+display: flex;
+justify-content: center;
+}
+
+.allas_img img {
+width: 70%;
+height: auto;
+}
