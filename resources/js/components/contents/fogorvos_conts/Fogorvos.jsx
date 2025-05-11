@@ -25,11 +25,11 @@ export default function Fogorvos() {
                     </div>
 
                     <p className='bold'>Rendelési idő:</p>
-                    <p>hétfő: 	 13.00 - 19.00</p>
-                    <p>kedd: 	 14.30 - 17.00</p>
-                    <p>szerda: 	 14.30 - 19.00</p>
-                    <p>csütörtök: 	 -</p>
-                    <p>péntek: 	 10.00 - 17.00</p>
+                    <p>hétfő: 13.00 - 19.00</p>
+                    <p>kedd: 14.30 - 17.00</p>
+                    <p>szerda: 14.30 - 19.00</p>
+                    <p>csütörtök: nincsen rendelés</p>
+                    <p>péntek: 10.00 - 17.00</p>
 
                     <p className='bold uppercase'>Kedden iskolafogászat!</p>
                 </div>
