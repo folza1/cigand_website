@@ -1,18 +1,13 @@
-.haziorvosok_container {
+.fogorvos_container {
     text-align: center;
 }
 
-.haziorvosok_img {
+.fogorvos_img {
     display: flex;
     justify-content: center;
 }
 
-.haziorvosok_container img {
+.fogorvos_container img {
     width: 70%;
     height: auto;
 }
-
-hr {
-    width: 85%;
-}
-

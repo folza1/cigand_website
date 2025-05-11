@@ -18,3 +18,7 @@ p{
 .align-right{
     text-align: right;
 }
+
+.uppercase{
+    text-transform: uppercase;
+}

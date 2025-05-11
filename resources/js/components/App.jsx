@@ -15,6 +15,7 @@ import Tortenete from './contents/tortenete_conts/Tortenete';
 import Heraldika from './contents/heraldika_conts/Heraldika';
 import Allas from './contents/allas_conts/Allas';
 import Haziorvosok from './contents/haziorvosok_conts/Haziorvosok';
+import Fogorvos from './contents/fogorvos_conts/Fogorvos';
 
 export default function App() {
 
@@ -41,6 +42,8 @@ export default function App() {
           <Route path="/allas" element={<Allas />} />
 
           <Route path="/haziorvosok" element={<Haziorvosok />} />
+          <Route path="/fogorvos" element={<Fogorvos />} />
+
 
 
           <Route path="/szechenyi2020" element={<div><Link onClick={scrollToOutlet} to="/projekt1">Projekt Link</Link></div>} />
