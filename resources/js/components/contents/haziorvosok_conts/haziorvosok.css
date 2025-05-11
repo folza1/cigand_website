@@ -1,0 +1,22 @@
+.haziorvosok_container {
+    text-align: center;
+}
+
+.haziorvosok_img {
+    display: flex;
+    justify-content: center;
+}
+
+.img_width_25{
+    width: 35%;
+}
+
+.haziorvosok_container img {
+    width: 70%;
+    height: auto;
+}
+
+hr {
+    width: 85%;
+}
+

@@ -14,6 +14,7 @@ import Foldrajz from './contents/foldrajz_conts/Foldrajz';
 import Tortenete from './contents/tortenete_conts/Tortenete';
 import Heraldika from './contents/heraldika_conts/Heraldika';
 import Allas from './contents/allas_conts/Allas';
+import Haziorvosok from './contents/haziorvosok_conts/Haziorvosok';
 
 export default function App() {
 
@@ -32,11 +33,16 @@ export default function App() {
           {/* Itt rendeljük hozzá a különböző aloldalakat */}
           <Route path="/news" element={<News />} />
           <Route path="/" element={<Fooldal />} />
+
           <Route path="/koszonto" element={<Koszonto />} />
           <Route path="/foldrajz" element={<Foldrajz />} />
           <Route path="/tortenete" element={<Tortenete />} />
           <Route path="/heraldika" element={<Heraldika />} />
           <Route path="/allas" element={<Allas />} />
+
+          <Route path="/haziorvosok" element={<Haziorvosok />} />
+
+
           <Route path="/szechenyi2020" element={<div><Link onClick={scrollToOutlet} to="/projekt1">Projekt Link</Link></div>} />
           <Route path="/projekt1" element={<div><Link onClick={scrollToOutlet} to="/projekt1.1" >Projekt 1.1</Link></div>} />
           <Route path="/projekt1.1" element={<div>Projekt 1.1</div>} />
