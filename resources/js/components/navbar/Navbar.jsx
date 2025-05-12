@@ -442,7 +442,7 @@ const Navbar = () => {
                       scrollToOutlet(); // A scrollToOutlet funkció meghívása
                     }}
                     className='no-underline'
-                    to="/projekt1"
+                    to="/vedonoi_szolgalat"
                   >
                     Védőnői Szolgálat
                   </Link>
@@ -1203,7 +1203,7 @@ const Navbar = () => {
                   scrollToOutlet(); // A scrollToOutlet funkció meghívása
                 }}
                 className='no-underline'
-                to="/szechenyi2020"
+                to="/vedonoi_szolgalat"
               >
                 Védőnői Szolgálat
               </Link>

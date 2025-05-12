@@ -26,3 +26,7 @@ p{
 .uppercase{
     text-transform: uppercase;
 }
+
+hr {
+    width: 85%;
+}

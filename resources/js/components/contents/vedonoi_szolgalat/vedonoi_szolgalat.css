@@ -1,0 +1,25 @@
+.vedonoi_szolgalat_container img {
+    width: 100%;
+    height: auto;
+}
+
+.vedonoi_szolgalat_img {
+    display: flex;
+    justify-content: center;
+}
+
+.width-30 {
+    width: 30% !important;
+}
+
+.margin-top-extra {
+    margin-top: 8vw !important;
+}
+
+.margin-bottom-extra {
+    margin-bottom: 8vw !important;
+}
+
+.margin-bottom-extra_sm {
+    margin-bottom: 4vw !important;
+}
