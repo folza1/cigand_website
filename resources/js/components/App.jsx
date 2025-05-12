@@ -18,6 +18,7 @@ import Haziorvosok from './contents/haziorvosok_conts/Haziorvosok';
 import Fogorvos from './contents/fogorvos_conts/Fogorvos';
 import OrvosiUgyelet from './contents/orvosi_ugyelet_conts/OrvosiUgyelet';
 import VedonoiSzolgalat from './contents/vedonoi_szolgalat/VedonoiSzolgalat';
+import Ambulancia from './contents/ambulancia_conts/Ambulancia';
 
 export default function App() {
 
@@ -47,6 +48,8 @@ export default function App() {
           <Route path="/fogorvos" element={<Fogorvos />} />
           <Route path="/orvosi_ugyelet" element={<OrvosiUgyelet />} />
           <Route path="/vedonoi_szolgalat" element={<VedonoiSzolgalat />} />
+          <Route path="/ambulancia" element={<Ambulancia />} />
+
 
 
 

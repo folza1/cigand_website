@@ -1,0 +1,14 @@
+.ambulancia_img {
+    display: flex;
+    justify-content: center;
+}
+
+.ambulancia_container img {
+    width: 100%;
+    height: auto;
+}
+
+.ambulancia_appointment {
+    display: flex;
+    justify-content:space-between;
+}

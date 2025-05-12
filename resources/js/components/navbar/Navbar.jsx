@@ -452,7 +452,7 @@ const Navbar = () => {
                       scrollToOutlet(); // A scrollToOutlet funkció meghívása
                     }}
                     className='no-underline'
-                    to="/projekt1"
+                    to="/ambulancia"
                   >
                     Járóbeteg Szakrendelő
                   </Link>
@@ -1216,7 +1216,7 @@ const Navbar = () => {
                   scrollToOutlet(); // A scrollToOutlet funkció meghívása
                 }}
                 className='no-underline'
-                to="/szechenyi2020"
+                to="/ambulancia"
               >
                 Járóbeteg Szakrendelő
               </Link>

@@ -18,7 +18,7 @@ export default function Haziorvosok() {
                     <p>Dr. Petricska Miklós</p>
                     <p>Tel.: 47/534-432</p>
                     <div className='haziorvosok_img'>
-                        <img style={{ width: '35%' }} src="/images/middle_content_pics/haziorvosok_pics/petricska.png" alt="Férfi orvos" />
+                        <img style={{ width: '35%' }} src="/images/middle_content_pics/haziorvosok_pics/petricska.png" alt="Férfi orvos fantomrajz" />
                     </div>
                     <p>Rendelési idő:</p>
 
@@ -32,7 +32,7 @@ export default function Haziorvosok() {
                     <p>Dr. Miskolczi Ivett</p>
                     <p>Tel.: 47/534-433</p>
                     <div className='haziorvosok_img'>
-                        <img style={{ width: '35%' }} src="/images/middle_content_pics/haziorvosok_pics/miskolczi.png" alt="Nő orvos" />
+                        <img style={{ width: '35%' }} src="/images/middle_content_pics/haziorvosok_pics/miskolczi.png" alt="Nő orvos fantomrajz" />
                     </div>
                     <p>Rendelési idő:</p>
 

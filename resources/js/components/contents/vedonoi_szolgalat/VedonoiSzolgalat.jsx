@@ -19,7 +19,7 @@ export default function VedonoiSzolgalat() {
                     <p className='bold align-center'>Védőnői fogadóóra:</p>
 
                     <div className='vedonoi_szolgalat_img'>
-                        <img className='width-30' src="/images/middle_content_pics/vedonoi_szolgalat_pics/vedono.png" alt="Védőnő fantomkép" />
+                        <img className='width-30' src="/images/middle_content_pics/vedonoi_szolgalat_pics/vedono.png" alt="Védőnő fantomrajz" />
                     </div>
 
                     <p className='align-center'>Király Ilona</p>
@@ -27,7 +27,7 @@ export default function VedonoiSzolgalat() {
                     <p className='align-center margin-bottom-extra'>péntek: <span className='bold'>8.00-9.00</span></p>
 
                     <div className='vedonoi_szolgalat_img'>
-                        <img className='width-30' src="/images/middle_content_pics/vedonoi_szolgalat_pics/vedono.png" alt="Védőnő fantomkép" />
+                        <img className='width-30' src="/images/middle_content_pics/vedonoi_szolgalat_pics/vedono.png" alt="Védőnő fantomrajz" />
                     </div>
 
                     <p className='align-center'>Dócsné Kelemen Erzsébet</p>
