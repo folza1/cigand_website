@@ -23,3 +23,9 @@
 .margin-bottom-extra_sm {
     margin-bottom: 4vw !important;
 }
+
+@media screen and (max-width: 800px) {
+.margin-bottom-extra_sm {
+    margin-bottom: 8vw !important;
+}
+}
