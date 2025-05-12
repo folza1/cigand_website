@@ -1,0 +1,9 @@
+.orvosi_ugyelet_img {
+    display: flex;
+    justify-content: center;
+}
+
+.orvosi_ugyelet_container img {
+    width: 100%;
+    height: auto;
+}
