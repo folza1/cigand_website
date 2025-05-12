@@ -240,7 +240,7 @@ export default function Ambulancia() {
 
                     <hr />
 
-                    <p className='align-center uppercase'>TISZTELT BETEGEINK!</p>
+                    <p className='align-center uppercase bold'>TISZTELT BETEGEINK!</p>
                     <p className='align-center uppercase'>KÉRJÜK, ÉLJENEK AZ ELŐJEGYZÉS LEHETŐSÉGÉVEL!</p>
 
                     <p className='bold italic align-center'>Székhely/levelezési cím:</p>
