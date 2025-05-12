@@ -15,6 +15,10 @@ p{
     font-weight: bold;
 }
 
+.italic{
+    font-style: italic;
+}
+
 .align-center{
     text-align: center;
 }
@@ -25,6 +29,10 @@ p{
 
 .uppercase{
     text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
 }
 
 hr {

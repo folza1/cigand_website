@@ -95,7 +95,159 @@ export default function Ambulancia() {
 
                     <hr />
 
+                    <div className='ambulancia_appointment'>
+                        <p className='bold'>Fül-orr-gégészeti járóbeteg szakellátás</p>
+                        <div>
+                            <p className='uppercase align-right'>Kedd</p>
+                            <p className='uppercase align right'>Csütörtök</p>
+                        </div>
+                    </div>
 
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <p className='bold'>Pszichiátriai járóbeteg szakellátás</p>
+                        <div>
+                            <p className='uppercase align-right'>Hétfő</p>
+                            <p className='uppercase align right'>Csütörtök</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <p className='bold'>Szemészeti járóbeteg szakellátás</p>
+                        <div>
+                            <p className='uppercase align-right'>Kedd</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <p className='bold'>Neurológiai járóbeteg szakellátás</p>
+                        <div>
+                            <p className='uppercase align-right'>Kedd</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <p className='bold'>Tüdőgyógyászati járóbeteg szakellátás</p>
+                        <div>
+                            <p className='uppercase align-right'>Szerda</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <div>
+                            <p className='bold'>Röntgendiagnosztikai járóbeteg szakellátás</p>
+                            <p className='bold'>nem szakorvosi óra</p>
+                        </div>
+
+                        <div>
+                            <p className='uppercase align-right'>Hétfő</p>
+                            <p className='uppercase align-right'>Kedd</p>
+                            <p className='uppercase align-right'>Szerda</p>
+                            <p className='uppercase align-right'>Csütörtök</p>
+                            <p className='uppercase align-right'>Péntek</p>
+
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <div>
+                            <p className='bold'>Ultrahang</p>
+                        </div>
+
+                        <div>
+                            <p className='uppercase align-right'><span className='bold lowercase'>hasi UH:</span> Csütörtök</p>
+                            <p className='uppercase align-right'><span className='bold lowercase'>többi UH:</span></p>
+                            <p className='uppercase align-right'>havonta 2 alkalommal</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <p className='bold'>Laboratóriumi járóbeteg szakellátás</p>
+
+                        <div>
+                            <p className='uppercase align-right'>Hétfő</p>
+                            <p className='uppercase align-right'>Kedd</p>
+                            <p className='uppercase align-right'>Szerda</p>
+                            <p className='uppercase align-right'>Csütörtök</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <p className='bold'>Gyógymasszázs nem szakorvosi óra</p>
+
+                        <div>
+                            <p className='uppercase align-right'>Kedd</p>
+                            <p className='uppercase align-right'>Csütörtök</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <p className='bold'>Gyógytorna nem szakorvosi óra</p>
+
+                        <div>
+                            <p className='uppercase align-right'>Hétfő</p>
+                            <p className='uppercase align-right'>Kedd</p>
+                            <p className='uppercase align-right'>Szerda</p>
+                            <p className='uppercase align-right'>Csütörtök</p>
+                            <p className='uppercase align-right'>Péntek</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <p className='bold'>Fizioterápia</p>
+
+                        <div>
+                            <p className='uppercase align-right'>Hétfő</p>
+                            <p className='uppercase align-right'>Kedd</p>
+                            <p className='uppercase align-right'>Szerda</p>
+                            <p className='uppercase align-right'>Csütörtök</p>
+                            <p className='uppercase align-right'>Péntek</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div className='ambulancia_appointment'>
+                        <p className='bold'>Nappali kórház</p>
+
+                        <div>
+                            <p className='uppercase align-right'>Hétfő</p>
+                            <p className='uppercase align-right'>Kedd</p>
+                            <p className='uppercase align-right'>Szerda</p>
+                            <p className='uppercase align-right'>Csütörtök</p>
+                            <p className='uppercase align-right'>Péntek</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <p className='align-center uppercase'>TISZTELT BETEGEINK!</p>
+                    <p className='align-center uppercase'>KÉRJÜK, ÉLJENEK AZ ELŐJEGYZÉS LEHETŐSÉGÉVEL!</p>
+
+                    <p className='bold italic align-center'>Székhely/levelezési cím:</p>
+                    <p className='align-center'>Bodrogközi Járóbeteg Szakrendelő Nonprofit Kft.</p>
+                    <p className='align-center'>3973, Cigánd, Fő u. 80.</p>
+                    <p className='align-center bold'>Tel: +36-47-534-420</p>
+                    <p className='align-center'>Fax: +36-47-534-435</p>
                 </div>
             </ContentContainer>
         </>
