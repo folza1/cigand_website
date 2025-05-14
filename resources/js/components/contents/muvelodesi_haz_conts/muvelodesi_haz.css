@@ -1,0 +1,9 @@
+.muvelodesi_haz_img {
+    display: flex;
+    justify-content: center;
+}
+
+.muvelodesi_haz_container img {
+    width: 100%;
+    height: auto;
+}

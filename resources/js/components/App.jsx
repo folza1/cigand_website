@@ -20,6 +20,7 @@ import OrvosiUgyelet from './contents/orvosi_ugyelet_conts/OrvosiUgyelet';
 import VedonoiSzolgalat from './contents/vedonoi_szolgalat/VedonoiSzolgalat';
 import Ambulancia from './contents/ambulancia_conts/Ambulancia';
 import Muzeumporta from './contents/muzeumporta_conts/Muzeumporta';
+import MuvelodesiHaz from './contents/muvelodesi_haz_conts/MuvelodesiHaz';
 
 export default function App() {
 
@@ -52,6 +53,8 @@ export default function App() {
           <Route path="/ambulancia" element={<Ambulancia />} />
 
           <Route path="/muzeumporta" element={<Muzeumporta />} />
+          <Route path="/muvelodesi_haz" element={<MuvelodesiHaz />} />
+
 
 
 
