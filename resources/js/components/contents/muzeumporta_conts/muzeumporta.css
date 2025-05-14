@@ -1,0 +1,13 @@
+.muzeumporta_img {
+    display: flex;
+    justify-content: center;
+}
+
+.muzeumporta_container img {
+    width: 100%;
+    height: auto;
+}
+
+.margin_bottom_img {
+    margin-bottom: 5vw;
+}
