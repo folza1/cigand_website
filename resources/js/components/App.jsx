@@ -23,6 +23,7 @@ import Muzeumporta from './contents/muzeumporta_conts/Muzeumporta';
 import MuvelodesiHaz from './contents/muvelodesi_haz_conts/MuvelodesiHaz';
 import Konyvtar from './contents/konyvtar_conts/Konyvtar';
 import Polgarmester from './contents/polgarmester_conts/Polgarmester';
+import Jegyzo from './contents/jegyzo_conts/Jegyzo';
 
 export default function App() {
 
@@ -59,6 +60,7 @@ export default function App() {
           <Route path="/konyvtar" element={<Konyvtar />} />
 
           <Route path="/polgarmester" element={<Polgarmester />} />
+          <Route path="/jegyzo" element={<Jegyzo />} />
 
 
 

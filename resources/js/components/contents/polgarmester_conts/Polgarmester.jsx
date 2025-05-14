@@ -6,7 +6,7 @@ export default function Polgarmester() {
     return (
         <>
             <HeaderModule breadcrumb={["Önkormányzat", "Közös Önk. Hivatal", "Polgármester"]}>
-                Városi Könyvtár
+                Polgármester
             </HeaderModule>
             <ContentContainer>
                 <div className="polgarmester_container">

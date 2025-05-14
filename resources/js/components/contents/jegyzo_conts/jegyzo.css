@@ -1,0 +1,9 @@
+.jegyzo_img {
+    display: flex;
+    justify-content: center;
+}
+
+.jegyzo_container img {
+    width: 50%;
+    height: auto;
+}
