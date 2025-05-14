@@ -1,0 +1,9 @@
+.polgarmester_img {
+    display: flex;
+    justify-content: center;
+}
+
+.polgarmester_container img {
+    width: 50%;
+    height: auto;
+}
