@@ -1,0 +1,15 @@
+.konyvtar_img {
+    display: flex;
+    justify-content: center;
+}
+
+.konyvtar_container img {
+    width: 100%;
+    height: auto;
+}
+
+.konyvtar_container div {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;;
+}

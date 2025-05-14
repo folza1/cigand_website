@@ -21,6 +21,7 @@ import VedonoiSzolgalat from './contents/vedonoi_szolgalat/VedonoiSzolgalat';
 import Ambulancia from './contents/ambulancia_conts/Ambulancia';
 import Muzeumporta from './contents/muzeumporta_conts/Muzeumporta';
 import MuvelodesiHaz from './contents/muvelodesi_haz_conts/MuvelodesiHaz';
+import Konyvtar from './contents/konyvtar_conts/Konyvtar';
 
 export default function App() {
 
@@ -54,6 +55,8 @@ export default function App() {
 
           <Route path="/muzeumporta" element={<Muzeumporta />} />
           <Route path="/muvelodesi_haz" element={<MuvelodesiHaz />} />
+          <Route path="/konyvtar" element={<Konyvtar />} />
+
 
 
 
