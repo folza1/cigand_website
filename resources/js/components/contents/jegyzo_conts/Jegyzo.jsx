@@ -17,7 +17,7 @@ export default function Jegyzo() {
                     <p className='align-center'>E-mail: jegyzo@cigand.hu</p>
 
                     <div className='jegyzo_img'>
-                        <img src="/images/middle_content_pics/jegyzo_pics/jegyzo.jpg" alt="Cigánd jegyzője fantomkép" />
+                        <img src="/images/middle_content_pics/jegyzo_pics/jegyzo.png" alt="Cigánd jegyzője fantomkép" />
                     </div>
 
                     <p className='align-center bold'>Szepesy Márk Zoltán</p>
