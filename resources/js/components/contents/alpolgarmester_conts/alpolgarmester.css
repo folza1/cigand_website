@@ -1,0 +1,13 @@
+.alpolgarmester_img {
+    display: flex;
+    justify-content: center;
+}
+
+.alpolgarmester_container img {
+    width: 30%;
+    height: auto;
+}
+
+.margin-bottom-alpolgarmester {
+    margin-bottom: 10vw !important;
+}

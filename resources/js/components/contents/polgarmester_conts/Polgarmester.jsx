@@ -19,7 +19,7 @@ export default function Polgarmester() {
                     <p className='align-center'>Másodlagos e-mail: cigand@cigand.hu</p>
 
                     <div className='polgarmester_img'>
-                        <img src="/images/middle_content_pics/polgarmester_pics/polgarmester.jpg" alt="Cigánd polgármestere Oláh Krisztián" />
+                        <img src="/images/middle_content_pics/jegyzo_pics/jegyzo.jpg" alt="Cigánd polgármestere Oláh Krisztián" />
                     </div>
 
                     <p className='align-center bold'>Oláh Krisztián</p>

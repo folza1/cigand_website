@@ -490,7 +490,7 @@ const Navbar = () => {
                       scrollToOutlet(); // A scrollToOutlet funkció meghívása
                     }}
                     className='no-underline'
-                    to="/projekt1"
+                    to="/alpolgarmester"
                   >
                     Alpolgármester
                   </Link>
@@ -510,7 +510,7 @@ const Navbar = () => {
                       scrollToOutlet(); // A scrollToOutlet funkció meghívása
                     }}
                     className='no-underline'
-                    to="/projekt1"
+                    to="/titkarsag"
                   >
                     Titkárság
                   </Link>
@@ -1331,7 +1331,7 @@ const Navbar = () => {
                   scrollToOutlet(); // A scrollToOutlet funkció meghívása
                 }}
                 className='no-underline'
-                to="/szechenyi2020"
+                to="/alpolgarmester"
               >
                 Alpolgármester
               </Link>
@@ -1357,7 +1357,7 @@ const Navbar = () => {
                   scrollToOutlet(); // A scrollToOutlet funkció meghívása
                 }}
                 className='no-underline'
-                to="/szechenyi2020"
+                to="/titkarsag"
               >
                 Titkárság
               </Link>

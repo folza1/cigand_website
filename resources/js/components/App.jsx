@@ -24,6 +24,8 @@ import MuvelodesiHaz from './contents/muvelodesi_haz_conts/MuvelodesiHaz';
 import Konyvtar from './contents/konyvtar_conts/Konyvtar';
 import Polgarmester from './contents/polgarmester_conts/Polgarmester';
 import Jegyzo from './contents/jegyzo_conts/Jegyzo';
+import Alpolgarmester from './contents/alpolgarmester_conts/Alpolgarmester';
+import Titkarsag from './contents/titkarsag_conts/Titkarsag';
 
 export default function App() {
 
@@ -61,6 +63,9 @@ export default function App() {
 
           <Route path="/polgarmester" element={<Polgarmester />} />
           <Route path="/jegyzo" element={<Jegyzo />} />
+          <Route path="/alpolgarmester" element={<Alpolgarmester />} />
+          <Route path="/titkarsag" element={<Titkarsag />} />
+
 
 
 

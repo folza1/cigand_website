@@ -1,0 +1,19 @@
+.titkarsag_img {
+    display: flex;
+    justify-content: center;
+}
+
+.titkarsag_container img {
+    width: 30%;
+    height: auto;
+}
+
+.titkarsag_container div {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.margin-bottom-titkarsag {
+    margin-bottom: 10vw !important;
+}
