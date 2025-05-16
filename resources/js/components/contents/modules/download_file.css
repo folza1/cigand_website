@@ -1,0 +1,45 @@
+.download_file_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+@media screen and (max-width: 1200px) {
+    .download_file_container {
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+}
+
+.download_file_link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 90%;
+}
+
+.download_file_child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 3vw;
+    height: auto;
+    background: linear-gradient(to right, rgb(245, 197, 108), white,rgb(245, 197, 108));
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+}
+
+@media screen and (max-width: 1200px) {
+    .download_file_child {
+        min-height: 5vw;
+    }
+}
+
+
+.download_file_link:hover .download_file_child{
+    background: white;
+    border: 0.2vw solid black;
+    font-weight: bolder;
+}
