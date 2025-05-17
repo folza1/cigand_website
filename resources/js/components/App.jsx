@@ -27,6 +27,7 @@ import Jegyzo from "./contents/jegyzo_conts/Jegyzo";
 import Alpolgarmester from "./contents/alpolgarmester_conts/Alpolgarmester";
 import Titkarsag from "./contents/titkarsag_conts/Titkarsag";
 import HatosagiIgazgatasi from "./contents/hatosagi_ig_osztaly_conts/HatosagiIgazgatasi";
+import Varosfejlesztesi from "./contents/varosfejlesztesi_conts/Varosfejlesztesi";
 
 export default function App() {
     return (
@@ -77,6 +78,11 @@ export default function App() {
                     <Route
                         path="/hatosagi_igazgatasi"
                         element={<HatosagiIgazgatasi />}
+                    />
+
+                    <Route
+                        path="/varosfejlesztesi"
+                        element={<Varosfejlesztesi />}
                     />
 
                     <Route

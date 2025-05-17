@@ -1,0 +1,23 @@
+.varosfejlesztesi_img {
+    display: flex;
+    justify-content: center;
+}
+
+.varosfejlesztesi_container p {
+    text-align: center;
+}
+
+.varosfejlesztesi_container img {
+    width: 30%;
+    height: auto;
+}
+
+.margin-bottom-varosfejlesztesi{
+    margin-bottom: 10vw !important;
+}
+
+@media screen and (min-width: 1200px) {
+    .margin-bottom-varosfejlesztesi{
+        margin-bottom: 5vw !important;
+    }
+}
