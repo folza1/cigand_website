@@ -564,7 +564,7 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/penzugyi_osztaly"
                                     >
                                         Pénzügyi Osztály
                                     </Link>
@@ -1558,7 +1558,7 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/penzugyi_osztaly"
                             >
                                 Pénzügyi Osztály
                             </Link>

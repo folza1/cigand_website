@@ -1,0 +1,31 @@
+.penzugyi_osztaly_img {
+    display: flex;
+    justify-content: center;
+}
+
+.penzugyi_osztaly_container p {
+    text-align: center;
+}
+
+.penzugyi_osztaly_container img {
+    width: 30%;
+    height: auto;
+    margin-top: 10vw !important;
+}
+
+.margin-bottom-penzugyi{
+    margin-bottom: 10vw !important;
+}
+
+@media screen and (min-width: 1200px) {
+    .penzugyi_osztaly_container img {
+        margin-top: 5vw !important;
+    }
+    .margin-bottom-penzugyi{
+        margin-bottom: 5vw !important;
+    }
+}
+
+.penzugyi_fogadas{
+    font-weight: bold;
+}
