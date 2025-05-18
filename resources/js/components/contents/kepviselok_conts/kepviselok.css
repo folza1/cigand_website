@@ -1,0 +1,14 @@
+.kepviselok_img {
+    display: flex;
+    justify-content: center;
+}
+
+.kepviselok_container p {
+    text-align: center;
+}
+
+.kepviselok_container img {
+    width: 30%;
+    height: auto;
+    margin-top: 5vw !important;
+}

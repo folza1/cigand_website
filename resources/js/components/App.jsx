@@ -29,6 +29,7 @@ import Titkarsag from "./contents/titkarsag_conts/Titkarsag";
 import HatosagiIgazgatasi from "./contents/hatosagi_ig_osztaly_conts/HatosagiIgazgatasi";
 import Varosfejlesztesi from "./contents/varosfejlesztesi_conts/Varosfejlesztesi";
 import PenzugyiOsztaly from "./contents/penzugyi_osztaly_conts/PenzugyiOsztaly";
+import Kepviselok from "./contents/kepviselok_conts/Kepviselok";
 
 export default function App() {
     return (
@@ -90,6 +91,8 @@ export default function App() {
                         path="/penzugyi_osztaly"
                         element={<PenzugyiOsztaly />}
                     />
+
+                    <Route path="/kepviselok" element={<Kepviselok />} />
 
                     <Route
                         path="/szechenyi2020"
