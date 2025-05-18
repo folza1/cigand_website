@@ -11,8 +11,14 @@
 }
 
 .kepviselo {
-    width: 400px;
+    width: 300px;
     text-align: center;
+}
+
+@media screen and (max-width: 952px) {
+    .margin-top-kepviselok {
+        margin-top: 5vw !important;
+    }
 }
 
 .kepviselok_container p {

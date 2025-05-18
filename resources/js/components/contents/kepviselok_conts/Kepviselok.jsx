@@ -17,7 +17,7 @@ export default function Kepviselok() {
             <ContentContainer>
                 <div className="kepviselok_container">
                     <div className="display-inline-kepviselok">
-                        <div className="kepviselo">
+                        <div className="kepviselo margin-top-kepviselok">
                             <div className="kepviselok_img">
                                 <img
                                     src="/images/middle_content_pics/jegyzo_pics/jegyzo.png"
