@@ -1,37 +1,38 @@
-*{
+* {
     box-sizing: border-box;
 }
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
 }
-p{
+p {
     margin: 0;
     padding: 0;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
-.italic{
+.italic {
     font-style: italic;
 }
 
-.align-center{
+.align-center {
     text-align: center;
 }
 
-.align-right{
+.align-right {
     text-align: right;
 }
 
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
 
-.lowercase{
+.lowercase {
     text-transform: lowercase;
 }
 

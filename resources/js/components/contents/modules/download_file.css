@@ -1,45 +1,38 @@
-.download_file_container{
+.download_file {
     display: flex;
     justify-content: center;
+}
+.download_file_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 90%;
+    border: 2px solid black;
+    background-color: orangered;
+    font-weight: bolder;
+    padding: 1vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 1200px) {
-    .download_file_container {
-        margin-top: 3vw;
-        margin-bottom: 3vw;
-    }
+.download_file_container:hover {
+    background-color: lightgray;
 }
 
-.download_file_link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    width: 90%;
-}
-
-.download_file_child{
+.download_file_children {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-    min-height: 3vw;
-    height: auto;
-    background: linear-gradient(to right, rgb(245, 197, 108), white,rgb(245, 197, 108));
-    border: 0.1vw solid black;
-    border-radius: 1vw;
+    justify-content: center;
+    height: 100%;
 }
 
-@media screen and (max-width: 1200px) {
-    .download_file_child {
-        min-height: 5vw;
-    }
+.download_file_img {
+    height: 100%;
 }
 
-
-.download_file_link:hover .download_file_child{
-    background: white;
-    border: 0.2vw solid black;
-    font-weight: bolder;
+.download_file_img img {
+    height: 100%;
+    width: auto;
 }

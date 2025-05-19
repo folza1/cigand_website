@@ -1,0 +1,10 @@
+.rendelet_tervezetek_img {
+    display: flex;
+    justify-content: center;
+}
+
+.rendelet_tervezetek_container_img {
+    width: 50%;
+    height: auto;
+    margin-top: 5vw !important;
+}

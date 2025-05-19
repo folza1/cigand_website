@@ -30,6 +30,7 @@ import HatosagiIgazgatasi from "./contents/hatosagi_ig_osztaly_conts/HatosagiIga
 import Varosfejlesztesi from "./contents/varosfejlesztesi_conts/Varosfejlesztesi";
 import PenzugyiOsztaly from "./contents/penzugyi_osztaly_conts/PenzugyiOsztaly";
 import Kepviselok from "./contents/kepviselok_conts/Kepviselok";
+import RendeletTervezetek from "./contents/rendelet_tervezetek_conts/RendeletTervezetek";
 
 export default function App() {
     return (
@@ -93,6 +94,10 @@ export default function App() {
                     />
 
                     <Route path="/kepviselok" element={<Kepviselok />} />
+                    <Route
+                        path="/rendelet_tervezetek"
+                        element={<RendeletTervezetek />}
+                    />
 
                     <Route
                         path="/szechenyi2020"

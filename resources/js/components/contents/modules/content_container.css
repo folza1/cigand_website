@@ -1,35 +1,31 @@
-.content_container{
+.content_container {
     font-size: 1.5vw;
 }
 
 @media screen and (max-width: 1400px) {
-    .content_container{
+    .content_container {
         font-size: 2vw;
-        
     }
 }
 
 @media screen and (max-width: 1100px) {
-    .content_container{
+    .content_container {
         font-size: 2.5vw;
-        
     }
 }
 
 @media screen and (max-width: 800px) {
-    .content_container{
+    .content_container {
         font-size: 3.5vw;
-        
     }
 }
 
 @media screen and (max-width: 600px) {
-    .content_container{
+    .content_container {
         font-size: 5vw;
-        
     }
 }
 
-.content_container p{
+.content_container p {
     margin: 1.5vw;
 }
