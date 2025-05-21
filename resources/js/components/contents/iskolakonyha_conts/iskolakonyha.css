@@ -1,0 +1,13 @@
+.iskolakonyha_container p {
+    text-align: center;
+}
+
+.iskolakonyha_img {
+    display: flex;
+    justify-content: center;
+}
+
+.iskolakonyha img {
+    width: 70%;
+    height: auto;
+}

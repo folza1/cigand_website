@@ -31,6 +31,7 @@ import Varosfejlesztesi from "./contents/varosfejlesztesi_conts/Varosfejlesztesi
 import PenzugyiOsztaly from "./contents/penzugyi_osztaly_conts/PenzugyiOsztaly";
 import Kepviselok from "./contents/kepviselok_conts/Kepviselok";
 import RendeletTervezetek from "./contents/rendelet_tervezetek_conts/RendeletTervezetek";
+import Iskolakonyha from "./contents/iskolakonyha_conts/Iskolakonyha";
 
 export default function App() {
     return (
@@ -98,6 +99,9 @@ export default function App() {
                         path="/rendelet_tervezetek"
                         element={<RendeletTervezetek />}
                     />
+
+                    {/* Oktatás */}
+                    <Route path="/iskolakonyha" element={<Iskolakonyha />} />
 
                     <Route
                         path="/szechenyi2020"

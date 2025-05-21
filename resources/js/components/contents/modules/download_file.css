@@ -1,6 +1,8 @@
 .download_file {
     display: flex;
     justify-content: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .download_file a {
@@ -20,18 +22,16 @@
     background-color: orangered;
     font-weight: bolder;
     padding: 1vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
     cursor: pointer;
 }
 
-.download_file_container:last-of-type {
+.download_file:last-of-type {
     margin-bottom: 0;
 }
 
 @media screen and (min-width: 1400px) {
     .download_file_container {
-        height: 7vw;
+        height: 5vw;
     }
 }
 
