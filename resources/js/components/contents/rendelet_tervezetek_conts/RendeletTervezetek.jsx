@@ -70,7 +70,11 @@ export default function RendeletTervezetek() {
                         tervezetekhez hasonló módon lesz hozzáférhető.
                     </p>
 
-                    <DownloadFile extension_file="word.png">
+                    <DownloadFile
+                        file="/documents_files/rendelet_tervezetek/rendelet_tervezet_a_talajterhelesi_dijrol_cigand.doc"
+                        extension_file="word.png"
+                        size="65.5 kB"
+                    >
                         Rendelet-tervezet a talajterhelési díjról - Cigánd
                     </DownloadFile>
                 </div>

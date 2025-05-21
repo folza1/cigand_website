@@ -120,11 +120,19 @@ export default function HatosagiIgazgatasi() {
 
                     <p className="bold">Kereskedelmi egységek nyilvántartása</p>
 
-                    <DownloadFile file="/documents_files/hatosagi_osztaly/2016_kereskedelmi_egysegek_nyitvatartasa.xls">
+                    <DownloadFile
+                        file="/documents_files/hatosagi_osztaly/2016_kereskedelmi_egysegek_nyitvatartasa.xls"
+                        extension_file="xls.png"
+                        size="47.1 kB"
+                    >
                         2016-os nyilvántartás
                     </DownloadFile>
 
-                    <DownloadFile file="/documents_files/hatosagi_osztaly/2018_kereskedelmi_egysegek_nyilvantartasa.xlsx">
+                    <DownloadFile
+                        file="/documents_files/hatosagi_osztaly/2018_kereskedelmi_egysegek_nyilvantartasa.xlsx"
+                        extension_file="xls.png"
+                        size="24.5 kB"
+                    >
                         2018-as nyilvántartás
                     </DownloadFile>
                 </div>
