@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.iskolakonyha img {
-    width: 70%;
+.iskolakonyha_container img {
+    width: 100%;
     height: auto;
 }
