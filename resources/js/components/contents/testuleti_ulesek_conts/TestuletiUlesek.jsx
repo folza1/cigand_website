@@ -87,6 +87,13 @@ export default function TestuletiUlesek() {
                             </DownloadFile>
                         </React.Fragment>
                     ))}
+
+                    <DownloadFile
+                        file="https://bodrogkoz.com/cigand/"
+                        extension_file={"link.png"}
+                    >
+                        További Ülések Jegyzőkönyvei
+                    </DownloadFile>
                 </div>
             </ContentContainer>
         </>
