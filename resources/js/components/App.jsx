@@ -32,6 +32,7 @@ import PenzugyiOsztaly from "./contents/penzugyi_osztaly_conts/PenzugyiOsztaly";
 import Kepviselok from "./contents/kepviselok_conts/Kepviselok";
 import RendeletTervezetek from "./contents/rendelet_tervezetek_conts/RendeletTervezetek";
 import Iskolakonyha from "./contents/iskolakonyha_conts/Iskolakonyha";
+import TestuletiUlesek from "./contents/testuleti_ulesek_conts/TestuletiUlesek";
 
 export default function App() {
     return (
@@ -95,6 +96,10 @@ export default function App() {
                     />
 
                     <Route path="/kepviselok" element={<Kepviselok />} />
+                    <Route
+                        path="/testuleti_ulesek"
+                        element={<TestuletiUlesek />}
+                    />
                     <Route
                         path="/rendelet_tervezetek"
                         element={<RendeletTervezetek />}
