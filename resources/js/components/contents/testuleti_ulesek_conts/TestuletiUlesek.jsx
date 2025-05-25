@@ -27,6 +27,12 @@ export default function TestuletiUlesek() {
             </HeaderModule>
             <ContentContainer>
                 <div className="testuleti_ulesek_container">
+                    <div className="testuleti_ulesek_img">
+                        <img
+                            src="/images/middle_content_pics/testuleti_ulesek_pics/testuleti_ulesek.jpg"
+                            alt="Fekete fehér kép egy illusztrált ülésről. Asztal, szék és résztvevők láthatóak."
+                        />
+                    </div>
                     <p className="bold align-center">
                         Testületi Ülések Jegyzőkönyvei
                     </p>

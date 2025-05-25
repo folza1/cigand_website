@@ -33,6 +33,7 @@ import Kepviselok from "./contents/kepviselok_conts/Kepviselok";
 import RendeletTervezetek from "./contents/rendelet_tervezetek_conts/RendeletTervezetek";
 import Iskolakonyha from "./contents/iskolakonyha_conts/Iskolakonyha";
 import TestuletiUlesek from "./contents/testuleti_ulesek_conts/TestuletiUlesek";
+import HVIHatarozatok from "./contents/helyi_valasztasi_iroda_conts/HVIHatarozatok";
 
 export default function App() {
     return (
@@ -107,6 +108,12 @@ export default function App() {
 
                     {/* Oktatás */}
                     <Route path="/iskolakonyha" element={<Iskolakonyha />} />
+
+                    {/* Egyéb */}
+                    <Route
+                        path="/hvi_hatarozatok"
+                        element={<HVIHatarozatok />}
+                    />
 
                     <Route
                         path="/szechenyi2020"

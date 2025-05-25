@@ -1,0 +1,10 @@
+.hvi_hatarozatok_img {
+    display: flex;
+    justify-content: center;
+}
+
+.hvi_img {
+    width: 30%;
+    height: auto;
+    background-color: white;
+}

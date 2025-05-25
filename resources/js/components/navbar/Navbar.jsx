@@ -630,7 +630,7 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/hvi_hatarozatok"
                                     >
                                         Helyi Választási Iroda Határozatok
                                     </Link>
@@ -1676,7 +1676,7 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/hvi_hatarozatok"
                             >
                                 Helyi Választási Iroda Határozatok
                             </Link>
