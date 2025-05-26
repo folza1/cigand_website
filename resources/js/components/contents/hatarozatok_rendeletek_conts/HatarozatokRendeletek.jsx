@@ -75,6 +75,10 @@ export default function HatarozatokRendeletek() {
                             </DownloadFile>
                         ))}
                     </div>
+
+                    <p className="bold align-center uppercase hatarozatok_margin_top">
+                        Rendeletek Lácacséke, Révleányvár
+                    </p>
                 </div>
             </ContentContainer>
         </>

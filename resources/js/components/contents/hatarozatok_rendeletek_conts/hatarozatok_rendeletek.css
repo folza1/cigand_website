@@ -16,3 +16,7 @@
 .a_center_hatarozatok {
     text-align: center;
 }
+
+.hatarozatok_margin_top {
+    margin-top: 8vw !important;
+}
