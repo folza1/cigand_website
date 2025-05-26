@@ -34,6 +34,7 @@ import RendeletTervezetek from "./contents/rendelet_tervezetek_conts/RendeletTer
 import Iskolakonyha from "./contents/iskolakonyha_conts/Iskolakonyha";
 import TestuletiUlesek from "./contents/testuleti_ulesek_conts/TestuletiUlesek";
 import HVIHatarozatok from "./contents/helyi_valasztasi_iroda_conts/HVIHatarozatok";
+import HatarozatokRendeletek from "./contents/hatarozatok_rendeletek_conts/HatarozatokRendeletek";
 
 export default function App() {
     return (
@@ -96,6 +97,7 @@ export default function App() {
                         element={<PenzugyiOsztaly />}
                     />
 
+                    {/* Képviselő Testület */}
                     <Route path="/kepviselok" element={<Kepviselok />} />
                     <Route
                         path="/testuleti_ulesek"
@@ -104,6 +106,10 @@ export default function App() {
                     <Route
                         path="/rendelet_tervezetek"
                         element={<RendeletTervezetek />}
+                    />
+                    <Route
+                        path="/hatarozatok_rendeletek"
+                        element={<HatarozatokRendeletek />}
                     />
 
                     {/* Oktatás */}

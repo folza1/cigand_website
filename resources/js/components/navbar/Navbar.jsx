@@ -597,9 +597,9 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/hatarozatok_rendeletek"
                                     >
-                                        Határozatok, Rendeletek
+                                        Határozatok és Rendeletek
                                     </Link>
                                     <Link
                                         onClick={() => {
@@ -1617,9 +1617,9 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/hatarozatok_rendeletek"
                             >
-                                Határozatok, Rendeletek
+                                Határozatok és Rendeletek
                             </Link>
                         </div>
                         <div>

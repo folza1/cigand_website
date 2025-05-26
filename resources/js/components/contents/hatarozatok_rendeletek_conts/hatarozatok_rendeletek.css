@@ -1,0 +1,18 @@
+.hatarozatok_rendeletek_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.hatarozatok_rendeletek_img_file {
+    width: 30%;
+    height: auto;
+}
+
+.rendeletek_bottom_margin {
+    margin-bottom: 8vw !important;
+}
+
+.a_center_hatarozatok {
+    text-align: center;
+}
