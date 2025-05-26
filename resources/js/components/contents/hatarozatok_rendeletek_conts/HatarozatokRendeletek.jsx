@@ -8,19 +8,28 @@ export default function HatarozatokRendeletek() {
     const [files, setFiles] = useState([]);
 
     useEffect(() => {
-        fetch("/site_files/fajlnev_10vesszo_leiras.txt")
-            .then((res) => res.text())
-            .then((text) => {
-                const lines = text.split("\n").filter(Boolean);
-                const parsed = lines.map((line) => {
-                    const [file, ...descArr] = line.split(/,{10}/);
-                    return {
-                        file: file.trim(),
-                        desc: descArr.join("").trim(),
-                    };
-                });
-                setFiles(parsed);
+        Promise.all([
+            fetch("/site_files/fajlnev_10vesszo_leiras.txt").then((res) =>
+                res.text()
+            ),
+            fetch("/api/hatarozatok-rendeletek-files").then((res) =>
+                res.json()
+            ),
+        ]).then(([text, sizes]) => {
+            const lines = text.split("\n").filter(Boolean);
+            const parsed = lines.map((line) => {
+                const [file, ...descArr] = line.split(/,{10}/);
+                const fname = file.trim();
+                return {
+                    file: fname,
+                    desc: descArr.join("").trim(),
+                    size: sizes[fname]
+                        ? `${sizes[fname]} MB`
+                        : "ismeretlen méret",
+                };
             });
+            setFiles(parsed);
+        });
     }, []);
 
     return (
@@ -62,7 +71,7 @@ export default function HatarozatokRendeletek() {
                                 file={`/documents_files/hatarozatok_rendeletek/${item.file}`}
                                 extension_file="pdf.png"
                             >
-                                {item.desc}
+                                {item.desc} - {item.size}
                             </DownloadFile>
                         ))}
                     </div>

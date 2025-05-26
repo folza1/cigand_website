@@ -37,3 +37,12 @@ Route::get('/testuleti-ulesek-files', function () {
 
     return response()->json($files);
 });
+
+Route::get('/hatarozatok-rendeletek-files', function () {
+    $dir = public_path('documents_files/hatarozatok_rendeletek');
+    $result = [];
+    foreach (File::files($dir) as $file) {
+        $result[$file->getFilename()] = round($file->getSize() / 1024 / 1024, 2);
+    }
+    return response()->json($result);
+});

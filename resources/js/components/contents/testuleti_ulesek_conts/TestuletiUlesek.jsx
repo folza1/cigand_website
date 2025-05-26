@@ -97,6 +97,7 @@ export default function TestuletiUlesek() {
                     <DownloadFile
                         file="https://bodrogkoz.com/cigand/"
                         extension_file={"link.png"}
+                        className="tovabbi_ulesek_margin"
                     >
                         További Ülések Jegyzőkönyvei
                     </DownloadFile>

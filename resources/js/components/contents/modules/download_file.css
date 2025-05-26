@@ -1,8 +1,8 @@
 .download_file {
     display: flex;
     justify-content: center;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 .download_file a {
@@ -17,6 +17,8 @@
     align-items: center;
     justify-content: space-between;
     height: 90px;
+    height: auto;
+    max-height: 300px;
     width: 100%;
     border: 2px solid black;
     background-color: orangered;
@@ -47,7 +49,19 @@
 }
 
 .download_file_img {
-    height: 100%;
+    height: 4vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .download_file_img {
+        height: 8vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .download_file_img {
+        height: 10vw;
+    }
 }
 
 .download_file_img img {

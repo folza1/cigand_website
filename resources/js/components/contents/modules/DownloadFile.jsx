@@ -1,13 +1,19 @@
 import "./download_file.css";
 
-export default function DownloadFile({ children, file, extension_file, size }) {
+export default function DownloadFile({
+    children,
+    file,
+    extension_file,
+    size,
+    className,
+}) {
     return (
         <>
-            <div className="download_file">
+            <div className={`download_file${className ? " " + className : ""}`}>
                 <a href={file} target="_blank" rel="noopener noreferrer">
                     <div className="download_file_container">
                         <div className="download_file_children">
-                            {children} {size}
+                            {children} - {size}
                         </div>
                         <div className="download_file_img">
                             <img
