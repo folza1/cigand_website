@@ -35,6 +35,7 @@ import Iskolakonyha from "./contents/iskolakonyha_conts/Iskolakonyha";
 import TestuletiUlesek from "./contents/testuleti_ulesek_conts/TestuletiUlesek";
 import HVIHatarozatok from "./contents/helyi_valasztasi_iroda_conts/HVIHatarozatok";
 import HatarozatokRendeletek from "./contents/hatarozatok_rendeletek_conts/HatarozatokRendeletek";
+import RNO from "./contents/rno_conts/RNO";
 
 export default function App() {
     return (
@@ -120,6 +121,8 @@ export default function App() {
                         path="/hvi_hatarozatok"
                         element={<HVIHatarozatok />}
                     />
+
+                    <Route path="/rno" element={<RNO />} />
 
                     <Route
                         path="/szechenyi2020"
