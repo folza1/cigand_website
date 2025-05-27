@@ -79,6 +79,20 @@ export default function HatarozatokRendeletek() {
                     <p className="bold align-center uppercase hatarozatok_margin_top">
                         Rendeletek Lácacséke, Révleányvár
                     </p>
+                    <DownloadFile
+                        file="/documents_files/hatarozatok_rendeletek/2021-10-12_lacacseke_kozmuvelodesi_rendelet.pdf"
+                        extension_file="pdf.png"
+                        size="0.77 MB -"
+                    >
+                        Lácacséke közművelődési rendelet
+                    </DownloadFile>
+                    <DownloadFile
+                        file="/documents_files/hatarozatok_rendeletek/2021-10-12_revleanyvar_kozmuvelodesi_rendelet.pdf"
+                        extension_file="pdf.png"
+                        size="0.25 MB -"
+                    >
+                        Révleányvár közművelődési rendelet
+                    </DownloadFile>
                 </div>
             </ContentContainer>
         </>
