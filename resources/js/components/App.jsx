@@ -36,6 +36,7 @@ import TestuletiUlesek from "./contents/testuleti_ulesek_conts/TestuletiUlesek";
 import HVIHatarozatok from "./contents/helyi_valasztasi_iroda_conts/HVIHatarozatok";
 import HatarozatokRendeletek from "./contents/hatarozatok_rendeletek_conts/HatarozatokRendeletek";
 import RNO from "./contents/rno_conts/RNO";
+import Ovodamuzeum from "./contents/ovodamuzeum_conts/Ovodamuzeum";
 
 export default function App() {
     return (
@@ -72,9 +73,12 @@ export default function App() {
                     />
                     <Route path="/ambulancia" element={<Ambulancia />} />
 
+                    {/* Kultúra */}
+
                     <Route path="/muzeumporta" element={<Muzeumporta />} />
                     <Route path="/muvelodesi_haz" element={<MuvelodesiHaz />} />
                     <Route path="/konyvtar" element={<Konyvtar />} />
+                    <Route path="/ovodamuzeum" element={<Ovodamuzeum />} />
 
                     <Route path="/polgarmester" element={<Polgarmester />} />
                     <Route path="/jegyzo" element={<Jegyzo />} />

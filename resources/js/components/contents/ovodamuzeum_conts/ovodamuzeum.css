@@ -1,0 +1,17 @@
+.ovodamuzeum_img {
+    display: flex;
+    justify-content: center;
+}
+
+.ovodamuzeum_container img {
+    width: 100%;
+    height: auto;
+}
+
+.ovodamuzeum_container p {
+    text-align: center;
+}
+
+.ovodamuzeum_margin_top {
+    margin-top: 5vw !important;
+}

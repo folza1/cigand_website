@@ -796,9 +796,9 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/ovodamuzeum"
                                     >
-                                        Óvoda Múzeum
+                                        Óvodamúzeum
                                     </Link>
                                     <Link
                                         onClick={() => {
@@ -1878,9 +1878,9 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/ovodamuzeum"
                             >
-                                Óvoda Múzeum
+                                Óvodamúzeum
                             </Link>
                         </div>
                         <div>
