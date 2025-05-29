@@ -854,16 +854,16 @@ const Navbar = () => {
                                         Labdarúgó-pálya
                                     </Link>
 
-                                    <Link
+                                    <a
                                         onClick={() => {
                                             setOpenDropdown(null); // Bezárjuk a legördülő menüt
-                                            scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        href="https://cigandse.hu/"
+                                        target="_blank"
                                     >
                                         Cigánd Sport Egyesület
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="megamenu-link-sub-block">
                                     <h1>Szabadidő</h1>
@@ -1969,17 +1969,17 @@ const Navbar = () => {
                             </Link>
                         </div>
                         <div>
-                            <Link
+                            <a
                                 onClick={() => {
                                     setIsMobileSubMenu8Open(false); // A mobil menü bezárása
                                     setIsMobileMenuOpen(false); // A mobil menü bezárása
-                                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                href="https://cigandse.hu/"
+                                target="_blank"
                             >
                                 Cigánd Sport Egyesület
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>

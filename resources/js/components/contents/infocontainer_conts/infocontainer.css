@@ -1,0 +1,54 @@
+.info_main_container {
+    position: relative;
+    background-color: white;
+    padding: 2vw;
+}
+
+.info_main_container .bg-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.2; /* Itt állíthatod az átlátszóságot */
+    z-index: 0;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .info_main_container .bg-img {
+        position: absolute;
+        display: block;
+        margin: auto auto;
+        width: 20%; /* vagy amekkora kell */
+        height: auto;
+        opacity: 0.2;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .info_main_container .bg-img {
+        width: 40%;
+    }
+}
+
+.info_title_container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.info_container p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info_container_element {
+    display: flex;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border-bottom: 0.1vw solid lightgray;
+}
+.info_half {
+    width: 50%;
+}
