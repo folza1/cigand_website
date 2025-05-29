@@ -1,13 +1,15 @@
 .info_main_container {
     position: relative;
     background-color: white;
-    padding: 2vw;
+    padding: 1vw;
 }
 
 .info_main_container .bg-img {
     position: absolute;
     inset: 0;
-    width: 100%;
+    display: block;
+    margin: auto auto;
+    width: 90%;
     height: auto;
     opacity: 0.2; /* Itt állíthatod az átlátszóságot */
     z-index: 0;
@@ -43,12 +45,44 @@
     font-weight: bold;
 }
 
+@media screen and (min-width: 1200px) {
+    .info_title {
+        font-size: 1.5vw;
+        margin-top: 1.5vw;
+        margin-bottom: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .info_title {
+        font-size: 3vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .info_title {
+        font-size: 6vw;
+        margin-top: 2.5vw;
+        margin-bottom: 2.5vw;
+    }
+}
+
 .info_container_element {
     display: flex;
     margin-top: 2vw;
     margin-bottom: 2vw;
     border-bottom: 0.1vw solid lightgray;
 }
+
+@media screen and (max-width: 600px) {
+    .info_container_element {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+}
+
 .info_half {
     width: 50%;
 }

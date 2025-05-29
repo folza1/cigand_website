@@ -4,8 +4,8 @@ export default function Infocontainer() {
     return (
         <div className="info_main_container">
             <div className="info_title_container">
-                <p className="align-center bold uppercase">
-                    Információk a helységről
+                <p className="align-center bold uppercase info_title">
+                    A helységről
                 </p>
 
                 <div className="info_container">
@@ -28,7 +28,7 @@ export default function Infocontainer() {
                     <div className="info_container_element">
                         <p className="info_half align-left">Terület</p>
                         <p className="info_half align-right">
-                            Bodrogközi 56.76 négyzetkilométer
+                            Bodrogközi 56.76 négyzet kilométer
                         </p>
                     </div>
                     <div className="info_container_element">
