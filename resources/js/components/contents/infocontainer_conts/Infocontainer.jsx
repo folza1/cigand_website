@@ -21,9 +21,7 @@ export default function Infocontainer() {
                     </div>
                     <div className="info_container_element">
                         <p className="info_half align-left">Kistérség</p>
-                        <p className="info_half align-right">
-                            Bodrogközi többcélú kistérségi társulás
-                        </p>
+                        <p className="info_half align-right">Cigándi Járás</p>
                     </div>
                     <div className="info_container_element">
                         <p className="info_half align-left">Terület</p>
@@ -38,13 +36,13 @@ export default function Infocontainer() {
                     <div className="info_container_element">
                         <p className="info_half align-left">Koordináták</p>
                         <p className="info_half align-right">
-                            48.2559° N 21.8889° E
+                            48.2559° É 21.8889° K
                         </p>
                     </div>
                     <div className="info_container_element">
                         <p className="info_half align-left">Időzóna</p>
                         <p className="info_half align-right">
-                            Central Europe Summer Time (GMT+2)
+                            Közép-európai Idő (GMT+2)
                         </p>
                     </div>
                     <div className="info_container_element">
