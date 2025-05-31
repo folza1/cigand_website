@@ -2,6 +2,7 @@
 .telefonszamok_hatosagi_igazgatasi {
     border: 0.1vw solid black;
     margin: 1vw;
+    background-color: #e5f3fd;
 }
 .telefonszamok_element {
     display: flex;
