@@ -1,0 +1,8 @@
+.telefonszamok_polgarmesteri_hivatal {
+    border: 0.1vw solid black;
+    margin: 1vw;
+}
+.telefonszamok_element {
+    display: flex;
+    justify-content: space-between;
+}

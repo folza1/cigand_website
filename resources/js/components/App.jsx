@@ -37,6 +37,7 @@ import HVIHatarozatok from "./contents/helyi_valasztasi_iroda_conts/HVIHatarozat
 import HatarozatokRendeletek from "./contents/hatarozatok_rendeletek_conts/HatarozatokRendeletek";
 import RNO from "./contents/rno_conts/RNO";
 import Ovodamuzeum from "./contents/ovodamuzeum_conts/Ovodamuzeum";
+import Telefonszamok from "./contents/telefonszamok_conts/Telefonszamok";
 
 export default function App() {
     return (
@@ -125,6 +126,7 @@ export default function App() {
                         path="/hvi_hatarozatok"
                         element={<HVIHatarozatok />}
                     />
+                    <Route path="/telefonszamok" element={<Telefonszamok />} />
 
                     <Route path="/rno" element={<RNO />} />
 
