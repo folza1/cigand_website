@@ -13,11 +13,11 @@ export default function Telefonszamok() {
             <ContentContainer>
                 <div className="telefonszamok_container">
                     <div className="telefonszamok_polgarmesteri_hivatal">
-                        <div className="telefonszamok_element">
-                            <p className="bold">
+                        <div>
+                            <p className="bold uppercase align-center">
                                 A Cigánd Közös Önkormányzati Hivatal fővonala:
                             </p>
-                            <p className="bold">47/534-400</p>
+                            <p className="bold align-center">47/534-400</p>
                         </div>
                         <hr />
                         <div className="telefonszamok_element">
@@ -49,6 +49,29 @@ export default function Telefonszamok() {
                         <div className="telefonszamok_element">
                             <p className="bold">Titkárság: Fülöp Titanilla</p>
                             <p>47/534-400 mellék:1000</p>
+                        </div>
+                    </div>
+
+                    <div className="telefonszamok_hatosagi_igazgatasi">
+                        <div>
+                            <p className="bold uppercase align-center">
+                                Hatósági és igazgatási osztály
+                            </p>
+                        </div>
+                        <hr />
+                        <div className="telefonszamok_element">
+                            <p className="bold">Dr. Szepesy Márk Zoltán</p>
+                            <p>47/534-403 mellék:1020</p>
+                        </div>
+                        <hr />
+                        <div className="telefonszamok_element">
+                            <p className="bold">Nagyné Bodnár Beatrix</p>
+                            <p>47/534-421 mellék:1070</p>
+                        </div>
+                        <hr />
+                        <div className="telefonszamok_element">
+                            <p className="bold">Dócsné Tóth Evelin</p>
+                            <p>47/534-417 mellék:1180</p>
                         </div>
                     </div>
                 </div>
