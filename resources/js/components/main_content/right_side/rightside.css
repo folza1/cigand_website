@@ -5,6 +5,8 @@
 }
 
 .right_side_calendar {
+    display: flex;
+    align-items: center;
     background-color: white;
 }
 
