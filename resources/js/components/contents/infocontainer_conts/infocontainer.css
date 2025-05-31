@@ -2,6 +2,8 @@
     position: relative;
     background-color: white;
     padding: 1vw;
+    border-top: 0.1vw solid black;
+    border-bottom: 0.1vw solid black;
 }
 
 .info_main_container .bg-img {
@@ -43,6 +45,12 @@
 .info_container p {
     text-transform: uppercase;
     font-weight: bold;
+}
+
+@media screen and (min-width: 1200px) {
+    .info_container p {
+        font-size: 1vw;
+    }
 }
 
 @media screen and (min-width: 1200px) {

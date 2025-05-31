@@ -4,6 +4,14 @@
     border-left: 0.1vw solid black;
 }
 
+.right_side_calendar {
+    background-color: white;
+}
+
+.right_side iframe {
+    background-color: white;
+}
+
 @media screen and (max-width: 1200px) {
     .right_side {
         border-top: 0.1vw solid black;

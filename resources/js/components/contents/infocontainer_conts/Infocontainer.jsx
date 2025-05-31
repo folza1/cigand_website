@@ -5,7 +5,7 @@ export default function Infocontainer() {
         <div className="info_main_container">
             <div className="info_title_container">
                 <p className="align-center bold uppercase info_title">
-                    A helységről
+                    Cigándról
                 </p>
 
                 <div className="info_container">
