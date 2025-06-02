@@ -43,3 +43,7 @@ p {
 hr {
     width: 85%;
 }
+
+.display-block {
+    display: block;
+}

@@ -1,0 +1,25 @@
+.vadaszat_img {
+    display: flex;
+    justify-content: center;
+}
+
+.vadaszat_container_img {
+    width: 100%;
+    height: auto;
+    margin-top: 2vw;
+}
+
+.vadaszat_elnok_img {
+    display: flex;
+    justify-content: center;
+}
+
+.vadaszat_elnok_img img {
+    width: 20%;
+    height: auto;
+}
+
+.vadaszat_container a {
+    margin-top: 5vw;
+    color: black;
+}
