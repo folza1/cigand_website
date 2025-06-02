@@ -39,6 +39,7 @@ import RNO from "./contents/rno_conts/RNO";
 import Ovodamuzeum from "./contents/ovodamuzeum_conts/Ovodamuzeum";
 import Telefonszamok from "./contents/telefonszamok_conts/Telefonszamok";
 import Vadaszat from "./contents/vadaszat_conts/Vadaszat";
+import Turazas from "./contents/turazas_conts/Turazas";
 
 export default function App() {
     return (
@@ -133,6 +134,7 @@ export default function App() {
 
                     {/* Szabadidő */}
                     <Route path="/vadaszat" element={<Vadaszat />} />
+                    <Route path="/turazas" element={<Turazas />} />
 
                     <Route
                         path="/szechenyi2020"

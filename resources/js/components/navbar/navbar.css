@@ -55,11 +55,11 @@
 .megamenu-link-sub-block {
     padding: 2.5vw;
     opacity: 1;
-    border-right: 0.1vw solid black;
+    border-right: 0.2vw solid white;
 }
 
 .megamenu-link-sub-block:first-child {
-    border-left: 0.1vw solid black;
+    border-left: 0.2vw solid white;
 }
 
 .megamenu-link-sub-block h1 {
@@ -227,7 +227,6 @@
     /* Alapértelmezett szín (fekete) */
 }
 
-
 .mobile-menu-items {
     display: flex;
     flex-direction: column;
@@ -331,7 +330,6 @@
 .mobile-submenu-items div {
     border-bottom: 1px solid black;
 }
-
 
 /* Bezáró X gomb a mobil menüben */
 .back-btn {

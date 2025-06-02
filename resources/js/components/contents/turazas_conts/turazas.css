@@ -1,0 +1,19 @@
+.turazas_img,
+.turazas_img2 {
+    display: flex;
+    justify-content: center;
+}
+
+.turazas_container_img {
+    width: 100%;
+    height: auto;
+}
+
+.turazas_container_img2 {
+    width: 40%;
+    height: auto;
+}
+
+.turazas_container p {
+    text-align: center;
+}
