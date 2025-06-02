@@ -1,5 +1,8 @@
 .telefonszamok_polgarmesteri_hivatal,
-.telefonszamok_hatosagi_igazgatasi {
+.telefonszamok_hatosagi_igazgatasi,
+.telefonszamok_varosfejlesztesi,
+.telefonszamok_penzugyi,
+.telefonszamok_intezmenyek {
     border: 0.1vw solid black;
     margin: 1vw;
     background-color: #e5f3fd;
