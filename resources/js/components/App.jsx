@@ -40,6 +40,7 @@ import Ovodamuzeum from "./contents/ovodamuzeum_conts/Ovodamuzeum";
 import Telefonszamok from "./contents/telefonszamok_conts/Telefonszamok";
 import Vadaszat from "./contents/vadaszat_conts/Vadaszat";
 import Turazas from "./contents/turazas_conts/Turazas";
+import AltalanosIskola from "./contents/altalanos_iskola_conts/AltalanosIskola";
 
 export default function App() {
     return (
@@ -122,6 +123,10 @@ export default function App() {
 
                     {/* Oktatás */}
                     <Route path="/iskolakonyha" element={<Iskolakonyha />} />
+                    <Route
+                        path="/altalanos_iskola"
+                        element={<AltalanosIskola />}
+                    />
 
                     {/* Egyéb */}
                     <Route

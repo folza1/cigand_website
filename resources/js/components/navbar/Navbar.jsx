@@ -385,9 +385,9 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/altalanos_iskola"
                                     >
-                                        Cigánd Iskola
+                                        Kántor Mihály Általános Iskola Cigánd
                                     </Link>
                                     <Link
                                         onClick={() => {
@@ -1408,9 +1408,9 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/altalanos_iskola"
                             >
-                                Cigánd Iskola
+                                Kántor Mihály Általános Iskola Cigánd
                             </Link>
                         </div>
                         <div>

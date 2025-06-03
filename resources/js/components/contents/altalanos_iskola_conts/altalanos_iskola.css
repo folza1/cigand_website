@@ -1,0 +1,27 @@
+.altalanos_iskola_img {
+    display: flex;
+    justify-content: center;
+}
+
+.altalanos_iskola_img img {
+    width: 100%;
+    height: auto;
+}
+
+.altalanos_iskola_igazgato_img,
+.altalanos_iskola_titkar_img {
+    display: flex;
+    justify-content: center;
+}
+
+.altalanos_iskola_igazgato_img img {
+    width: 20%;
+    height: auto;
+    margin-top: 5vw;
+}
+
+.altalanos_iskola_titkar_img img {
+    width: 10%;
+    height: auto;
+    margin-top: 5vw;
+}
