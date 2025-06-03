@@ -25,3 +25,7 @@
     height: auto;
     margin-top: 5vw;
 }
+
+.margin_top_altalanos_iskola {
+    margin-top: 5vw !important;
+}
