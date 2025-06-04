@@ -405,7 +405,7 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/zemplenagard_oktatas"
                                     >
                                         Oktatás Zemplénagárd
                                     </Link>
@@ -1434,7 +1434,7 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/zemplenagard_oktatas"
                             >
                                 Oktatás Zemplénagárd
                             </Link>

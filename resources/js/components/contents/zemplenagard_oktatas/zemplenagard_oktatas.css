@@ -1,0 +1,13 @@
+.zemplenagard_oktatas_img {
+    display: flex;
+    justify-content: center;
+}
+
+.zemplenagard_oktatas_img img {
+    width: 100%;
+    height: auto;
+}
+
+.margin_top_zemplenagard_oktatas {
+    margin-top: 5vw !important;
+}

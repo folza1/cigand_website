@@ -42,6 +42,7 @@ import Vadaszat from "./contents/vadaszat_conts/Vadaszat";
 import Turazas from "./contents/turazas_conts/Turazas";
 import AltalanosIskola from "./contents/altalanos_iskola_conts/AltalanosIskola";
 import Ovoda from "./contents/ovoda_conts/Ovoda";
+import ZemplenagardOktatas from "./contents/zemplenagard_oktatas/ZemplenagardOktatas";
 
 export default function App() {
     return (
@@ -123,6 +124,11 @@ export default function App() {
                     />
 
                     {/* Oktatás */}
+                    <Route
+                        path="/zemplenagard_oktatas"
+                        element={<ZemplenagardOktatas />}
+                    />
+
                     <Route path="/ovoda" element={<Ovoda />} />
 
                     <Route path="/iskolakonyha" element={<Iskolakonyha />} />
