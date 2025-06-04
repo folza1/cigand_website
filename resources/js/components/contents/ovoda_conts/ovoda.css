@@ -1,0 +1,13 @@
+.ovoda_img {
+    display: flex;
+    justify-content: center;
+}
+
+.ovoda_img img {
+    width: 100%;
+    height: auto;
+}
+
+.ovoda_csoportok {
+    margin-top: 5vw;
+}

@@ -375,9 +375,9 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/ovoda"
                                     >
-                                        Cigánd Óvoda
+                                        Cigánd Óvoda és Bölcsőde
                                     </Link>
                                     <Link
                                         onClick={() => {
@@ -1395,9 +1395,9 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/ovoda"
                             >
-                                Cigánd Óvoda
+                                Cigánd Óvoda és Bölcsőde
                             </Link>
                         </div>
                         <div>
