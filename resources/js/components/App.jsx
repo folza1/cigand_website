@@ -42,8 +42,9 @@ import Vadaszat from "./contents/vadaszat_conts/Vadaszat";
 import Turazas from "./contents/turazas_conts/Turazas";
 import AltalanosIskola from "./contents/altalanos_iskola_conts/AltalanosIskola";
 import Ovoda from "./contents/ovoda_conts/Ovoda";
-import ZemplenagardOktatas from "./contents/zemplenagard_oktatas/ZemplenagardOktatas";
-import RevleanyvarOktatas from "./contents/revleanyvar_oktatas/RevleanyvarOktatas";
+import ZemplenagardOktatas from "./contents/zemplenagard_oktatas_conts/ZemplenagardOktatas";
+import RevleanyvarOktatas from "./contents/revleanyvar_oktatas_conts/RevleanyvarOktatas";
+import Horgaszat from "./contents/horgaszat_conts/Horgaszat";
 
 export default function App() {
     return (
@@ -155,6 +156,7 @@ export default function App() {
                     {/* Szabadidő */}
                     <Route path="/vadaszat" element={<Vadaszat />} />
                     <Route path="/turazas" element={<Turazas />} />
+                    <Route path="/horgaszat" element={<Horgaszat />} />
 
                     <Route
                         path="/szechenyi2020"

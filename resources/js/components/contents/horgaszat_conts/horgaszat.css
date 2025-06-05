@@ -1,0 +1,13 @@
+.horgaszat_img {
+    display: flex;
+    justify-content: center;
+}
+
+.horgaszat_img img {
+    width: 100%;
+    height: auto;
+    margin-top: 3vw !important;
+}
+.margin_top_horgaszat {
+    margin-top: 5vw !important;
+}
