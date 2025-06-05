@@ -1,0 +1,13 @@
+.revleanyvar_oktatas_img {
+    display: flex;
+    justify-content: center;
+}
+
+.revleanyvar_oktatas_img img {
+    width: 100%;
+    height: auto;
+}
+
+.margin_top_revleanyvar_oktatas {
+    margin-top: 5vw !important;
+}

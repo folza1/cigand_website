@@ -1,18 +1,18 @@
 import ContentContainer from "../modules/ContentContainer";
 import HeaderModule from "../modules/HeaderModule";
-import "./zemplenagard_oktatas.css";
+import "./revleanyvar_oktatas.css";
 
-export default function ZemplenagardOktatas() {
+export default function RevleanyvarOktatas() {
     return (
         <>
             <HeaderModule
-                breadcrumb={["Városunk", "Oktatás", "Zemplénagárd Oktatás"]}
+                breadcrumb={["Városunk", "Oktatás", "Révleányvár Oktatás"]}
             >
-                Zemplénagárd Oktatás
+                Révleányvár Oktatás
             </HeaderModule>
             <ContentContainer>
-                <div className="zemplenagard_oktatas_container">
-                    <div className="zemplenagard_oktatas_img">
+                <div className="revleanyvar_oktatas_container">
+                    <div className="revleanyvar_oktatas_img">
                         <img
                             src="/images/middle_content_pics/zemplenagard_oktatas_pics/zemplenagard_oktatas.jpg"
                             alt='Rajzolt kép az iskoláról "school" felirattal és zászlóval'
@@ -23,22 +23,20 @@ export default function ZemplenagardOktatas() {
                         Művészetoktatási Intézmény
                     </p>
 
-                    <p className="align-center">Zemplénagárdi tagintézménye</p>
+                    <p className="align-center">Révleányvári tagintézménye</p>
 
                     <p className="align-center">
-                        3977 Zemplénagárd, Tuzséri utca 9.
+                        3976 Révleányvár, Dózsa Gy. utca 4.
                     </p>
 
-                    <p className="align-center">Tel.: 47/395-052</p>
+                    <p className="align-center">Tel.: 47/376-045, 47/576-024</p>
 
-                    <p className="bold align-center uppercase margin_top_zemplenagard_oktatas">
-                        Cigándi Tündérkert Óvoda és Bölcsőde Zemplénagárdi
+                    <p className="bold align-center uppercase margin_top_revleanyvar_oktatas">
+                        Cigándi Tündérkert Óvoda és Bölcsőde Révleányvári
                         tagóvodája
                     </p>
-                    <p className="align-center">3977 Zemplénagárd, Fő u. 23.</p>
-                    <p className="align-center">Óvodavezető: Bernáth Béláné</p>
-
-                    <p className="align-center">Tel.: 47/395-216</p>
+                    <p className="align-center">3976 Révleányvár, Fő u. 40.</p>
+                    <p className="align-center">Óvodavezető: Iski Józsefné</p>
                 </div>
             </ContentContainer>
         </>

@@ -43,6 +43,7 @@ import Turazas from "./contents/turazas_conts/Turazas";
 import AltalanosIskola from "./contents/altalanos_iskola_conts/AltalanosIskola";
 import Ovoda from "./contents/ovoda_conts/Ovoda";
 import ZemplenagardOktatas from "./contents/zemplenagard_oktatas/ZemplenagardOktatas";
+import RevleanyvarOktatas from "./contents/revleanyvar_oktatas/RevleanyvarOktatas";
 
 export default function App() {
     return (
@@ -127,6 +128,11 @@ export default function App() {
                     <Route
                         path="/zemplenagard_oktatas"
                         element={<ZemplenagardOktatas />}
+                    />
+
+                    <Route
+                        path="/revleanyvar_oktatas"
+                        element={<RevleanyvarOktatas />}
                     />
 
                     <Route path="/ovoda" element={<Ovoda />} />
