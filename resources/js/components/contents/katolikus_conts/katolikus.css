@@ -1,0 +1,12 @@
+.katolikus_img {
+    display: flex;
+    justify-content: center;
+}
+
+.katolikus_img img {
+    width: 100%;
+    height: auto;
+}
+.margin_bottom_katolikus {
+    margin-bottom: 5vw;
+}

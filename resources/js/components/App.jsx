@@ -46,6 +46,7 @@ import ZemplenagardOktatas from "./contents/zemplenagard_oktatas_conts/Zemplenag
 import RevleanyvarOktatas from "./contents/revleanyvar_oktatas_conts/RevleanyvarOktatas";
 import Horgaszat from "./contents/horgaszat_conts/Horgaszat";
 import Reformatus from "./contents/reformatus_conts/Reformatus";
+import Katolikus from "./contents/katolikus_conts/Katolikus";
 
 export default function App() {
     return (
@@ -159,6 +160,7 @@ export default function App() {
                     <Route path="/turazas" element={<Turazas />} />
                     <Route path="/horgaszat" element={<Horgaszat />} />
                     <Route path="/reformatus" element={<Reformatus />} />
+                    <Route path="/katolikus" element={<Katolikus />} />
 
                     <Route
                         path="/szechenyi2020"

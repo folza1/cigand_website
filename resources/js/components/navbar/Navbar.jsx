@@ -883,9 +883,9 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/katolikus"
                                     >
-                                        Katolikus Egyház
+                                        Katolikus Egyházközség
                                     </Link>
                                     <Link
                                         onClick={() => {
@@ -2022,9 +2022,9 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/katolikus"
                             >
-                                Katolikus Egyház
+                                Katolikus Egyházközség
                             </Link>
                         </div>
                         <div>
