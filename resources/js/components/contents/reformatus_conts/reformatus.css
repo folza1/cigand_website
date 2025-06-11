@@ -1,0 +1,9 @@
+.reformatus_img {
+    display: flex;
+    justify-content: center;
+}
+
+.reformatus_img img {
+    width: 100%;
+    height: auto;
+}

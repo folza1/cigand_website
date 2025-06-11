@@ -873,9 +873,9 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/reformatus"
                                     >
-                                        Református Egyház
+                                        Református Egyházközség
                                     </Link>
                                     <Link
                                         onClick={() => {
@@ -2009,9 +2009,9 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/reformatus"
                             >
-                                Református Egyház
+                                Református Egyházközség
                             </Link>
                         </div>
                         <div>
