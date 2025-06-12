@@ -1,16 +1,16 @@
-.left_side{
+.left_side {
     width: 33.3%;
     background-color: lightblue;
     border-right: 0.1vw solid black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .left_side {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
 
-.left_side_pic_container{
+.left_side_pic_container {
     width: 100%;
     min-height: 0;
     height: auto;
@@ -21,11 +21,11 @@
     border-bottom: 0.1vw solid black;
 }
 
-.left_side_pic_container img{
+.left_side_pic_container img {
     width: 100%;
     height: auto;
 }
 
-.padding_pic{
+.padding_pic {
     padding: 2vw;
 }
