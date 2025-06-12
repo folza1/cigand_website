@@ -6,7 +6,7 @@ export default function Tajhaz() {
     return (
         <>
             <HeaderModule breadcrumb={["Kultúra", "Kultúra", "Tájház"]}>
-                Tájház Teszt
+                Tájház
             </HeaderModule>
             <ContentContainer>
                 <div className="tajhaz_container">
