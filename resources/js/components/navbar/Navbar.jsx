@@ -786,7 +786,7 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/tajhaz"
                                     >
                                         Tájház
                                     </Link>
@@ -1865,7 +1865,7 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/tajhaz"
                             >
                                 Tájház
                             </Link>

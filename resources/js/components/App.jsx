@@ -47,6 +47,7 @@ import RevleanyvarOktatas from "./contents/revleanyvar_oktatas_conts/Revleanyvar
 import Horgaszat from "./contents/horgaszat_conts/Horgaszat";
 import Reformatus from "./contents/reformatus_conts/Reformatus";
 import Katolikus from "./contents/katolikus_conts/Katolikus";
+import Tajhaz from "./contents/tajhaz_conts/Tajhaz";
 
 export default function App() {
     return (
@@ -89,6 +90,7 @@ export default function App() {
                     <Route path="/muvelodesi_haz" element={<MuvelodesiHaz />} />
                     <Route path="/konyvtar" element={<Konyvtar />} />
                     <Route path="/ovodamuzeum" element={<Ovodamuzeum />} />
+                    <Route path="/tajhaz" element={<Tajhaz />} />
 
                     <Route path="/polgarmester" element={<Polgarmester />} />
                     <Route path="/jegyzo" element={<Jegyzo />} />

@@ -1,0 +1,18 @@
+.tajhaz_img {
+    display: flex;
+    justify-content: center;
+}
+
+.tajhaz_img img {
+    width: 100%;
+    height: auto;
+}
+
+.paragraph_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin_top_tajhaz {
+    margin-top: 5vw !important;
+}
