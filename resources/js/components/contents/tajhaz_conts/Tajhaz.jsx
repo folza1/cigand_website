@@ -215,7 +215,7 @@ export default function Tajhaz() {
                             alt="A Bíró Háza bejárat távolabbról, faléc kerítéssel."
                         />
                     </div>
-                    <div className="tajhaz_img">
+                    <div className="tajhaz_img margin_top_tajhaz">
                         <img
                             src="/images/middle_content_pics/tajhaz_pics/tajhaz7.jpg"
                             alt="A Bíró Háza zuhanyzó, mosdó és WC."
