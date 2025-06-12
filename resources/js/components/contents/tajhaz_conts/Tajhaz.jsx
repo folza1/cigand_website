@@ -42,7 +42,7 @@ export default function Tajhaz() {
                     </p>
 
                     <p className="bold no_margin_bottom">Árak:</p>
-                    <p className="paragraph_between">
+                    <p className="paragraph_between no_margin_top">
                         <span>Nyári szezon (április 01 – szeptember 30.):</span>
                         <span className="bold">6.000 Ft/éj/fő</span>
                     </p>
@@ -79,30 +79,136 @@ export default function Tajhaz() {
                     <p className="bold align-center">
                         Az árak tartalmazzák az ÁFÁ-t!
                     </p>
+
+                    <p className="bold margin_top_tajhaz">Elérhetőség:</p>
+                    <p>cigand@cigand.hu</p>
+                    <p>muvhazcigand@gmail.com</p>
+
+                    <p>
+                        vezetékes telefon csak hétköznapokon:
+                        <span className="bold"> +36/47-534-418</span>
+                    </p>
+                    <p>
+                        mobil: Némethy András
+                        <span className="bold"> +36/70 595 7822</span>
+                    </p>
                     <div className="tajhaz_img">
                         <img
                             src="/images/middle_content_pics/tajhaz_pics/tajhaz2.jpg"
                             alt="A Bíró Háza bejárat oldalról."
                         />
                     </div>
+                    <p className="bold">Látnivalók a környéken:</p>
+                    <ul className="tajhaz_ul">
+                        <li>
+                            Bodrogközi Múzeumporta, Sőregi-Ház, MúltKor Háza,
+                            Tanítóház - tárlatvezetés, kemencében sült „bélesek”
+                            kóstolója. További információ:
+                            http://www.muzeumporta.hu
+                        </li>
+                        <li>
+                            Pácin: Reneszánsz Mágóchy Várkastély és Báró-kert
+                            (15km)
+                        </li>
+                        <li>Karcsa: Árpád-kori templom (20 km)</li>
+                        <li>Nagykövesd (Szlovákia): Várrom (20 km)</li>
+                        <li>
+                            Karos: Nemzeti sírkert (24 km) Magyarország
+                            leggazdagabb Honfoglalás-kori temetője
+                        </li>
+                        <li>
+                            Borsi (Szlovákia): Rákóczi Szülőháza, kastély (26
+                            km)
+                        </li>
+                        <li>Sárospatak: Rákóczi Vár, tengerszem (30 km)</li>
+                        <li>
+                            Hercegkút: Világörökség részét képező pincesor (35
+                            km)
+                        </li>
+                        <li>
+                            Sátoraljaújhely: Közép-Európa leghosszabb bob
+                            pályája (35 km)
+                        </li>
+                        <li>
+                            Sátoraljaújhely-Széphalom: A Magyar Nyelv Múzeuma
+                            (42 km)
+                        </li>
+                    </ul>
                     <div className="tajhaz_img">
                         <img
                             src="/images/middle_content_pics/tajhaz_pics/tajhaz3.jpg"
                             alt="A Bíró Háza távolabbról."
                         />
                     </div>
+                    <p className="bold">Strandok:</p>
+                    <ul className="tajhaz_ul">
+                        <li>
+                            <span className="bold">Cigánd Tisza-part:</span>{" "}
+                            szabad strand (homoklapály), nem kijelölt fürdőhely
+                            (2 km)
+                        </li>
+                        <li>
+                            <span className="bold">Kisvárda:</span> Termál
+                            élmény és gyógyfürdő (15km)
+                        </li>
+                        <li>
+                            <span className="bold">Sárospatak:</span> Termál
+                            gyógyfürdő (30 km)
+                        </li>
+                    </ul>
                     <div className="tajhaz_img">
                         <img
                             src="/images/middle_content_pics/tajhaz_pics/tajhaz4.jpg"
                             alt="Szoba belülről, két ablak ágyakkal."
                         />
                     </div>
+                    <p className="bold">Horgászat:</p>
+                    <p>
+                        A horgászni vágyókat számos izgalmas hely várja a
+                        környéken:
+                    </p>
+                    <p>
+                        Tisza (1 km), Pácini Karcsa (13 km), Tisza holtágak (6
+                        km), Ricse horgásztó (10 km), Alsóberecki, Bodrog és
+                        Holt-Bodrog (27 km), Vajdácska horgásztó (22 km)
+                    </p>
+                    <p className="bold">Horgászjegyekről tájékoztatás:</p>
+                    <p>
+                        Cigándi Tiszavirág Horgász Egyesület 3973 Cigánd, Hajnal
+                        u. 39.
+                    </p>
+                    <p className="bold align-center">Boros Géza elnök</p>
+                    <p className="align-center">+36 47/534-034</p>
                     <div className="tajhaz_img">
                         <img
                             src="/images/middle_content_pics/tajhaz_pics/tajhaz5.jpg"
                             alt="A Bíró Háza konyha felszerelve."
                         />
                     </div>
+                    <p className="bold">Aktív pihenés:</p>
+                    <ul className="tajhaz_ul">
+                        <li>
+                            <span className="bold">Cigándon:</span> Műfüves
+                            pálya, kerékpáros "pumpapálya", játszótér,
+                            Szabadidőközpont 20*40 méteres játéktér,
+                            konditeremmel, Járási Tanuszoda.
+                        </li>
+                        <li>
+                            <span className="bold">Kerékpár:</span> 26 km
+                            összefüggő kerékpárút Cigándról indulva a cigándi
+                            Árapasztó vésztározó töltésén és a Tisza töltésén,
+                            kerékpár-kölcsönzési lehetőséget biztosítunk a
+                            Bodrogközi Múzeumportán.
+                        </li>
+                        <li>
+                            <span className="bold">
+                                Magashegyi Sportcentrum Sátoraljaújhely (35 km):
+                            </span>{" "}
+                            Közép-Európa leghosszabb bob pályája, Magyarország
+                            leghosszabb libegője, téli-nyári sípálya,
+                            kalandpark, turistaútvonalak.
+                        </li>
+                    </ul>
                     <div className="tajhaz_img">
                         <img
                             src="/images/middle_content_pics/tajhaz_pics/tajhaz6.jpg"
