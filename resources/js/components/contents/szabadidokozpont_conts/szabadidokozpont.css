@@ -1,0 +1,14 @@
+.szabadidokozpont_img {
+    display: flex;
+    justify-content: center;
+}
+
+.szabadidokozpont_img img {
+    width: 100%;
+    height: auto;
+}
+
+.ul_szabadidokozpont {
+    list-style-type: circle;
+    margin-left: 3vw;
+}

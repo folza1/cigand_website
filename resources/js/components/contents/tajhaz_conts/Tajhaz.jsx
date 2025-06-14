@@ -5,7 +5,9 @@ import "./tajhaz.css";
 export default function Tajhaz() {
     return (
         <>
-            <HeaderModule breadcrumb={["Kultúra", "Kultúra", "Tájház"]}>
+            <HeaderModule
+                breadcrumb={["Kultúra", "Kultúra", "Tájház (Bíró Háza)"]}
+            >
                 Tájház (Bíró Háza)
             </HeaderModule>
             <ContentContainer>
