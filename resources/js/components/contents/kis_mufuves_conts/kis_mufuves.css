@@ -1,0 +1,14 @@
+.kismufuves_img {
+    display: flex;
+    justify-content: center;
+}
+
+.kismufuves_img img {
+    width: 100%;
+    height: auto;
+}
+
+.ul_kismufuves {
+    margin-left: 3vw;
+    list-style-type: decimal;
+}

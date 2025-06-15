@@ -829,7 +829,7 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/kismufuves"
                                     >
                                         Kis Műfüves-pálya
                                     </Link>
@@ -1937,7 +1937,7 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/kismufuves"
                             >
                                 Kis Műfüves-pálya
                             </Link>
