@@ -8,6 +8,10 @@
     height: auto;
 }
 
+.margin-top-kismufuves {
+    margin-top: 5vw !important;
+}
+
 .ul_kismufuves {
     margin-left: 3vw;
     list-style-type: decimal;

@@ -26,7 +26,9 @@ export default function Kismufuves() {
                         />
                     </div>
 
-                    <p className="bold align-center">Használati szabályok</p>
+                    <p className="bold align-center margin-top-kismufuves">
+                        Használati szabályok
+                    </p>
                     <ul className="ul_kismufuves">
                         <li>Tilos a stoplis cipő használata!</li>
                         <li>
