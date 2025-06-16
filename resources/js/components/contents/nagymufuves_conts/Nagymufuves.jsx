@@ -22,11 +22,15 @@ export default function Nagymufuves() {
                     <p className="align-center">
                         Fél pálya bérleti díja: 8.000 Ft/óra
                     </p>
-                    <p className="bold margin-top-nagymufuves">Információ:</p>
-                    <p>Nagy Gábor</p>
-                    <p>Szabadidő Központ Igazgató</p>
-                    <p>Cigánd SE, Utánpótlás Szakmai Vezető</p>
-                    <p>47/534-417</p>
+                    <p className="bold align-center margin-top-nagymufuves">
+                        Információ:
+                    </p>
+                    <p className="align-center">Nagy Gábor</p>
+                    <p className="align-center">Szabadidő Központ Igazgató</p>
+                    <p className="align-center">
+                        Cigánd SE, Utánpótlás Szakmai Vezető
+                    </p>
+                    <p className="align-center">47/534-417</p>
                     <div className="nagymufuves_img">
                         <img
                             src="/images/middle_content_pics/nagymufuves_pics/nagymufuves1.jpg"
