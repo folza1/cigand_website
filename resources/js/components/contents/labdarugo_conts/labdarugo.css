@@ -1,0 +1,13 @@
+.labdarugo_img {
+    display: flex;
+    justify-content: center;
+}
+
+.labdarugo_img img {
+    width: 100%;
+    height: auto;
+}
+
+.margin-top-labdarugo {
+    margin-top: 5vw !important;
+}

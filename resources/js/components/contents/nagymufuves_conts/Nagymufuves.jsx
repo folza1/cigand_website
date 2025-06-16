@@ -67,25 +67,25 @@ export default function Nagymufuves() {
                     <div className="nagymufuves_img">
                         <img
                             src="/images/middle_content_pics/nagymufuves_pics/nagymufuves2.jpg"
-                            alt="Nagy műfüves-pálya."
+                            alt="Nagy műfüves-pálya játékosokkal edzés közben."
                         />
                     </div>
                     <div className="nagymufuves_img margin-top-nagymufuves">
                         <img
                             src="/images/middle_content_pics/nagymufuves_pics/nagymufuves3.jpg"
-                            alt="Nagy műfüves-pálya."
+                            alt="Pálya nézete a szögletről edzés közben."
                         />
                     </div>
                     <div className="nagymufuves_img margin-top-nagymufuves">
                         <img
                             src="/images/middle_content_pics/nagymufuves_pics/nagymufuves4.jpg"
-                            alt="Nagy műfüves-pálya."
+                            alt="Nagykapu távolról."
                         />
                     </div>
                     <div className="nagymufuves_img margin-top-nagymufuves">
                         <img
                             src="/images/middle_content_pics/nagymufuves_pics/nagymufuves5.jpg"
-                            alt="Nagy műfüves-pálya."
+                            alt="Nagy műfüves-pálya hosszanti kép, távolban kapu."
                         />
                     </div>
                 </div>
