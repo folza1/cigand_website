@@ -50,6 +50,7 @@ import Katolikus from "./contents/katolikus_conts/Katolikus";
 import Tajhaz from "./contents/tajhaz_conts/Tajhaz";
 import Szabadidokozpont from "./contents/szabadidokozpont_conts/Szabadidokozpont";
 import Kismufuves from "./contents/kis_mufuves_conts/Kismufuves";
+import Nagymufuves from "./contents/nagymufuves_conts/Nagymufuves";
 
 export default function App() {
     return (
@@ -99,6 +100,7 @@ export default function App() {
                         element={<Szabadidokozpont />}
                     />
                     <Route path="/kismufuves" element={<Kismufuves />} />
+                    <Route path="/nagymufuves" element={<Nagymufuves />} />
 
                     <Route path="/polgarmester" element={<Polgarmester />} />
                     <Route path="/jegyzo" element={<Jegyzo />} />

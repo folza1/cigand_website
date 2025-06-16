@@ -1,0 +1,18 @@
+.nagymufuves_img {
+    display: flex;
+    justify-content: center;
+}
+
+.nagymufuves_img img {
+    width: 100%;
+    height: auto;
+}
+
+.margin-top-nagymufuves {
+    margin-top: 5vw !important;
+}
+
+.ul_nagymufuves {
+    margin-left: 3vw;
+    list-style-type: decimal;
+}
