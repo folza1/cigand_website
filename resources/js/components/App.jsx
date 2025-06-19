@@ -53,6 +53,7 @@ import Kismufuves from "./contents/kis_mufuves_conts/Kismufuves";
 import Nagymufuves from "./contents/nagymufuves_conts/Nagymufuves";
 import Labdarugo from "./contents/labdarugo_conts/Labdarugo";
 import Gazdahirek from "./contents/gazdahirek_conts/Gazdahirek";
+import KozszolgalatiIntezmenyek from "./contents/kozszolgalati_intezmenyek_conts/KozszolgalatiIntezmenyek";
 
 export default function App() {
     return (
@@ -80,6 +81,10 @@ export default function App() {
                     <Route path="/heraldika" element={<Heraldika />} />
                     <Route path="/allas" element={<Allas />} />
                     <Route path="/gazdahirek" element={<Gazdahirek />} />
+                    <Route
+                        path="/kozszolgalati_intezmenyek"
+                        element={<KozszolgalatiIntezmenyek />}
+                    />
 
                     <Route path="/haziorvosok" element={<Haziorvosok />} />
                     <Route path="/fogorvos" element={<Fogorvos />} />

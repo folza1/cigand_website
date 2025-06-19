@@ -1,0 +1,12 @@
+.kozszolgalati_intezmenyek_img {
+    display: flex;
+    justify-content: center;
+}
+
+.kozszolgalati_intezmenyek_img_img {
+    width: 100%;
+    height: auto;
+}
+.kozszolgalati_intezmenyek_container p {
+    text-align: center;
+}
