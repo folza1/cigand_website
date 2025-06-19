@@ -1,0 +1,17 @@
+.gazdahirek_img {
+    display: flex;
+    justify-content: center;
+}
+
+.gazdahirek_container_img {
+    width: 100%;
+    height: auto;
+    border: 0.1vw solid black;
+    margin: 2vw;
+}
+
+@media screen and (max-width: 800px) {
+    .gazdahirek_container_img {
+        margin: 0;
+    }
+}

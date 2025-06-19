@@ -52,6 +52,7 @@ import Szabadidokozpont from "./contents/szabadidokozpont_conts/Szabadidokozpont
 import Kismufuves from "./contents/kis_mufuves_conts/Kismufuves";
 import Nagymufuves from "./contents/nagymufuves_conts/Nagymufuves";
 import Labdarugo from "./contents/labdarugo_conts/Labdarugo";
+import Gazdahirek from "./contents/gazdahirek_conts/Gazdahirek";
 
 export default function App() {
     return (
@@ -78,6 +79,7 @@ export default function App() {
                     <Route path="/tortenete" element={<Tortenete />} />
                     <Route path="/heraldika" element={<Heraldika />} />
                     <Route path="/allas" element={<Allas />} />
+                    <Route path="/gazdahirek" element={<Gazdahirek />} />
 
                     <Route path="/haziorvosok" element={<Haziorvosok />} />
                     <Route path="/fogorvos" element={<Fogorvos />} />
@@ -175,6 +177,7 @@ export default function App() {
                     <Route path="/horgaszat" element={<Horgaszat />} />
                     <Route path="/reformatus" element={<Reformatus />} />
                     <Route path="/katolikus" element={<Katolikus />} />
+                    <Route path="/szallaslehetosegek" element={<Tajhaz />} />
 
                     <Route
                         path="/szechenyi2020"
