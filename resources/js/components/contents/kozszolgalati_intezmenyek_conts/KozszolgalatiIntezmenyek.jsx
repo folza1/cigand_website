@@ -1,5 +1,4 @@
 import ContentContainer from "../modules/ContentContainer";
-import DownloadFile from "../modules/DownloadFile";
 import HeaderModule from "../modules/HeaderModule";
 import "./kozszolgalati_intezmenyek.css";
 
