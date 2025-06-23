@@ -113,6 +113,20 @@ export default function KozszolgalatiIntezmenyek() {
                     <p>Tel./Fax.: 47/534-413</p>
                     <p>e-mail.: kht@c2.hu</p>
                     <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_koztemeto"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/koztemeto.png"
+                            alt="Sírhely illusztráció, fekete-fehér kereszttel"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Cigándi Köztemető
+                    </p>
+                    <p>3973 Cigánd, Petőfi S. utca</p>
+                    <p>Temető gondnok: Fodor István</p>
+                    <p>Lakcím: 3973 Cigánd, Rózsa u. 8.</p>
+                    <p>Telefon: 20/386-6081</p>
                 </div>
             </ContentContainer>
         </>

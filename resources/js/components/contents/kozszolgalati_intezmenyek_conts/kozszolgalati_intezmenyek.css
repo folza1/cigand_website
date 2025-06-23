@@ -51,7 +51,8 @@
 
 .kozszolgalati_intezmenyek_img_rendorors,
 .kozszolgalati_intezmenyek_img_tuzoltosag,
-.kozszolgalati_intezmenyek_img_mentoszolgalat {
+.kozszolgalati_intezmenyek_img_mentoszolgalat,
+.kozszolgalati_intezmenyek_img_koztemeto {
     width: 30%;
     height: auto;
 }
