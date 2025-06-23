@@ -10,3 +10,47 @@
 .kozszolgalati_intezmenyek_container p {
     text-align: center;
 }
+
+.margin_top_kozszolgalati_intezmenyek {
+    margin-top: 5vw !important;
+}
+
+.heading_kozszolgalati_intezmenyek {
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 1600px) {
+    .heading_kozszolgalati_intezmenyek {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .heading_kozszolgalati_intezmenyek {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .heading_kozszolgalati_intezmenyek {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .heading_kozszolgalati_intezmenyek {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heading_kozszolgalati_intezmenyek {
+        font-size: 7vw;
+    }
+}
+
+.kozszolgalati_intezmenyek_img_rendorors,
+.kozszolgalati_intezmenyek_img_tuzoltosag {
+    width: 30%;
+    height: auto;
+}

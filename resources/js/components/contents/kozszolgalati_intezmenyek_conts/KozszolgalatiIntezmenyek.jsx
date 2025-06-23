@@ -20,10 +20,9 @@ export default function KozszolgalatiIntezmenyek() {
                         <img
                             className="kozszolgalati_intezmenyek_img_img"
                             src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/kormanyhivatal.png"
-                            alt=""
+                            alt="Kormányhivatal Borsod-Abaúj-Zemplén Megyei Hivatala szöveg, Magyarország címerével."
                         />
                     </div>
-
                     <p>Cím: 3525 Miskolc, Városház tér 1.</p>
                     <p>
                         <a href="https://kormanyhivatalok.hu/" target="_blank">
@@ -38,7 +37,41 @@ export default function KozszolgalatiIntezmenyek() {
                     <p className="bold">
                         Ügyfélfogadási idő: H-Cs: 8.00-16.30, P: 8.00-14.00
                     </p>
-
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_rendorors"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/rendorors.png"
+                            alt="Rendőrség címer"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Cigánd Rendőrőrs
+                    </p>
+                    <p>3973 Cigánd, Fő utca 89.</p>
+                    <p>47/334-093</p>
+                    <p>20/564-5918</p>
+                    <p>Segélykérő telefon: 107, 112</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_tuzoltosag"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/tuzoltosag.jpg"
+                            alt="Katasztrófavédelem címer"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Tűzoltóság
+                    </p>
+                    <p className="bold margin_top_kozszolgalati_intezmenyek">
+                        3980 Sátoraljaújhely, Pataki út 2.
+                    </p>
+                    <p>Segélykérő telefon: 105, 112 47/523-140</p>
+                    <p className="bold margin_top_kozszolgalati_intezmenyek">
+                        Cigándi Katasztrófavédelmi Őrs
+                    </p>
+                    <p>3973 Cigánd, Fő utca 87.</p>
+                    <p>Segélykérő telefon: 105, 112</p>
                     <hr />
                 </div>
             </ContentContainer>
