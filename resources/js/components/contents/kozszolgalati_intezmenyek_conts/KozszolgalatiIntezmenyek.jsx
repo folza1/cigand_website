@@ -85,6 +85,34 @@ export default function KozszolgalatiIntezmenyek() {
                         Országos Mentőszolgálat
                     </p>
                     <p>Segélykérő telefon: 104, 112</p>
+                    <hr />
+
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_mentoszolgalat"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/polgari_vedelmi_iroda.png"
+                            alt="Polgári Védelmi Iroda címer"
+                        />
+                    </div>
+
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Polgári Védelmi Iroda
+                    </p>
+
+                    <p>3980 Sátoraljaújhely, Kossuth tér 5.</p>
+                    <p>47-322-027</p>
+                    <p>pv@satoraljaujhely.hu</p>
+                    <hr />
+
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Cigánd Településüzemeltetési és Városfejlesztő Nonprofit
+                        Kft.
+                    </p>
+                    <p>3973 Cigánd, Iskola u. 23.</p>
+
+                    <p>Tel./Fax.: 47/534-413</p>
+                    <p>e-mail.: kht@c2.hu</p>
+                    <hr />
                 </div>
             </ContentContainer>
         </>
