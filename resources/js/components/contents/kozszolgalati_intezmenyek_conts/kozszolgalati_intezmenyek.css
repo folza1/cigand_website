@@ -53,7 +53,14 @@
 .kozszolgalati_intezmenyek_img_tuzoltosag,
 .kozszolgalati_intezmenyek_img_mentoszolgalat,
 .kozszolgalati_intezmenyek_img_koztemeto,
-.kozszolgalati_intezmenyek_img_benzinkut {
+.kozszolgalati_intezmenyek_img_benzinkut,
+.kozszolgalati_intezmenyek_img_otp_bankomat,
+.kozszolgalati_intezmenyek_img_posta,
+.kozszolgalati_intezmenyek_img_takarekbank,
+.kozszolgalati_intezmenyek_img_gyogyszertar,
+.kozszolgalati_intezmenyek_img_allatorvos,
+.kozszolgalati_intezmenyek_img_mwm,
+.kozszolgalati_intezmenyek_img_vizmu {
     width: 30%;
     height: auto;
 }

@@ -80,13 +80,11 @@ export default function KozszolgalatiIntezmenyek() {
                             alt="Országos Mentőszolgálat címer"
                         />
                     </div>
-
                     <p className="bold heading_kozszolgalati_intezmenyek">
                         Országos Mentőszolgálat
                     </p>
                     <p>Segélykérő telefon: 104, 112</p>
                     <hr />
-
                     <div className="kozszolgalati_intezmenyek_img">
                         <img
                             className="kozszolgalati_intezmenyek_img_mentoszolgalat"
@@ -94,22 +92,18 @@ export default function KozszolgalatiIntezmenyek() {
                             alt="Polgári Védelmi Iroda címer"
                         />
                     </div>
-
                     <p className="bold heading_kozszolgalati_intezmenyek">
                         Polgári Védelmi Iroda
                     </p>
-
                     <p>3980 Sátoraljaújhely, Kossuth tér 5.</p>
                     <p>47-322-027</p>
                     <p>pv@satoraljaujhely.hu</p>
                     <hr />
-
                     <p className="bold heading_kozszolgalati_intezmenyek">
                         Cigánd Településüzemeltetési és Városfejlesztő Nonprofit
                         Kft.
                     </p>
                     <p>3973 Cigánd, Iskola u. 23.</p>
-
                     <p>Tel./Fax.: 47/534-413</p>
                     <p>e-mail.: kht@c2.hu</p>
                     <hr />
@@ -140,6 +134,118 @@ export default function KozszolgalatiIntezmenyek() {
                     </p>
                     <p>3973 Cigánd, Vasút utca 52.</p>
                     <p>47/334-222</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_otp_bankomat"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/otp_bankomat.png"
+                            alt="OTP Bankomat ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        OTP Bankomat
+                    </p>
+                    <p>3973 Cigánd, Fő utca 28.</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_posta"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/posta.png"
+                            alt="Magyar Posta ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Magyar Posta Zrt.
+                    </p>
+                    <p>3973 Cigánd, Petőfi utca 93.</p>
+                    <p>47/334-040</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_takarekbank"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/takarekbank.jpg"
+                            alt="TakarékBank ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        TakarékBank Zrt.
+                    </p>
+                    <p>3973 Cigánd, Fő utca 55.</p>
+                    <p>47/334-019</p>
+                    <hr />
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Bodrogközi Többcélú Kistérségi Társulás
+                    </p>
+                    <p>3973 Cigánd, Fő utca 80.</p>
+                    <p>47/534-400</p>
+                    <p>fax:47/534-404</p>
+                    <p>bodrogkoz@t-online.hu</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_gyogyszertar"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/gyogyszertar.jpeg"
+                            alt="BENU Gyógyszertár ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Berta Gyógyszertár
+                    </p>
+                    <p>3973 Cigánd, Fő utca 43. (Járóbeteg Szakrendelő)</p>
+                    <p>47/334-066</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_allatorvos"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/allatorvos.jpg"
+                            alt="Állatorvos ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Állatorvos
+                    </p>
+                    <p>Dr. Petraskó Tamás</p>
+                    <p>70/619-89-93</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_mwm"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/mwm.jpg"
+                            alt="MVM-ÉMÁSZ Nyrt. ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        MVM-ÉMÁSZ Nyrt.
+                    </p>
+                    <p>+3640282828</p>
+                    <p>Cigándi Ügyfélszolgálati Fiókiroda</p>
+                    <p>3973 Cigánd Vasút utca 9.</p>
+                    <p>hétfő 08.00 - 12.00, szerda 14.00-18.00</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_vizmu"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/vizmu.jpeg"
+                            alt="Zempléni Vízmű Kft. ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Zempléni Vízmű Kft.
+                    </p>
+                    <p>3980 Sátoraljaújhely, Kazinczy út 24.</p>
+                    <p>47/322-455, 47/322-627</p>
+                    <p>fax: 47/322-143</p>
+                    <p>
+                        <a
+                            href="http://www.zemplenivizmukft.hu"
+                            target="_blank"
+                        >
+                            www.zemplenivizmukft.hu
+                        </a>
+                    </p>
+                    <p>Ügyfélszolgálat:</p>
+                    <p>3973 Cigánd, Vasút utca 9.</p>
+                    <p>csütörtök: 09.00-12.00</p>
                 </div>
             </ContentContainer>
         </>
