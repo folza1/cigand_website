@@ -50,7 +50,8 @@
 }
 
 .kozszolgalati_intezmenyek_img_rendorors,
-.kozszolgalati_intezmenyek_img_tuzoltosag {
+.kozszolgalati_intezmenyek_img_tuzoltosag,
+.kozszolgalati_intezmenyek_img_mentoszolgalat {
     width: 30%;
     height: auto;
 }

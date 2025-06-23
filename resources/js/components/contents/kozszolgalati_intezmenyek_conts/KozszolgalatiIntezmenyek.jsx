@@ -73,6 +73,18 @@ export default function KozszolgalatiIntezmenyek() {
                     <p>3973 Cigánd, Fő utca 87.</p>
                     <p>Segélykérő telefon: 105, 112</p>
                     <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_mentoszolgalat"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/mentoszolgalat.png"
+                            alt="Országos Mentőszolgálat címer"
+                        />
+                    </div>
+
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Országos Mentőszolgálat
+                    </p>
+                    <p>Segélykérő telefon: 104, 112</p>
                 </div>
             </ContentContainer>
         </>
