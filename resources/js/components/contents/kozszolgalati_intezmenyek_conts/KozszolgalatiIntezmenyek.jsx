@@ -127,6 +127,19 @@ export default function KozszolgalatiIntezmenyek() {
                     <p>Temető gondnok: Fodor István</p>
                     <p>Lakcím: 3973 Cigánd, Rózsa u. 8.</p>
                     <p>Telefon: 20/386-6081</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_benzinkut"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/benzinkut.jpg"
+                            alt="Benzinkút ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Benzinkút
+                    </p>
+                    <p>3973 Cigánd, Vasút utca 52.</p>
+                    <p>47/334-222</p>
                 </div>
             </ContentContainer>
         </>
