@@ -246,6 +246,86 @@ export default function KozszolgalatiIntezmenyek() {
                     <p>Ügyfélszolgálat:</p>
                     <p>3973 Cigánd, Vasút utca 9.</p>
                     <p>csütörtök: 09.00-12.00</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_tigaz"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/tigaz.png"
+                            alt="TIGÁZ Zrt. ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        TIGÁZ Zrt.
+                    </p>
+                    <p>Gázszivárgás, üzemzavar bejelentése: 80/300-300</p>
+                    <p>
+                        <a
+                            href="https://onlineugyintezes.mvmnext.hu/"
+                            target="_blank"
+                        >
+                            Földgáz ügyintézés link - Cigánd
+                        </a>
+                    </p>
+                    <p>3973 Cigánd, Petőfi út 93. (Posta)</p>
+
+                    <div className="tigaz_border">
+                        <p className="bold">Nyitvatartás:</p>
+                        <p>Hétfő: zárva</p>
+                        <p>Kedd: 14:00-18:00</p>
+                        <p>Szerda: zárva</p>
+                        <p>Csütörtök: 08:00-12:00</p>
+                        <p>Péntek: zárva</p>
+                        <p>Szombat: zárva</p>
+                        <p>Vasárnap: zárva</p>
+                    </div>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_telekom"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/telekom.png"
+                            alt="Magyar Telekom Nyrt ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Magyar Telekom Nyrt
+                    </p>
+                    <p>46/521-275</p>
+                    <p>
+                        <a href="http://www.telekom.hu" target="_blank">
+                            www.telekom.hu
+                        </a>
+                    </p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_antsz"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/antsz.jpg"
+                            alt="ÁNTSZ ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        ÁNTSZ Sátoraljaújhelyi-, Bodrogközi-, Sárospataki Városi
+                        Intézete
+                    </p>
+
+                    <p>3980 Sátoraljaújhely, Kossuth tér 5.</p>
+                    <p>47/521-036</p>
+                    <p>fax: 47/521-037</p>
+                    <p>titkarsag.saujhely@borsod.antsz.hu</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_emvizig"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/emvizig.png"
+                            alt="Észak - Magyarországi Vízügyi Igazgatóság ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Észak - Magyarországi Vízügyi Igazgatóság
+                    </p>
+                    <p>3973 Cigánd, Petőfi Sándor utca 169/a.</p>
+                    <p>47/334-069</p>
+                    <hr />
                 </div>
             </ContentContainer>
         </>

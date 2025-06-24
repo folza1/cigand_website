@@ -60,7 +60,16 @@
 .kozszolgalati_intezmenyek_img_gyogyszertar,
 .kozszolgalati_intezmenyek_img_allatorvos,
 .kozszolgalati_intezmenyek_img_mwm,
-.kozszolgalati_intezmenyek_img_vizmu {
+.kozszolgalati_intezmenyek_img_vizmu,
+.kozszolgalati_intezmenyek_img_tigaz,
+.kozszolgalati_intezmenyek_img_telekom,
+.kozszolgalati_intezmenyek_img_antsz,
+.kozszolgalati_intezmenyek_img_emvizig {
     width: 30%;
     height: auto;
+}
+
+.tigaz_border {
+    border: 1px solid black;
+    margin: 2vw;
 }
