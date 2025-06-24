@@ -64,7 +64,10 @@
 .kozszolgalati_intezmenyek_img_tigaz,
 .kozszolgalati_intezmenyek_img_telekom,
 .kozszolgalati_intezmenyek_img_antsz,
-.kozszolgalati_intezmenyek_img_emvizig {
+.kozszolgalati_intezmenyek_img_emvizig,
+.kozszolgalati_intezmenyek_img_foldhivatal,
+.kozszolgalati_intezmenyek_img_eak,
+.kozszolgalati_intezmenyek_img_szatev {
     width: 30%;
     height: auto;
 }

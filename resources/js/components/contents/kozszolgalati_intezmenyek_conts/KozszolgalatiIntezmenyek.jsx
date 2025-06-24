@@ -326,6 +326,78 @@ export default function KozszolgalatiIntezmenyek() {
                     <p>3973 Cigánd, Petőfi Sándor utca 169/a.</p>
                     <p>47/334-069</p>
                     <hr />
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        ÉVIZIG Észak - Magyarországi Vízügyi Igazgatóság
+                    </p>
+                    <p>3973 Cigánd, József Attila utca 4.</p>
+                    <p>47/334-380</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_foldhivatal"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/foldhivatal.jpg"
+                            alt="Földügy ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Borsod-Abaúj-Zemplén Vármegyei Kormányhivatal
+                        Földhivatala
+                    </p>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Sátoraljaújhelyi Járási Földhivatala
+                    </p>
+
+                    <p>3980 Sátoraljaújhely, Kazinczy F. út 41.</p>
+                    <p>47/322-944, 521-317</p>
+                    <p>fax: 47/521-319</p>
+                    <hr />
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Egészségbiztosítási Pénztár
+                    </p>
+
+                    <p>3980 Sátoraljaújhely, Kossuth Lajos út 33.</p>
+                    <p>47/325-516</p>
+                    <p>fax: 47/321-131</p>
+                    <hr />
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_szatev"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/szatev.jpg"
+                            alt="SZATEV ikon"
+                        />
+                    </div>
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        SZATEV RT. (állati tetemek elszállítása)
+                    </p>
+
+                    <p>3800 Szikszó külterület</p>
+                    <p>46/396-011</p>
+                    <hr />
+
+                    <div className="kozszolgalati_intezmenyek_img">
+                        <img
+                            className="kozszolgalati_intezmenyek_img_eak"
+                            src="/images/middle_content_pics/kozszolgalati_intezmenyek_pics/eak.jpg"
+                            alt="EAK ikon"
+                        />
+                    </div>
+
+                    <p className="bold heading_kozszolgalati_intezmenyek">
+                        Észak-Alföldi Környezetgazdálkodási Nonprofit Kft.
+                    </p>
+
+                    <p>4400 Nyíregyháza, Benczúr tér 7.</p>
+                    <p>Tel: 80/205-269; 42/508-374, 42/508-369</p>
+                    <p>Vállalkozás: 42/508-371</p>
+                    <p>Behajtás: 42/508-364</p>
+
+                    <p>Fax: 42-315-706</p>
+                    <p>ugyfelszolgalat@eakhulladek.hu</p>
+                    <p>
+                        <a href="http://www.eakhulladek.hu" target="_blank">
+                            www.eakhulladek.hu
+                        </a>
+                    </p>
                 </div>
             </ContentContainer>
         </>
