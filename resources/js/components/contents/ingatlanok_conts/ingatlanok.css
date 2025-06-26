@@ -1,0 +1,19 @@
+.ingatlanok_img_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ingatlanok_img {
+    width: 50%;
+}
+@media screen and (max-width: 1200px) {
+    .ingatlanok_img {
+        width: 100%;
+    }
+}
+.ingatlanok_img img {
+    width: 100%;
+    height: auto;
+    padding: 1vw;
+}
