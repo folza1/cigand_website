@@ -356,16 +356,17 @@ const Navbar = () => {
                                     >
                                         Eladó ingatlanok
                                     </Link>
-                                    <Link
+                                    <a
                                         onClick={() => {
                                             setOpenDropdown(null); // Bezárjuk a legördülő menüt
-                                            scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        href="https://bodrogkoz.com/"
+                                        target="_blank"
+                                        to="/"
                                     >
                                         Kistérség
-                                    </Link>
+                                    </a>
 
                                     <h1>Oktatás</h1>
 
@@ -1270,17 +1271,18 @@ const Navbar = () => {
                             </Link>
                         </div>
                         <div>
-                            <Link
+                            <a
                                 onClick={() => {
                                     setIsMobileSubMenu1Open(false); // A mobil menü bezárása
                                     setIsMobileMenuOpen(false); // A mobil menü bezárása
-                                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                href="https://bodrogkoz.com/"
+                                target="_blank"
+                                to="/"
                             >
                                 Kistérség
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
