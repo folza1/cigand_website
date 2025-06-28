@@ -691,7 +691,7 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/cigand_jarasi_hivatal"
                                     >
                                         Cigánd Járási Hivatal
                                     </Link>
@@ -1756,7 +1756,7 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/cigánd_jarasi_hivatal"
                             >
                                 Cigánd Járási Hivatal
                             </Link>

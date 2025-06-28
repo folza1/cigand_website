@@ -55,6 +55,7 @@ import Labdarugo from "./contents/labdarugo_conts/Labdarugo";
 import Gazdahirek from "./contents/gazdahirek_conts/Gazdahirek";
 import KozszolgalatiIntezmenyek from "./contents/kozszolgalati_intezmenyek_conts/KozszolgalatiIntezmenyek";
 import Ingatlanok from "./contents/ingatlanok_conts/Ingatlanok";
+import CigandJarasiHivatal from "./contents/cigand_jarasi_hivatal_conts/CigandJarasiHivatal";
 
 export default function App() {
     return (
@@ -149,6 +150,12 @@ export default function App() {
                     <Route
                         path="/hatarozatok_rendeletek"
                         element={<HatarozatokRendeletek />}
+                    />
+
+                    {/* Egyéb */}
+                    <Route
+                        path="/cigand_jarasi_hivatal"
+                        element={<CigandJarasiHivatal />}
                     />
 
                     {/* Oktatás */}
