@@ -6,3 +6,8 @@
     list-style-type: disc;
     margin-left: 3vw;
 }
+
+.cigand_jarasi_hivatal_border {
+    border: 0.1vw solid black;
+    margin: 2vw;
+}
