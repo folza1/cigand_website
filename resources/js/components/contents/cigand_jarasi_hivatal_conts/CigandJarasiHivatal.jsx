@@ -171,7 +171,7 @@ export default function CigandJarasiHivatal() {
                     </p>
 
                     <div className="cigand_jarasi_hivatal_border">
-                        <p className="bold align-center margin_top_cigand_jarasi_hivatal">
+                        <p className="bold align-center uppercase margin_top_cigand_jarasi_hivatal">
                             Foglalkoztatási Osztály
                         </p>
 
@@ -231,7 +231,7 @@ export default function CigandJarasiHivatal() {
                     </div>
 
                     <div className="cigand_jarasi_hivatal_border">
-                        <p className="bold align-center margin_top_cigand_jarasi_hivatal">
+                        <p className="bold align-center uppercase margin_top_cigand_jarasi_hivatal">
                             Hatósági és Gyámügyi Osztály
                         </p>
 
@@ -287,11 +287,40 @@ export default function CigandJarasiHivatal() {
                         <p className="align-center">+36 47 795-063</p>
                     </div>
 
-                    <div className="cigand_jarasi_hivatal_img">
-                        <img
-                            src="/images/middle_content_pics/cigand_jarasi_hivatal_pics/cigand_jarasi_hivatal.jpg"
-                            alt=""
-                        />
+                    <div className="cigand_jarasi_hivatal_border">
+                        <p className="bold align-center uppercase margin_top_cigand_jarasi_hivatal">
+                            Kormányablak Osztály
+                        </p>
+
+                        <p className="align-center">
+                            Cím: 3973 Cigánd, Fő u. 87.
+                        </p>
+
+                        <p className="bold align-center margin_top_cigand_jarasi_hivatal">
+                            Jákob Lászlóné
+                        </p>
+
+                        <p className="align-center">+36 47 795-065</p>
+
+                        <hr />
+
+                        <p className="bold align-center">
+                            Borosné dr. Szabó Rita
+                        </p>
+
+                        <p className="bold align-center">Fodor Zoltánné</p>
+
+                        <p className="align-center">+36 47 795-262</p>
+
+                        <hr />
+
+                        <p className="bold align-center">Szabó Krisztián</p>
+
+                        <p className="bold align-center">Terjék József</p>
+
+                        <p className="align-center">+36 47 795-235</p>
+
+                        <hr />
                     </div>
                 </div>
             </ContentContainer>
