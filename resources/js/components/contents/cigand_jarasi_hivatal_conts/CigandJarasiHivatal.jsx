@@ -160,10 +160,137 @@ export default function CigandJarasiHivatal() {
                         </p>
                     </div>
 
+                    <p className="bold align-center">
+                        A cigándi ügyfélszolgálat telefonszáma:
+                    </p>
+                    <p className="align-center">+36-42/795-292</p>
+
+                    <p className="bold align-center uppercase margin_top_cigand_jarasi_hivatal">
+                        A Cigándi Járási Hivatal szervezeti egységeinek
+                        elérhetőségei
+                    </p>
+
+                    <div className="cigand_jarasi_hivatal_border">
+                        <p className="bold align-center margin_top_cigand_jarasi_hivatal">
+                            Foglalkoztatási Osztály
+                        </p>
+
+                        <p className="align-center">
+                            Cím: 3973 Cigánd, Fő u. 87.
+                        </p>
+
+                        <p className="bold align-center margin_top_cigand_jarasi_hivatal">
+                            Tóth-Főző Klaudia
+                        </p>
+
+                        <p className="align-center">+36 47 795-071</p>
+
+                        <hr />
+
+                        <p className="bold align-center">Benő Tünde</p>
+
+                        <p className="bold align-center">Tamás Tímea</p>
+
+                        <p className="bold align-center">Teremi Alexa</p>
+
+                        <p className="align-center">+36 47 795-070</p>
+
+                        <hr />
+
+                        <p className="bold align-center">
+                            Molnárné Molnár Csilla
+                        </p>
+
+                        <p className="align-center">+36 47 795-066</p>
+
+                        <hr />
+
+                        <p className="bold align-center">Balla Norbert</p>
+
+                        <p className="bold align-center">Tóthné Punyi Csilla</p>
+
+                        <p className="bold align-center">Verbinyecz Róbert</p>
+
+                        <p className="bold align-center">Vaszily Zsoltné</p>
+
+                        <p className="align-center">+36 47 795-072</p>
+
+                        <hr />
+
+                        <p className="bold align-center">Nagy Alexandra</p>
+
+                        <p className="bold align-center">Nagy Erzsébet</p>
+
+                        <p className="bold align-center">
+                            Gálné Király Krisztina
+                        </p>
+
+                        <p className="bold align-center">Szántó Judit</p>
+
+                        <p className="align-center">+36 47 795 068</p>
+                    </div>
+
+                    <div className="cigand_jarasi_hivatal_border">
+                        <p className="bold align-center margin_top_cigand_jarasi_hivatal">
+                            Hatósági és Gyámügyi Osztály
+                        </p>
+
+                        <p className="align-center">
+                            Cím: 3973 Cigánd, Petőfi Sándor u. 89.
+                        </p>
+
+                        <p className="bold align-center margin_top_cigand_jarasi_hivatal">
+                            dr. Szepesy Krisztina
+                        </p>
+                        <p className="align-center">+36 47 795-069</p>
+
+                        <hr />
+
+                        <p className="bold align-center">Horváth Sándorné</p>
+
+                        <p className="align-center">+36 47 795-061</p>
+
+                        <hr />
+
+                        <p className="bold align-center">
+                            Rabóczkiné Veréb Mária
+                        </p>
+
+                        <p className="align-center">+36 47 795-062</p>
+
+                        <hr />
+
+                        <p className="bold align-center">
+                            Balázsné Toldi Erzsébet
+                        </p>
+
+                        <p className="bold align-center">Iván Anita</p>
+
+                        <p className="bold align-center">Tóthné Tótok Beáta</p>
+
+                        <p className="align-center">+36 47 795-067</p>
+
+                        <hr />
+
+                        <p className="bold align-center">
+                            Borbély-Lakatos Kitti
+                        </p>
+
+                        <p className="bold align-center">
+                            Szabó Zsolt Ferencné
+                        </p>
+
+                        <p className="bold align-center">
+                            Tóth-Seprenyi Eszter
+                        </p>
+
+                        <p className="align-center">+36 47 795-063</p>
+                    </div>
+
                     <div className="cigand_jarasi_hivatal_img">
                         <img
-                            src="/images/middle_content_pics/jegyzo_pics/jegyzo.png"
-                            alt="Cigánd polgármestere Oláh Krisztián"
+                            src="/images/middle_content_pics/cigand_jarasi_hivatal_pics/cigand_jarasi_hivatal.jpg"
+                            alt=""
                         />
                     </div>
                 </div>
