@@ -319,8 +319,28 @@ export default function CigandJarasiHivatal() {
                         <p className="bold align-center">Terjék József</p>
 
                         <p className="align-center">+36 47 795-235</p>
+                    </div>
+
+                    <div className="cigand_jarasi_hivatal_border">
+                        <p className="bold align-center uppercase margin_top_cigand_jarasi_hivatal">
+                            A Cigándi Járási Hivatal Kirendeltsége
+                        </p>
+
+                        <p className="align-center">
+                            Cím: 3971 Tiszakarád, Engels Frigyes u. 13.
+                        </p>
+
+                        <p className="bold align-center margin_top_cigand_jarasi_hivatal">
+                            Kántor Anikó
+                        </p>
+
+                        <p className="align-center">+36 47 382-030</p>
 
                         <hr />
+
+                        <p className="bold align-center">Elektronikus fax</p>
+
+                        <p className="align-center">+36 47 795-097</p>
                     </div>
                 </div>
             </ContentContainer>
