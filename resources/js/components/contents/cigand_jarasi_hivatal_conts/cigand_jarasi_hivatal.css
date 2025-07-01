@@ -11,3 +11,31 @@
     border: 0.1vw solid black;
     margin: 2vw;
 }
+
+.padding_CJH {
+    padding: 0.5vw;
+}
+
+.ul_1_cigand_jarasi_hivatal {
+    list-style-type: disc;
+    margin-left: 3vw !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .ul_1_cigand_jarasi_hivatal {
+        margin-left: 7vw !important;
+    }
+    .padding_CJH {
+        padding: 2vw;
+    }
+}
+
+.ul_2_cigand_jarasi_hivatal {
+    list-style-type: lower-alpha;
+    margin-left: 2vw;
+}
+
+.ul_3_cigand_jarasi_hivatal {
+    list-style-type: lower-roman;
+    margin-left: 2vw;
+}
