@@ -1756,7 +1756,7 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/cigánd_jarasi_hivatal"
+                                to="/cigand_jarasi_hivatal"
                             >
                                 Cigánd Járási Hivatal
                             </Link>
