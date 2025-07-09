@@ -543,7 +543,7 @@ export default function CigandJarasiHivatal() {
                     <DownloadFile
                         file={`/documents_files/cigand_jarasi_hivatal/meghatalmazas_gepjarmu.pdf`}
                         extension_file="pdf.png"
-                        size="0.013 MB"
+                        size="0.01 MB"
                     >
                         Meghatalmazás
                     </DownloadFile>
@@ -576,6 +576,27 @@ export default function CigandJarasiHivatal() {
                         size="0.12 MB"
                     >
                         Kérelem aktív korúak ellátásának megállapítására
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/kerelem_az_idoskoruak_jaradekanak_megallapitasahoz.pdf`}
+                        extension_file="pdf.png"
+                        size="0.09 MB"
+                    >
+                        Kérelem az időskorúak járadékának megállapítására
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/kerelem_lakcimigazolashoz.pdf`}
+                        extension_file="pdf.png"
+                        size="0.1 MB"
+                    >
+                        Kérelem lakcímigazoláshoz
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/kerelem_szemelyes_koltsegmentesseg_elbiralasahoz.pdf`}
+                        extension_file="pdf.png"
+                        size="0.03 MB"
+                    >
+                        Kérelem személyes költségmentesség elbírálásához
                     </DownloadFile>
                 </div>
             </ContentContainer>
