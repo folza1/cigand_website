@@ -1,6 +1,7 @@
 import HeaderModule from "../modules/HeaderModule";
 import ContentContainer from "../modules/ContentContainer";
 import "./cigand_jarasi_hivatal.css";
+import DownloadFile from "../modules/DownloadFile";
 
 export default function CigandJarasiHivatal() {
     return (
@@ -522,6 +523,60 @@ export default function CigandJarasiHivatal() {
                             lakcímbejelentése
                         </li>
                     </ul>
+                    <p className="bold align-center uppercase margin_top_cigand_jarasi_hivatal">
+                        Letölthető Dokumentumok
+                    </p>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/adasveteli_szerzodes.pdf`}
+                        extension_file="pdf.png"
+                        size="0.41 MB"
+                    >
+                        Adásvételi szerződés
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/uzembentartoi_szerzodes.pdf`}
+                        extension_file="pdf.png"
+                        size="0.15 MB"
+                    >
+                        Üzembentartói szerződés
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/meghatalmazas_gepjarmu.pdf`}
+                        extension_file="pdf.png"
+                        size="0.013 MB"
+                    >
+                        Meghatalmazás
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/kerelem_kozgyogyellatas_megallapitasara.pdf`}
+                        extension_file="pdf.png"
+                        size="0.12 MB"
+                    >
+                        Kérelem a közgyógyellátás megállapítására
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/kerelem_eu_szolgaltatasra_valo_jogosultsag_megallapitasahoz.pdf`}
+                        extension_file="pdf.png"
+                        size="0.11 MB"
+                    >
+                        Kérelem és adatlap egészségügyi szolgáltatásra való
+                        jogosultság szociális rászorultság alapon történő
+                        megállapításához
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/kerelem_apolasi_dij_megallapitasara.pdf`}
+                        extension_file="pdf.png"
+                        size="0.10 MB"
+                    >
+                        Kérelem az ápolási díj megállapítására
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/kerelem_aktiv_koruak_ellatasanak_megallapitasara.pdf`}
+                        extension_file="pdf.png"
+                        size="0.12 MB"
+                    >
+                        Kérelem aktív korúak ellátásának megállapítására
+                    </DownloadFile>
                 </div>
             </ContentContainer>
         </>

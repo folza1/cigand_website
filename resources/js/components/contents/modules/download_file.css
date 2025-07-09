@@ -18,12 +18,14 @@
     justify-content: space-between;
     height: 90px;
     height: auto;
-    max-height: 300px;
     width: 100%;
-    border: 2px solid black;
+    border: 0.3vw solid black;
     background-color: orangered;
     font-weight: bolder;
-    padding: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
     cursor: pointer;
 }
 
