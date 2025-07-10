@@ -643,7 +643,7 @@ export default function CigandJarasiHivatal() {
                         Igazolás intézmény látogatásról GYOD ÁPD
                     </DownloadFile>
                     <DownloadFile
-                        file={`/documents_files/cigand_jarasi_hivatal/igazolas_intezmeny_latogatasarol_gyod_apd.pdf`}
+                        file={`/documents_files/cigand_jarasi_hivatal/szakvelemeny_szulo_akadalyoztatottsaga_gyod.pdf`}
                         extension_file="pdf.png"
                         size="0.07 MB"
                     >
