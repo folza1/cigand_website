@@ -598,6 +598,57 @@ export default function CigandJarasiHivatal() {
                     >
                         Kérelem személyes költségmentesség elbírálásához
                     </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/kerelem_parkolasi_igazolvany_kiadasahoz.pdf`}
+                        extension_file="pdf.png"
+                        size="0.23 MB"
+                    >
+                        Kérelem a mozgásában korlátozott személy parkolási
+                        igazolványának kiadására
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/vagyonnyilatkozat_aktiv_koruak_ellatasa_es_eu_szolg_igenylesehez.pdf`}
+                        extension_file="pdf.png"
+                        size="0.07 MB"
+                    >
+                        Vagyonnyilatkozat aktív korúak ellátása és egészségügyi
+                        szolgáltatás igényléséhez
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/kerelem_gyermekek_otthongondozasi_dijanak_megallapitasara.pdf`}
+                        extension_file="pdf.png"
+                        size="0.1 MB"
+                    >
+                        Gyermekek otthongondozási díja iránti kérelem
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/haziorvosi_igazolas_gyod_apd.pdf`}
+                        extension_file="pdf.png"
+                        size="0.09 MB"
+                    >
+                        Háziorvosi igazolás GYOD ÁPD
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/haziorvosi_igazolas_kozgyogyellatas.pdf`}
+                        extension_file="pdf.png"
+                        size="0.08 MB"
+                    >
+                        Háziorvosi igazolás Közgyógyellátás
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/igazolas_intezmeny_latogatasarol_gyod_apd.pdf`}
+                        extension_file="pdf.png"
+                        size="0.05 MB"
+                    >
+                        Igazolás intézmény látogatásról GYOD ÁPD
+                    </DownloadFile>
+                    <DownloadFile
+                        file={`/documents_files/cigand_jarasi_hivatal/igazolas_intezmeny_latogatasarol_gyod_apd.pdf`}
+                        extension_file="pdf.png"
+                        size="0.07 MB"
+                    >
+                        Szülő akadályozottsága szakvélemény GYOD
+                    </DownloadFile>
                 </div>
             </ContentContainer>
         </>
