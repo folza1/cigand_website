@@ -33,7 +33,7 @@ export default function TestuletiUlesek() {
                             alt="Fekete fehér kép egy illusztrált ülésről. Asztal, szék és résztvevők láthatóak."
                         />
                     </div>
-                    <p className="bold align-center">
+                    <p className="bold align-center uppercase">
                         Testületi Ülések Jegyzőkönyvei
                     </p>
                     {files.map((file, i) => (

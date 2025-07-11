@@ -1,3 +1,12 @@
+.testuleti_ulesek_img {
+    display: flex;
+    justify-content: center;
+}
+.testuleti_ulesek_img img {
+    width: 100%;
+    height: auto;
+}
+
 .margin_testuleti_ulesek {
     margin-top: 10vw !important;
     margin-bottom: 5vw !important;

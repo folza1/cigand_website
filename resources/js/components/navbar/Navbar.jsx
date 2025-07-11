@@ -356,6 +356,16 @@ const Navbar = () => {
                                     >
                                         Eladó ingatlanok
                                     </Link>
+                                    <Link
+                                        onClick={() => {
+                                            setOpenDropdown(null); // Bezárjuk a legördülő menüt
+                                            scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                                        }}
+                                        className="no-underline"
+                                        to="/kiadvanyok"
+                                    >
+                                        Kiadványaink
+                                    </Link>
                                     <a
                                         onClick={() => {
                                             setOpenDropdown(null); // Bezárjuk a legördülő menüt
@@ -1268,6 +1278,19 @@ const Navbar = () => {
                                 to="/ingatlanok"
                             >
                                 Eladó Ingatlanok
+                            </Link>
+                        </div>
+                        <div>
+                            <Link
+                                onClick={() => {
+                                    setIsMobileSubMenu1Open(false); // A mobil menü bezárása
+                                    setIsMobileMenuOpen(false); // A mobil menü bezárása
+                                    scrollToOutlet(); // A scrollToOutlet funkció meghívása
+                                }}
+                                className="no-underline"
+                                to="/kiadvanyok"
+                            >
+                                Kiadványaink
                             </Link>
                         </div>
                         <div>

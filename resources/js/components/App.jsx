@@ -56,6 +56,7 @@ import Gazdahirek from "./contents/gazdahirek_conts/Gazdahirek";
 import KozszolgalatiIntezmenyek from "./contents/kozszolgalati_intezmenyek_conts/KozszolgalatiIntezmenyek";
 import Ingatlanok from "./contents/ingatlanok_conts/Ingatlanok";
 import CigandJarasiHivatal from "./contents/cigand_jarasi_hivatal_conts/CigandJarasiHivatal";
+import Kiadvanyok from "./contents/kiadvanyok_conts/Kiadvanyok";
 
 export default function App() {
     return (
@@ -84,6 +85,7 @@ export default function App() {
                     <Route path="/allas" element={<Allas />} />
                     <Route path="/gazdahirek" element={<Gazdahirek />} />
                     <Route path="/ingatlanok" element={<Ingatlanok />} />
+                    <Route path="/kiadvanyok" element={<Kiadvanyok />} />
 
                     <Route
                         path="/kozszolgalati_intezmenyek"
