@@ -1,0 +1,13 @@
+.kiadvanyok_img {
+    display: flex;
+    justify-content: center;
+}
+
+.kiadvanyok_img img {
+    width: 30%;
+    height: auto;
+}
+
+.margin_top_kiadvanyok {
+    margin-top: 10vw !important;
+}
