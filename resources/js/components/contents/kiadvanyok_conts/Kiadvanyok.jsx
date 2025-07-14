@@ -269,6 +269,183 @@ export default function Kiadvanyok() {
                     >
                         Megrendelő lap
                     </DownloadFile>
+
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Viga Gyula (szerk.)
+                    </p>
+                    <p className="align-center bold">
+                        Újabb tanulmányok Cigánd múltjából
+                    </p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok5_ujabb_tanulmanyok.jpg"
+                            alt="Feketés zöld árnyalatú borító, rajta régi cigándi lakosok."
+                        />
+                    </div>
+                    <p>
+                        Cigánd Önkormányzata az 1990-es évektől számos kiadványt
+                        jelentetett meg a település múltjával, a mai cigándiak
+                        közös kulturális örökségével kapcsolatban. Ezek változó
+                        céllal és igénnyel készültek, de akár ismeretterjesztő
+                        feladatot láttak el, akár megfelelnek a tudományos
+                        igényeknek, egyaránt haszonnal szolgálták Cigánd
+                        megismerését és megismertetését. 2014-ben jelent meg az
+                        a többszerzős tanulmánykötet, ami a hagyományos népi
+                        kultúra több területét is bemutatja, természetesen, nem
+                        a teljesség igényével. Azóta azonban újabb kéziratok
+                        születtek. A most megjelent kötet három dolgozatot
+                        tartalmaz. Takács Péter: Cigánd története /1720-1914/,
+                        Fodor Katalin: Cigánd nyelvjárása, Páll István: Cigánd
+                        hagyományos építészete.
+                    </p>
+                    <p className="bold">Ára: 1500,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
+
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Fejős Zoltán
+                    </p>
+
+                    <p className="align-center bold">
+                        "Mert abban az időben lehetett vándorolni"
+                    </p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok6_mert_abban_az_idoben.jpg"
+                            alt="Mintha egy régi fekete-fehér útlevél lenne, rajta Fejős Zoltán fényképével és aláírásával."
+                        />
+                    </div>
+                    <p>
+                        Ez a könyv az Egyesült Államokba irányuló magyarországi
+                        kivándorlásnak egy helyi történetét mutatja be. A 19. és
+                        20. század fordulójára jellemző interkontinentális
+                        migrációt „alulról”, a résztvevők szemszögéből
+                        tárgyalja. Fő célja, hogy a mai cigándiakat
+                        megismertesse múltjuk egy elfeledett darabjával.
+                        Kiscigánd és Nagycigánd példáján azoknak a
+                        vándormunkásoknak, cselédlányoknak és asszonyoknak az
+                        életét és sorsának alakulását tárja elénk, akik nem
+                        rettentek vissza a rájuk váró ismeretlentől, és a
+                        tengerentúlon keresték boldogulásukat.
+                    </p>
+                    <p>
+                        Szép számmal voltak olyanok, akik többször is útra
+                        keltek, oda-vissza vándoroltak, vállalták ennek minden
+                        nehézségét, kihasználva az ebben rejlő szabadság
+                        lehetőségét. De nem mindenki járt sikerrel.
+                    </p>
+                    <p>
+                        A vándormozgalom a „két Cigánd” egész lakosságára
+                        kiterjedt, illetve közvetve vagy közvetlenül majd
+                        mindenkit érintett. Mindenki persze nem vált
+                        kivándorlóvá vagy idegenben próbálkozó időleges
+                        vándormunkássá. Lényeges, hogy a migrációban nemcsak a
+                        törzsökös lakosság vett részt, hanem a 19. század végén
+                        kialakult uradalmi majorok és tanyák népe is.
+                        Közigazgatásilag és apránként társadalmilag ők is
+                        cigándiak lettek, a kettős településhez tartoztak,
+                        miként a betelepült zsidóság is. Hivatalosan, a kor jogi
+                        nyelvén a községi illetőség mindenkire vonatkozott, aki
+                        állandó jelleggel legalább két éve itt lakott,
+                        függetlenül attól, hogy hol volt szülőhelye.
+                    </p>
+                    <p>
+                        Ez a könyv példát szeretne mutatni arra, hogy az
+                        Egyesült Államokba irányuló „régi” kivándorlás múltja
+                        megismerésre érdemes. Leginkább azért ajánlatos kiemelni
+                        a feledés homályából, hogy megértsük, mit jelent az,
+                        amikor valaki idegenben kénytelen boldogulni.
+                    </p>
+                    <p>
+                        Remélhetőleg hozzájárul ahhoz, hogy a ki- és
+                        visszavándorlások története, a múlt változatos
+                        gyakorlata ezáltal is a magyar történeti emlékezet
+                        részévé váljon.
+                    </p>
+                    <p>
+                        A kötet Cigánd Város Önkormányzatának gondozásában
+                        jelent meg a Nemzeti Kulturális Alap támogatásával.
+                    </p>
+                    <p className="bold">Ára: 2000,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
+
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Nagy István
+                    </p>
+
+                    <p className="align-center bold">Azok az '50-es évek...</p>
+
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok7_azok_az_50-es_evek.jpg"
+                            alt="A borítón egy valószínűleg 50-es évekbeli olvasólámpa világít."
+                        />
+                    </div>
+                    <p>
+                        Cigánd Város Önkormányzata a Magyar Kultúra Hete
+                        rendezvénysorozata keretében jelentette meg a legújabb
+                        helytörténeti témájú könyvet az{" "}
+                        <span className="italic">Azok az ' 50-es évek...</span>
+                        címmel.
+                    </p>
+                    <p>A szerző, Nagy István gondolatai következnek:</p>
+                    <p className="italic">
+                        „Régóta érlelődött bennem a gondolat, hogy felszínre
+                        kellene hozni az 1950-es évek cigándi világát,
+                        történéseit, szegmenseit. Azt a miliőt, melyben 60 évvel
+                        ezelőtt éltek e településen. S addig tenni ezt, amíg még
+                        nem késő: amíg élnek hiteles tanuk, hiteles
+                        adatszolgáltatók. A gondolatot tett követte, így
+                        született meg az „Azok az ' 50-es évek…” című
+                        összeállítás. Sokan voltak visszaemlékezők. Olyanok
+                        akiknek gyermekkorát vagy ifjúságát jelentették ezek az
+                        évek, vagy szüleiktől hallottak e kemény időkről.
+                    </p>
+                    <p className="italic">
+                        Mindenesetre sok őszinte – sokszor keserű -
+                        megnyilatkozás látott napvilágot, s ezek a nyilatkozatok
+                        kendőzetlenül kerültek be a kötetbe. De példák sora
+                        mutatja azt is, hogyan gyúrták át akkor a 13-14 éves
+                        fiatalok gondolkodását, hogyan manipulálták a történelmi
+                        egyházakat, milyen nehézségekkel küzdött az egészségügy,
+                        vagy mennyire kezdetleges volt a szolgáltatás a mai
+                        viszonyokhoz képest.
+                    </p>
+                    <p className="italic">
+                        Ajánlom a könyv forgatását minden közelmúltunk iránt
+                        érdeklődő fiatalnak és idősebbnek.
+                    </p>
+                    <p className="italic">
+                        Köszönöm a közreműködő cigándiak és elszármazottak
+                        hasznos segítségét!”
+                    </p>
+                    <p>
+                        A könyv 2017. január 22-től érhető el a városi
+                        könyvtárban. A könyv megjelenését Cigánd Város
+                        Önkormányzata és a „Mansfeld Péter” pályázat kiírója az
+                        1956-os Emlékbizottság, az 1956-os forradalom és
+                        szabadságharc 60. évfordulójára létrehozott
+                        Emlékbizottság támogatta.
+                    </p>
+                    <p className="bold">Ára: 2000,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
                 </div>
             </ContentContainer>
         </>
