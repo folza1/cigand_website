@@ -546,6 +546,34 @@ export default function Kiadvanyok() {
                     >
                         Megrendelő lap
                     </DownloadFile>
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Mező László
+                    </p>
+                    <p className="bold align-center">Cigándi futballkrónika</p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok10_futballkronika.jpg"
+                            alt="Gyepzöld borító, rajta egy régi fekete-fehér fénykép, rajta régi futballcipő és egy régi és egy új focilabda, plusz Cigánd SE címer."
+                        />
+                    </div>
+                    <p>
+                        A szerző könyvében egészen a kezdetektől napjainkig ír a
+                        cigándi labdarúgás helyzetéről.
+                    </p>
+                    <p>
+                        Megszólalnak benne volt és jelenlegi játékosok, egykori
+                        edzők, támogatók. Rengeteg emlék kerül felszínre, melyek
+                        az olvasó számára is felidézhetik a régmúlt és a mostani
+                        mérkőzések körüli miliőt.
+                    </p>
+                    <p className="bold">Ára: 1000,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
                 </div>
             </ContentContainer>
         </>
