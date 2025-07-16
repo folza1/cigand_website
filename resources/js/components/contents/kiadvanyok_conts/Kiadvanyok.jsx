@@ -446,6 +446,106 @@ export default function Kiadvanyok() {
                     >
                         Megrendelő lap
                     </DownloadFile>
+
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Virágot bont a zsenge ág
+                    </p>
+
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok8_viragot_bont.jpg"
+                            alt="A borítón egy asztal hímzett terítővel, motívumok a könyv sarkainál."
+                        />
+                    </div>
+                    <p>
+                        „A cigándi bokréta legzsengébb ága című játékgyűjtemény
+                        (szerk. Németh Károlyné, Téglás Dezsőné óvónők) 2.
+                        módosított, átdolgozott kiadását tartja a kezében az
+                        olvasó.
+                    </p>
+                    <p>
+                        Az <span className="italic">„átörökítők”</span>{" "}
+                        szeretettel és az itt élő emberek iránti tisztelettel
+                        szerkesztették az anyagot, bízva abban, hogy küldetést
+                        teljesítenek: Kántor Mihály tanító úr örökül hagyott
+                        intelmét követve a{" "}
+                        <span className="italic">
+                            „...tündérek és lidércek hazájában”
+                        </span>{" "}
+                        folytatják a kincsek mentését. Büszkeség tölthette a
+                        település apraját és nagyját, neves elöljáróit, hogy a
+                        Bodrogköz gazdag hagyományvilágát is felölelő
+                        gyermekjáték-gyűjtemény erősítette Cigánd hírnevét
+                        határon innen és tengerentúl egyaránt.
+                    </p>
+                    <p>
+                        Kívánjuk, hogy a Kedves Olvasó az eredeti tartalmat
+                        megőrző és a hagyomány folytatói által kiegészítéssel
+                        módosított kiadást is használja, leljen örömére benne.”
+                    </p>
+                    <p>
+                        Részlet a Virágot bont a zsenge ág című kötet köszöntő
+                        szövegéből
+                    </p>
+                    <p className="bold">Ára: 1000,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Sőregi János
+                    </p>
+                    <p className="bold align-center">Kék könyv</p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok9_kek_konyv.jpg"
+                            alt="Egyszerű kék borító, rajta Sőregi János neve és a Kék könyv felirat."
+                        />
+                    </div>
+                    <p>Mi akart lenni az én „Kék könyvem”?</p>
+                    <p>
+                        Hogy nagy nehezen átvergődtem az érettségi vizsgán, szép
+                        remények, ábrándképek szálltak felém pillangóként. Sokat
+                        tépelődtem gondolkodtam. Néha örömrepesve, néha
+                        elbúsulva. Mi is lesz hát belőlem, merre is menjek hát,
+                        én édes Istenem? Megvallva, már akkor is áhítoztam a
+                        dicsőség, hírnév után mintegy eltökéltem magamban, hogy
+                        nemes célt akarok életemben szolgálni, egy szép és
+                        boldogító lesz az én életem. Rajongtam a természetért:
+                        leszek valami természetbúvár. Rajongtam a magyar
+                        népéletért és művészetért: kifürkésszem, összegyűjtöm
+                        ezeket! Mikor én érett lettem, ez a cél uralta lelkemet.
+                        Mivel töltöm el tehát a vakációt? Így tervezgettem:
+                        először is csináltatok egy olyan könyvet, amelybe én
+                        fogom gyűjteni a magyar nép művészetét, lerajzolva,
+                        lefestve azokat. Ezenfelül még természeti megfigyeléseim
+                        is bekerülnek, a madarakról különösen. Elkészült a
+                        könyv, az én „Kék könyvem”. És mi van benne? Kis marék
+                        az életemből, elbeszélések, leírások, apró történetek.
+                        Egy-egy szerény versecske is meghúzódik benne. Hogy
+                        miért nem az eredeti céljára használtam fel, magam sem
+                        tudom. Most pedig már ott vagyok, hogy az irodalom és a
+                        képzőművészet egyedüli két mennyországom! Minden pénzem
+                        könyvekre költöm. És mégis, mégis Bársony István, Herman
+                        Ottó bácsi van az én eszemben! Szeretnék menni Pestre,
+                        ez az egyedüli vágyam mai nap, ahol tanulni, látni
+                        akarok minden szépet. Tanulni, mentől többet, minél
+                        szebbet, nemesebbet: ez egyedüli célom. Tanulok is,
+                        olvasok is. Te meg édes kék könyvem, őrizd meg az én
+                        ifjúságom boldog óráit.
+                    </p>
+                    <p>1912. február 11 vasárnap délután 3-4.</p>
+                    <p className="bold">Ára: 2000,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
                 </div>
             </ContentContainer>
         </>
