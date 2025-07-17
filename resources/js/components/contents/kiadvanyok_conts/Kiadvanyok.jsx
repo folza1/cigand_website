@@ -28,7 +28,6 @@ export default function Kiadvanyok() {
                         <span className="bold">varosikonyvtar@cigand.hu</span>{" "}
                         e-mail címen!
                     </p>
-
                     <p className="bold align-center margin_top_kiadvanyok uppercase">
                         Nagy István
                     </p>
@@ -124,17 +123,13 @@ export default function Kiadvanyok() {
                     >
                         Megrendelő lap
                     </DownloadFile>
-
                     <p className="bold align-center margin_top_kiadvanyok uppercase">
                         Scholtz Róbert Gergely
                     </p>
-
                     <p className="align-center bold">Hegedűvel és puskával</p>
-
                     <p className="align-center">
                         A nagy háború elfeledett cigány katonái (1914-1918)
                     </p>
-
                     <div className="kiadvanyok_img">
                         <img
                             src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok2.jpg"
@@ -185,15 +180,12 @@ export default function Kiadvanyok() {
                     >
                         Megrendelő lap
                     </DownloadFile>
-
                     <p className="bold align-center margin_top_kiadvanyok uppercase">
                         Scholtz Róbert Gergely
                     </p>
-
                     <p className="align-center bold">
                         „Nekik nem volt választásuk”
                     </p>
-
                     <p className="align-center">Állatok a Nagy Háborúban</p>
                     <div className="kiadvanyok_img">
                         <img
@@ -228,13 +220,10 @@ export default function Kiadvanyok() {
                     >
                         Megrendelő lap
                     </DownloadFile>
-
                     <p className="bold align-center margin_top_kiadvanyok uppercase">
                         Scholtz Róbert Gergely
                     </p>
-
                     <p className="align-center bold">„Az Isten megőrzött!”</p>
-
                     <p className="align-center">
                         Sőregi János, egy cigándi polihisztor a Nagy Háborúban
                         (1914-1918)
@@ -269,7 +258,6 @@ export default function Kiadvanyok() {
                     >
                         Megrendelő lap
                     </DownloadFile>
-
                     <p className="bold align-center margin_top_kiadvanyok uppercase">
                         Viga Gyula (szerk.)
                     </p>
@@ -306,11 +294,9 @@ export default function Kiadvanyok() {
                     >
                         Megrendelő lap
                     </DownloadFile>
-
                     <p className="bold align-center margin_top_kiadvanyok uppercase">
                         Fejős Zoltán
                     </p>
-
                     <p className="align-center bold">
                         "Mert abban az időben lehetett vándorolni"
                     </p>
@@ -379,13 +365,10 @@ export default function Kiadvanyok() {
                     >
                         Megrendelő lap
                     </DownloadFile>
-
                     <p className="bold align-center margin_top_kiadvanyok uppercase">
                         Nagy István
                     </p>
-
                     <p className="align-center bold">Azok az '50-es évek...</p>
-
                     <div className="kiadvanyok_img">
                         <img
                             src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok7_azok_az_50-es_evek.jpg"
@@ -446,11 +429,9 @@ export default function Kiadvanyok() {
                     >
                         Megrendelő lap
                     </DownloadFile>
-
                     <p className="bold align-center margin_top_kiadvanyok uppercase">
                         Virágot bont a zsenge ág
                     </p>
-
                     <div className="kiadvanyok_img">
                         <img
                             src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok8_viragot_bont.jpg"
@@ -567,6 +548,220 @@ export default function Kiadvanyok() {
                         mérkőzések körüli miliőt.
                     </p>
                     <p className="bold">Ára: 1000,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Fejezetek Cigánd néprajzából
+                    </p>
+                    <p className="bold align-center">
+                        Szerkesztette: Viga Gyula
+                    </p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok11_cigand_neprajzabol.jpg"
+                            alt="Sötét borító, rajta négy ember díszes ruhában."
+                        />
+                    </div>
+                    <p>
+                        A könyv fejezetekben bontja ki Cigánd néphagyományait,
+                        annak változásait egészen a 13. századtól.
+                        Megismerhetjük benne a cigándi emberek gazdálkodását,
+                        öltözködését, táncalkalmait, valamint az élet nagy
+                        fordulópontjaihoz köthető (születés, házasság, halál)
+                        események szokásait. Rengeteg kutatómunka előzte meg e
+                        könyv megszületését, de az az olvasó, aki kezébe veszi
+                        ezt a művet egy csodában fog részesülni.
+                    </p>
+                    <p className="bold">Ára: 2500,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Kútvölgyi Mihály - Viga Gyula
+                    </p>
+                    <p className="bold align-center">Kincses Bodrogköz</p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok12_kincses_bodrogkoz.jpg"
+                            alt="Gyerekek népviseletben játszanak a falumúzeum udvaránál."
+                        />
+                    </div>
+                    <p>
+                        A Bodrogköz három folyó által közrefogott történeti táj:
+                        a Tisza, a Bodrog és a Latorca vize határolja.Az első
+                        világháborút követő határmegvonás ezt a vidéket két
+                        ország - Magyarország és Csehszlovákia- részévé tette, a
+                        két évtizede történt kettéválást követően
+                        Északkelet-Magyarország és Délkelet - Szlovákia osztozik
+                        a Bodrogköz területén. A Felső - Bodrogközbe 30, az Alsó
+                        - Bodrogközbe 22 település került a határmegvonással. Ez
+                        a kötet a holtággá vált Karcsa medrétől délre eső,
+                        magyarországi ( Alsó - ) Bodrogköz kincseivel, a
+                        bodrogközi nép kulturális örökségével ismerteti meg az
+                        érdeklődő olvasót.
+                    </p>
+                    <p className="bold">Ára: 3500,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Nagy István
+                    </p>
+                    <p className="align-center bold">
+                        Fakuló emlékek nyomában : A cigándi zsidóságról
+                        töredékesen
+                    </p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok13_fakulo_emlekek.jpg"
+                            alt="A borítón egy festmény egy fűzfáról a vízparton."
+                        />
+                    </div>
+                    <p>
+                        Ebben a kiadványban egy kis ízelítőt kap az olvasó a
+                        Cigándon élő zsidóság életéről. Betekintést nyerhet a
+                        mindennapokba, s arról is tudomást szerezhet az olvasó,
+                        hogy milyen körülmények között kellett a Cigándon élő
+                        zsidó embereknek szembesülniük azzal a gyűlölettel, ami
+                        ellenük irányult. Ez ahhoz vezetett, hogy a második
+                        világháborúban több százezer zsidó embert deportáljanak,
+                        és végezzenek ki az auschwitzi megsemmisítő táborban.
+                    </p>
+                    <p className="bold">Ára: 1000,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Nagy István
+                    </p>
+                    <p className="align-center bold">Cigánd öröksége</p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok14_cigand_oroksege.jpg"
+                            alt="A könyvborítón egy fekete fehér képen egy cigándi család a házuk előtt."
+                        />
+                    </div>
+                    <p>
+                        A szerző szülei emlékének ajánlja a kötetet, de minden
+                        cigándi ember szülője, nagyszülője emlékének adózik
+                        ezzel. Kántor Mihály életműve, a gazdag és páratlan
+                        néphagyomány kincs és kultúra Cigánd óriási, anyagiakban
+                        nem mérhető értéke, melynek őrzése és ápolása,
+                        továbbvitele nekünk, ma élő cigándiaknak is nemes
+                        kötelezettségünk. Ez a kiadvány nem csak Cigánd
+                        öröksége, hanem valamennyiünk öröksége, hiszen ezt a
+                        könyvet őseink élete tölti meg tartalommal. Egyben
+                        üzenet is a jövőnek, mert megszépíti jelenünket, s
+                        távlatot nyit a jövőnkhöz.
+                    </p>
+                    <p className="bold">Ára: 2000,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
+
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Kántor Mihály
+                    </p>
+                    <p className="align-center bold">
+                        Bodrogközi len-és kendermunkák, szőttesek
+                    </p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok15_len_es_kendermunkak.jpg"
+                            alt="Piros fehér madár motívum a borítón."
+                        />
+                    </div>
+                    <p>
+                        A szerző neve ismerősen cseng nem csak a szűkebb pátria
+                        - Cigánd és Bodrogköz- közegében, de szerte az
+                        országban, ahol helytörténetről, néphagyományról,
+                        népművészetről esik szó. Méltán, mert Kántor Mihály
+                        olyan szellemi örökséget hagyott ránk, melynek
+                        kisugárzása túlmutat egy emberöltőn. A kiadványban a
+                        Bodrogköz len-és kender munkáit, valamint szőtteseit
+                        mutatja be. Aprólékosan, a kezetektől a kész termékig
+                        követheti figyelemmel a munkafolyamatot a kedves olvasó.
+                    </p>
+                    <p className="bold">Ára: 1500,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
+
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Nagy István
+                    </p>
+                    <p className="align-center bold">
+                        Az iskolaügy évszázadai Cigándon
+                    </p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok16_iskolaugy_evszazadai.jpg"
+                            alt="Egy fehér lapon kézzel írott levélszerűség lehet a borítón."
+                        />
+                    </div>
+                    <p>
+                        A XVII. századtól egészen az 1970-es évekig mutatja be
+                        Cigánd oktatási intézményeinek történetét. Emellett a
+                        Cigándhoz tartozó tanyák iskoláinak történetét is
+                        feldolgozza, kiemelve az ott tanító pedagógusok missziói
+                        szolgálatát. Értékesek azok az interjúk, amelyekben a
+                        községből elszármazottak felvillantják emlékeiket
+                        gyermekkorukról, iskolás életükről. Megható a válasz,
+                        bármerre sodorta őket az élet, mégis cigándinak vallják
+                        magukat.
+                    </p>
+                    <p className="bold">Ára: 2000,- Ft</p>
+                    <DownloadFile
+                        file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
+                        extension_file="word.png"
+                        size="0.04 MB"
+                    >
+                        Megrendelő lap
+                    </DownloadFile>
+
+                    <p className="bold align-center margin_top_kiadvanyok uppercase">
+                        Nagy István
+                    </p>
+                    <p className="align-center bold">Gyermektáncközelben</p>
+                    <div className="kiadvanyok_img">
+                        <img
+                            src="/images/middle_content_pics/kiadvanyok_pics/kiadvanyok17_gyermektanckozelben.jpg"
+                            alt="Gyerekek májusjáráskor népviseletben a borítón."
+                        />
+                    </div>
+                    <p>
+                        Ebben a kiadványban az olvasó betekintést nyerhet Cigánd
+                        táncéletébe. A XX. század elejétől a 2000-es évekig
+                        olvashat arról, hogy miként jutott el a cigándi
+                        néphagyomány a világhírig. A könyvben korszakokra bontva
+                        találják meg a néptánc alakulását a településen.
+                    </p>
+                    <p className="bold">Ára: 2000,- Ft</p>
                     <DownloadFile
                         file="/documents_files/kiadvanyok/kiadvany_megrendelo_lap.doc"
                         extension_file="word.png"
