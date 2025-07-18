@@ -1,0 +1,13 @@
+.civil_szervezetek_img {
+    display: flex;
+    justify-content: center;
+}
+
+.civil_szervezetek_img img {
+    width: 100%;
+    height: auto;
+}
+
+.margin_top_civil_szervezetek {
+    margin-top: 10vw !important;
+}

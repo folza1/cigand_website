@@ -57,6 +57,7 @@ import KozszolgalatiIntezmenyek from "./contents/kozszolgalati_intezmenyek_conts
 import Ingatlanok from "./contents/ingatlanok_conts/Ingatlanok";
 import CigandJarasiHivatal from "./contents/cigand_jarasi_hivatal_conts/CigandJarasiHivatal";
 import Kiadvanyok from "./contents/kiadvanyok_conts/Kiadvanyok";
+import CivilSzervezetek from "./contents/civil_szervezetek_conts/CivilSzervezetek";
 
 export default function App() {
     return (
@@ -86,6 +87,10 @@ export default function App() {
                     <Route path="/gazdahirek" element={<Gazdahirek />} />
                     <Route path="/ingatlanok" element={<Ingatlanok />} />
                     <Route path="/kiadvanyok" element={<Kiadvanyok />} />
+                    <Route
+                        path="/civil_szervezetek"
+                        element={<CivilSzervezetek />}
+                    />
 
                     <Route
                         path="/kozszolgalati_intezmenyek"
