@@ -8,6 +8,15 @@
     height: auto;
 }
 
+.civil_szervezetek_img_majorette {
+    width: 40% !important;
+    height: auto;
+}
+
 .margin_top_civil_szervezetek {
     margin-top: 10vw !important;
+}
+
+.margin_top_civil_szervezetek2 {
+    margin-top: 5vw !important;
 }

@@ -198,6 +198,112 @@ export default function CivilSzervezetek() {
                     <p className="align-center">
                         e-mail: cigandovoda@freemail.hu
                     </p>
+
+                    <div className="civil_szervezetek_img margin_top_civil_szervezetek">
+                        <img
+                            className="civil_szervezetek_img_majorette"
+                            src="/images/middle_content_pics/civil_szervezetek_pics/civil3_majorette_fuvos.jpg"
+                            alt="Egy fekete majorette táncos alak, fehér háttérrel"
+                        />
+                    </div>
+                    <p className="align-center bold uppercase">
+                        Cigándi Majorette és Fúvószenekar Alapítvány
+                    </p>
+                    <p>
+                        A cigándi Majorette Alapítvány 1993-tól működik töretlen
+                        lelkesedéssel. Az alapítvány célja az együttzenélés és a
+                        moderntánc hagyományainak megteremtése Cigándon
+                    </p>
+                    <p>
+                        A tánccsoport 1996-tól - TriAngel Majorette Tánccsoport
+                        néven működik. A közel 50 táncost számláló együttes
+                        három korcsoportban dolgozik.
+                    </p>
+                    <p className="bold uppercase margin_top_civil_szervezetek">
+                        Föbb eredményeik:
+                    </p>
+                    <p>1995 -- III. Országos Majorette Táncverseny</p>
+                    <p>
+                        1996 -- IV. Országos Majorette Táncverseny - összetett
+                        III. hely
+                    </p>
+                    <p>Kömlőd színpadi IV. hely</p>
+                    <p>menet III. hely</p>
+                    <hr />
+                    <p className="margin_top_civil_szervezetek2">
+                        1998 -- VI. Országos Majorette Táncverseny - összetett
+                        II. hely
+                    </p>
+
+                    <p>Kömlőd színpadi II. hely</p>
+
+                    <p>
+                        2000 -- VII. Országos Majorette Táncverseny - összetett
+                        II. hely
+                    </p>
+
+                    <p>Kömlőd színpadi II. hely</p>
+
+                    <p>menet II. hely</p>
+                    <hr />
+                    <p className="margin_top_civil_szervezetek2">
+                        1997 -- Diákok Formációs Táncversenye - III. hely
+                    </p>
+
+                    <p>Miskolc</p>
+                    <hr />
+                    <p className="margin_top_civil_szervezetek2">
+                        1998 -- Diákok Formációs Táncversenye - I. hely
+                    </p>
+
+                    <p>Miskolc különdíj: Fügeczki Róbert emlékére</p>
+
+                    <p>Legjobb jelmez</p>
+
+                    <p>menet II. hely</p>
+                    <hr />
+                    <p className="margin_top_civil_szervezetek2">
+                        Magyar Majorette Bajnokság 2002 Ráckeve. - I. helyezés
+                    </p>
+                    <hr />
+                    <p className="margin_top_civil_szervezetek2">
+                        2002. szeptemberében a cigándi lányok Majorette Európa
+                        Bajnokságon képviselték országunkat a lengyelországi
+                        Opole városában
+                    </p>
+                    <hr />
+                    <p className="margin_top_civil_szervezetek2">
+                        Észak-Magyarországi Moderntáncverseny, 2005, Miskolc -
+                        III. helyezés
+                    </p>
+                    <hr />
+                    <p className="margin_top_civil_szervezetek2">
+                        Tagjai a Magyar Majorette Szövetségnek valamint 2002-töl
+                        az EMÁ-nak az Európai Majorette Szövetségnek és az
+                        IMA-nak a Nemzetközi Majorette Szövetségnek is..
+                    </p>
+                    <hr />
+                    <p className="margin_top_civil_szervezetek2">
+                        A 2006 év Magyar Majorette Bajnokságán négy I. helyezés
+                        büszke nyertesei, valamint a junior korcsoport Országos
+                        Moderntánc Fesztivál győztesei.
+                    </p>
+                    <hr />
+                    <p className="margin_top_civil_szervezetek2">
+                        2008-ban a II. nyírbátori majorette fesztivál két
+                        különdíját tudhatja magáénak.
+                    </p>
+
+                    <p className="bold align-center">
+                        A cigándi majorettek vezetője és koreográfusa:
+                    </p>
+
+                    <p className="align-center">
+                        <span className="bold">Némethy Viktória</span> - zene,
+                        tánc és dráma pedagógus
+                    </p>
+                    <p className="align-center">tel: 70/533-2585</p>
+                    <p className="align-center">triangelgroup@gmail.com</p>
                 </div>
             </ContentContainer>
         </>
