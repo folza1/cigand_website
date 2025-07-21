@@ -425,6 +425,68 @@ export default function CivilSzervezetek() {
                     <p className="align-center">
                         e-mail: km-iskola@t-online.hu
                     </p>
+
+                    <div className="civil_szervezetek_img margin_top_civil_szervezetek">
+                        <img
+                            src="/images/middle_content_pics/civil_szervezetek_pics/civil6_lovas_egyesulet.jpg"
+                            alt="Egy barna színű ló, háttérben zöld sövény és fák lombja."
+                        />
+                    </div>
+                    <p className="align-center bold uppercase">
+                        Etele Hagyományőrző Lovas és Szabadidősport Egyesület
+                    </p>
+                    <p className="bold margin_top_civil_szervezetek2">
+                        Céljai és feladatai:
+                    </p>
+                    <p>Hobbilovasok felkarolása, összefogása.</p>
+                    <p>
+                        A magyar lovas és íjász hagyományok életben és tudatban
+                        tartása, népszerűsítése.
+                    </p>
+                    <p>
+                        A magyar lovas kultúra hagyományainak megőrzése,
+                        elsajátítása.
+                    </p>
+                    <p>
+                        A lovak és a lovaglás adta élmények megismertetése és
+                        megszerettetése elsősorban a gyermek és
+                        fiatalkorosztállyal.
+                    </p>
+                    <p>
+                        Gyógyászati jelleggel lovagoltatás valamint
+                        készségfejlesztő lovas oktatás.
+                    </p>
+                    <p>
+                        A hagyományos népi-paraszti kultúra és gazdálkodás
+                        népszerűsítése.
+                    </p>
+                    <p>
+                        A hagyományos magyar állatfajták megismertetése,
+                        tartásának népszerűsítése.
+                    </p>
+                    <p className="bold margin_top_civil_szervezetek2">
+                        Tevékenységeink:
+                    </p>
+                    <p>Szabadidő hasznos eltöltése sport programokkal.</p>
+                    <p>
+                        Táborok, szakkörök, rendezvények szervezése,
+                        lebonyolítása.
+                    </p>
+                    <p>
+                        Tevékenységeink közé tartozik továbbá kulturális és
+                        közművelődési feladatok ellátása is.
+                    </p>
+                    <p>Elérhetőségeink:</p>
+                    <p>Címünk: 3973 Cigánd, Petőfi u. 111.</p>
+
+                    <p className="bold align-center margin_top_civil_szervezetek2">
+                        Szabóné Horváth Eszter
+                    </p>
+                    <p className="align-center">az egyesület elnöke</p>
+                    <p className="align-center">Tel: 20/238-4005</p>
+                    <p className="align-center">
+                        E-mail: etele.egyesulet@gmail.com
+                    </p>
                 </div>
             </ContentContainer>
         </>
