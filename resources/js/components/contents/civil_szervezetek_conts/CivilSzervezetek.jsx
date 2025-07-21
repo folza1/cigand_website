@@ -304,6 +304,127 @@ export default function CivilSzervezetek() {
                     </p>
                     <p className="align-center">tel: 70/533-2585</p>
                     <p className="align-center">triangelgroup@gmail.com</p>
+
+                    <div className="civil_szervezetek_img margin_top_civil_szervezetek">
+                        <img
+                            src="/images/middle_content_pics/civil_szervezetek_pics/civil4_mozgaskorlatozottak.png"
+                            alt="Az egyesület logója, egy kerekesszékes emberrel és zöld hegyekkel a háttérben és egy kék folyó lentebb."
+                        />
+                    </div>
+                    <p className="align-center bold uppercase">
+                        Mozgáskorlátozottak Sárospataki és Zemplén Térségi
+                        Egyesülete
+                    </p>
+                    <p>
+                        A mozgáskorlátozottságból eredő sajátos érdekek
+                        feltárása, megfogalmazása, egyeztetése más csoportok
+                        érdekeivel, e sajátos érdekek képviselete, védelme,
+                        érvényesítése, különösen a jogalkotás befolyásolására
+                        irányuló munkában. A mozgássérült emberek számára
+                        hiányzó munka-, oktatási-, kulturális-, sport-,
+                        szabadidős és egyéb lehetőségek megteremtéséhez
+                        segítségnyújtás, módszerek kidolgozása. Hiányzó
+                        szolgáltatások minta értékű megvalósítása és
+                        elterjesztése, például speciális személyi segítő,
+                        szállító, sorstársi tanácsadó és információs szolgálat
+                        működtetésével Közreműködés az állam által nyújtott, a
+                        mozgáskorlátozottságból eredő egyes hátrányok
+                        kiegyenlítését szolgáló támogatásoknak a jogosultakhoz
+                        való juttatásában, például a lakás akadálymentesítési
+                        támogatás és a közlekedési támogatás odaítélése során. A
+                        mozgássérülti lét átéléséből táplálkozó sajátos ismertek
+                        és a tanult szakértelem alapján szakértői tevékenység
+                        kifejtése mind a jogalkotás, mind a jogalkalmazás
+                        legkülönbözőbb területein.
+                    </p>
+                    <p className="align-center">
+                        Cigándi csoport vezetője:{" "}
+                        <span className="bold">Oláh István</span>
+                    </p>
+                    <p className="align-center">3973 Cigánd, Kertköz u. 20.</p>
+                    <p className="align-center">Tel: 47/334-151</p>
+
+                    <div className="civil_szervezetek_img margin_top_civil_szervezetek">
+                        <img
+                            src="/images/middle_content_pics/civil_szervezetek_pics/civil5_iskolasokert_alapitvany.jpg"
+                            alt="Egy zöld krétatábla a háttérben, előtérben asztalon könyvek és íróeszközök egy pohárban."
+                        />
+                    </div>
+                    <p className="align-center bold uppercase">
+                        Cigándi Általános Iskola Tanulóiért Alapítvány
+                    </p>
+                    <p>Alapítva: 2014.12.17.</p>
+                    <p>
+                        I.1./ Az Alapítvány neve: Cigándi Általános Iskola
+                        Tanulóiért Alapítvány
+                    </p>
+                    <p>
+                        I.2./ Az Alapítvány székhelye: 3973 Cigánd, Iskola utca
+                        12/A.
+                    </p>
+                    <p>
+                        I.3./ Az Alapítvány időtartama: az Alapítvány
+                        határozatlan időtartamra jön létre.
+                    </p>
+                    <p>II. Az Alapítvány céljai:</p>
+                    <p>
+                        1./ Az alapítvány létrehozásának célja a cigándi
+                        székhelyű Kántor Mihály Általános Iskola tanulóinak
+                        anyagi támogatása, a művelődéshez, kultúrához való jog
+                        gyakorlásához szükséges feltételek megteremtése, az
+                        esélyegyenlőség biztosítása. Az alapítvány ilyen irányú
+                        működéséhez az anyagi, szellemi feltételek előteremtése,
+                        összefogása az alábbi tevékenységek által:
+                    </p>
+                    <ul className="ul_civil_szervezetek">
+                        <li>
+                            Sport, tanulmányi versenyek, szabadidős programok
+                            lebonyolítása, díjazása, egyéb költségeinek viselése
+                            (pl: utazás, étkezés)
+                        </li>
+                        <li>
+                            Tehetséggondozó foglalkozások szervezése, díjazása
+                        </li>
+                        <li>
+                            Kiemelt teljesítményű tanulók fejlesztése,
+                            felzárkóztatása
+                        </li>
+                        <li>Iskola eszközállomány fejlesztése</li>
+                        <li>Gyermekbarát tantermek kialakítása</li>
+                        <li>
+                            Tanulmányi kirándulások szervezése, (gyerekek,
+                            pedagógusok)
+                        </li>
+                        <li>
+                            Partnerkapcsolatok ápolásának járulékos költségei
+                        </li>
+                        <li>Nyári táborozások szervezése</li>
+                        <li>
+                            Szabadidős képességfejlesztő kül- és beltéri
+                            eszközök, játékok beszerzése
+                        </li>
+                        <li>
+                            Bevétellel járó iskolai rendezvények
+                            anyagköltségének megelőlegezése
+                        </li>
+                        <li>
+                            Külföldi és belföldi testvériskolai kapcsolatok
+                            ápolása
+                        </li>
+                        <li>
+                            Hátrányos helyzetű gyerekek életkörülményeiből adódó
+                            hátrányok csökkentése
+                        </li>
+                        <li>mentálhigiéniés gondozás.</li>
+                    </ul>
+                    <p className="align-center">
+                        A kuratórium elnöke:{" "}
+                        <span className="bold">Némethné Szendrei Csilla</span>
+                    </p>
+                    <p className="align-center">tel: +36 47 534 000</p>
+                    <p className="align-center">
+                        e-mail: km-iskola@t-online.hu
+                    </p>
                 </div>
             </ContentContainer>
         </>
