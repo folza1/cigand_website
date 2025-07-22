@@ -487,6 +487,96 @@ export default function CivilSzervezetek() {
                     <p className="align-center">
                         E-mail: etele.egyesulet@gmail.com
                     </p>
+
+                    <div className="civil_szervezetek_img margin_top_civil_szervezetek">
+                        <img
+                            src="/images/middle_content_pics/civil_szervezetek_pics/civil7_ifjusagi.jpeg"
+                            alt="Sportlabdák fehér háttéren."
+                        />
+                    </div>
+                    <p className="align-center bold uppercase">
+                        Cigándi Innovációs és Ifjúsági Sportegyesület
+                    </p>
+                    <p>
+                        A Cigándi Innovációs és Ifjúsági Sportegyesület
+                        utánpótlás nevelése 2006 tavaszától fordult komollyá.
+                    </p>
+                    <p>
+                        Csapataink ezalatt a 10 év alatt szépen fejlődtek, akik
+                        közöl 4 korosztály már NB-s osztályban szerepel. Már
+                        óvodás kortól edzük a gyerekeket és az ifjúsági
+                        csapatból kiöregedő tehetséget is próbáljuk megtartani.
+                    </p>
+                    <p>
+                        Ezen időszak alatt 7 utánpótlás korú játékosunk került
+                        NB I-es különböző korosztályos csapataihoz, akik
+                        Cigándon kezdték a labdarúgást.
+                    </p>
+                    <p>
+                        Infrastruktúránk folyamatosan fejlődik, hiszen idén
+                        tavasszal 2 nagyméretű pályánk is készül. 1 db műfüves
+                        és 1 db élő füves. Emellett a 2016-ban a Stadion is
+                        elkészült, ahol egy kisméretű műfüves pálya és egy
+                        kisméretű edzőpálya is található.
+                    </p>
+                    <p>
+                        Igazolt gyerekeink száma közel 200 fő, akik 27
+                        településről érkeznek hozzánk, hogy magas színvonalon
+                        tudjanak sportolni.
+                    </p>
+                    <p>
+                        Ezen gyerekek szállítását, illetve utaztatási költségeit
+                        a Cigánd SE 100%-ban állja, ami elég ritka más
+                        sportegyesületek életében!
+                    </p>
+                    <p className="bold margin_top_civil_szervezetek2 align-center uppercase">
+                        Csapatok
+                    </p>
+                    <p className="bold">Utánpótlás:</p>
+                    <p className="bold margin_top_civil_szervezetek2">Fiú:</p>
+
+                    <p>1. U-7</p>
+
+                    <p>2. U-9</p>
+
+                    <p>3. U-11</p>
+
+                    <p>4. U-13</p>
+
+                    <p>5. U-14</p>
+
+                    <p>6. U-15</p>
+
+                    <p>7. U-17</p>
+
+                    <p>8. U-19</p>
+
+                    <p className="bold margin_top_civil_szervezetek2">Leány:</p>
+
+                    <p>1. U-15</p>
+
+                    <p>2. U-18</p>
+
+                    <p className="bold margin_top_civil_szervezetek2">
+                        Felnőtt:
+                    </p>
+
+                    <p>1. Cigánd SE</p>
+
+                    <p>2. Cigánd SE II.</p>
+
+                    <p className="bold margin_top_civil_szervezetek2">
+                        Elérhetőségeink:
+                    </p>
+                    <p>3973 Cigánd, Fő út 80.</p>
+                    <p className="bold margin_top_civil_szervezetek2 align-center">
+                        Nagy Gábor
+                    </p>
+                    <p className="align-center">az egyesület elnöke</p>
+
+                    <p className="align-center">Tel: 70/371-67-23</p>
+
+                    <p className="align-center">E-mail: spcigand@gmail.com</p>
                 </div>
             </ContentContainer>
         </>
