@@ -12,6 +12,8 @@
 
 .right_side iframe {
     background-color: white;
+    border-left: none;
+    border-top: none;
 }
 
 @media screen and (max-width: 1200px) {

@@ -7,8 +7,8 @@ export default function RNO() {
         <>
             <HeaderModule
                 breadcrumb={[
-                    "Városunk",
-                    "Egészségügy",
+                    "Önkormányzat",
+                    "Egyéb",
                     "Roma Nemzetiségi Önkormányzat",
                 ]}
             >

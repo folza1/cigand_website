@@ -1,0 +1,13 @@
+.telepules_uzemeltetes_img {
+    display: flex;
+    justify-content: center;
+}
+
+.telepules_uzemeltetes_img img {
+    width: 100%;
+    height: auto;
+}
+.border_tu_nagyitas {
+    border-bottom: 0.1vw solid black;
+    text-decoration: none;
+}

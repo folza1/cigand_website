@@ -1,0 +1,10 @@
+.telepules_uzemeltetes_title {
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.1vw solid black;
+    border-bottom: 0.1vw solid black;
+    padding: 1vw;
+}
+.background {
+    background-color: lightblue;
+}
