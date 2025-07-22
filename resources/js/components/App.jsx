@@ -58,6 +58,7 @@ import Ingatlanok from "./contents/ingatlanok_conts/Ingatlanok";
 import CigandJarasiHivatal from "./contents/cigand_jarasi_hivatal_conts/CigandJarasiHivatal";
 import Kiadvanyok from "./contents/kiadvanyok_conts/Kiadvanyok";
 import CivilSzervezetek from "./contents/civil_szervezetek_conts/CivilSzervezetek";
+import TelepulesUzemeltetes from "./contents/telepules_uzemeltetes_conts/TelepulesUzemeltetes";
 
 export default function App() {
     return (
@@ -192,6 +193,11 @@ export default function App() {
                     <Route path="/telefonszamok" element={<Telefonszamok />} />
 
                     <Route path="/rno" element={<RNO />} />
+
+                    <Route
+                        path="/telepules_uzemeltetes"
+                        element={<TelepulesUzemeltetes />}
+                    />
 
                     {/* Szabadidő */}
                     <Route path="/vadaszat" element={<Vadaszat />} />
