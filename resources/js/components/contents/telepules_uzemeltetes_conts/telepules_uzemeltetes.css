@@ -1,3 +1,6 @@
+.telepules_uzemeltetes_news {
+    margin-bottom: 5vw;
+}
 .telepules_uzemeltetes_img {
     display: flex;
     justify-content: center;
@@ -10,4 +13,8 @@
 .border_tu_nagyitas {
     border-bottom: 0.1vw solid black;
     text-decoration: none;
+}
+
+.telepules_uzemeltetes_ul {
+    margin-left: 5vw;
 }
