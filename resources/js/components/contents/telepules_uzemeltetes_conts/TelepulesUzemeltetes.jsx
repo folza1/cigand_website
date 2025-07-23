@@ -117,7 +117,7 @@ export default function TelepulesUzemeltetes() {
                             című TÁMOP-1.4.6-13/1-2013-0046 jelű projekt eddigi
                             eredményei
                         </p>
-                        <ul>
+                        <ul className="telepules_uzemeltetes_ul">
                             <li>20 fő projektbe való bevonása</li>
                             <li>
                                 18 fő felkészítése, képzése és foglalkoztatása 6
@@ -191,6 +191,44 @@ export default function TelepulesUzemeltetes() {
                         </div>
                         <a
                             href="images/middle_content_pics/telepules_uzemeltetes_pics/2014-07-14_eszkozok.jpg"
+                            target="_blank"
+                            className="align-center bold display-block border_tu_nagyitas"
+                        >
+                            Nagyítás
+                        </a>
+                    </div>
+
+                    <div className="telepules_uzemeltetes_news">
+                        <NewsHeader new_date="2014. július 14.">
+                            Munkaruha
+                        </NewsHeader>
+                        <div className="telepules_uzemeltetes_img">
+                            <img
+                                src="/images/middle_content_pics/telepules_uzemeltetes_pics/2014-07-14_munkaruha.jpg"
+                                alt="Munkaruha a Cigánd Településüzemeltetési és Városfejlesztő NKft-nél."
+                            />
+                        </div>
+                        <a
+                            href="images/middle_content_pics/telepules_uzemeltetes_pics/2014-07-14_munkaruha.jpg"
+                            target="_blank"
+                            className="align-center bold display-block border_tu_nagyitas"
+                        >
+                            Nagyítás
+                        </a>
+                    </div>
+
+                    <div className="telepules_uzemeltetes_news">
+                        <NewsHeader new_date="2014. július 14.">
+                            Helyszín
+                        </NewsHeader>
+                        <div className="telepules_uzemeltetes_img">
+                            <img
+                                src="/images/middle_content_pics/telepules_uzemeltetes_pics/2014-07-14_helyszin.jpg"
+                                alt="A projekt helyszínét bemutató kép a projekttáblán feltüntetett kb. 89 millió forintos támogatásról."
+                            />
+                        </div>
+                        <a
+                            href="images/middle_content_pics/telepules_uzemeltetes_pics/2014-07-14_helyszin.jpg"
                             target="_blank"
                             className="align-center bold display-block border_tu_nagyitas"
                         >
