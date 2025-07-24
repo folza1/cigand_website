@@ -235,6 +235,134 @@ export default function TelepulesUzemeltetes() {
                             Nagyítás
                         </a>
                     </div>
+
+                    <div className="telepules_uzemeltetes_news">
+                        <NewsHeader new_date="2014. február 15.">
+                            Sajtóközlemény
+                        </NewsHeader>
+                        <p>
+                            A Cigánd Településüzemeltetési és Városfejlesztő
+                            Nonprofit Közhasznú Kft., Cigánd Város Önkormányzata
+                            és a Cigánd Városi Roma Nemzetiségi Önkormányzat
+                            közösen és sikeresen pályázott 2013. június 27-én a
+                            TÁMOP keretében meghirdetett „Tranzitfoglalkoztatás
+                            az építőiparban” című felhívásra.
+                        </p>
+                        <p>
+                            A{" "}
+                            <span className="bold">
+                                Tranzitfoglalkoztatás megvalósítása Cigánd
+                                városában
+                            </span>{" "}
+                            című TÁMOP-1.4.6-13/1-2013-0046 jelű projekt céljai:
+                        </p>
+                        <ul className="telepules_uzemeltetes_ul">
+                            <li>
+                                a Cigándi járás, Borsod-Abaúj-Zemplén megye és
+                                az Észak-magyarországi régió munkaerő-piaci
+                                helyzetének javítása
+                            </li>
+                            <li>
+                                munkaerő-piaci kereslet és kínálat egymáshoz
+                                való illeszkedésének javítása
+                            </li>
+                            <li>
+                                az aktivitás területi különbségeinek csökkentése
+                                az ország egyik leghátrányosabb helyzetű
+                                területén történő foglalkoztatás révén
+                            </li>
+                            <li>
+                                a változásokhoz való alkalmazkodás segítése
+                                tréningek segítségével
+                            </li>
+                            <li>
+                                az egész életen át tartó tanulás elősegítése (új
+                                szakma elsajátítása)
+                            </li>
+                            <li>
+                                Hátrányos helyzetű, munkanélküli emberek
+                                programba való bevonása
+                            </li>
+                            <li>
+                                A bevontak képzésre, foglalkoztatásra és tartós
+                                elhelyezkedésre való felkészítése egyénre
+                                szabott, valamint csoportos foglalkozások,
+                                tréningek segítségével
+                            </li>
+                            <li>
+                                piacképes szakmához és munkához való juttatása a
+                                képzéssel egybekötött foglalkoztatás révén
+                            </li>
+                            <li>
+                                nyílt munkaerő-piaci elhelyezése, támogatása
+                            </li>
+                            <li>
+                                és családjaik életkörülményeinek javítása
+                                azáltal, hogy munkához, keresethez jutnak, így
+                                megélhetési problémáik csökkennek
+                            </li>
+                        </ul>
+                        <p className="bold margin_top_telepules_uzemeltetes">
+                            Eredmények
+                        </p>
+                        <ul className="telepules_uzemeltetes_ul">
+                            <li>20 fő projektbe való bevonása,</li>
+                            <li>
+                                18 fő felkészítése, képzése és foglalkoztatása 6
+                                hónapon keresztül
+                            </li>
+                            <li>18 fő továbbfoglalkoztatása 3 hónapig</li>
+                            <li>
+                                a képzéssel egybekötött foglalkoztatás
+                                megkezdéséhez szükséges technikai feltételek
+                                biztosítása: 1 db fekvő horizont fűrész, ipari,
+                                1 db betonkeverő, elektromos ipari, 0,5kW, 2 db
+                                festékkeverő gép, 1 db homlokzati állvány 400m2,
+                                fixállású, 3 db láncfűrész+tartozék,
+                                benzinmotoros, 1 db elektromos térkővágó, 7 db
+                                henger szett és kiegészítői (többféle méretben),
+                                7 db ecset és kefe szett (többféle méretben), 7
+                                db glettelő és falsimítólap szett (többféle
+                                méretben), 7 db erősített falétra,
+                                vödörakasztóval, 5 db térkőgyártó sablon
+                                (különböző forma)
+                            </li>
+                        </ul>
+
+                        <p className="bold margin_top_telepules_uzemeltetes">
+                            Célcsoport
+                        </p>
+                        <p>Azok a hátrányos helyzetű munkanélküliek, akik:</p>
+                        <ul className="telepules_uzemeltetes_ul">
+                            <li>
+                                legfeljebb alapfokú iskolai végzettséggel
+                                rendelkeznek, vagy
+                            </li>
+                            <li>
+                                a foglalkoztatás megkezdésekor az ötvenedik
+                                életévüket betöltötték, vagy
+                            </li>
+                            <li>
+                                25. életévüket be nem töltött pályakezdő
+                                álláskeresők, vagy
+                            </li>
+                            <li>
+                                a projektbe vonást megelőző hat hónapban nem
+                                folytatottak rendszeres kereső tevékenységet -,
+                                vagy a munkaügyi központ legalább huszonnégy
+                                hónapja álláskeresőként tartja őket nyilván,
+                                vagy
+                            </li>
+                            <li>etnikai kisebbséghez tartoznak.</li>
+                        </ul>
+                        <p className="bold margin_top_telepules_uzemeltetes">
+                            Projekt időtartama 2013.12.27- 2015.04.26.
+                        </p>
+
+                        <p className="bold">A támogatás mértéke 100%.</p>
+
+                        <p className="bold">A támogatás összege 89,95 MFt</p>
+                    </div>
                 </div>
             </ContentContainer>
         </>

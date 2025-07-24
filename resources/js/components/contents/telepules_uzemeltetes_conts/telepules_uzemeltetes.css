@@ -1,6 +1,9 @@
 .telepules_uzemeltetes_news {
     margin-bottom: 5vw;
 }
+.telepules_uzemeltetes_news:last-of-type {
+    margin-bottom: 0;
+}
 .telepules_uzemeltetes_img {
     display: flex;
     justify-content: center;
@@ -17,4 +20,7 @@
 
 .telepules_uzemeltetes_ul {
     margin-left: 5vw;
+}
+.margin_top_telepules_uzemeltetes {
+    margin-top: 5vw;
 }
