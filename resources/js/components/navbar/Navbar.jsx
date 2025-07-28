@@ -817,7 +817,7 @@ const Navbar = () => {
                                             scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                         }}
                                         className="no-underline"
-                                        to="/projekt1"
+                                        to="/muveszeti_csoportok"
                                     >
                                         Művészeti Csoportok
                                     </Link>
@@ -1916,7 +1916,7 @@ const Navbar = () => {
                                     scrollToOutlet(); // A scrollToOutlet funkció meghívása
                                 }}
                                 className="no-underline"
-                                to="/szechenyi2020"
+                                to="/muveszeti_csoportok"
                             >
                                 Művészeti Csoportok
                             </Link>

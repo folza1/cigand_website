@@ -1,0 +1,16 @@
+.muveszeti_csoportok_img {
+    display: flex;
+    justify-content: center;
+}
+
+.muveszeti_csoportok_img img {
+    width: 100%;
+    height: auto;
+}
+.muveszeti_csoportok_ul {
+    list-style-type: disc;
+    margin-left: 5vw;
+}
+.margin_top_muveszeti_csoportok {
+    margin-top: 5vw !important;
+}

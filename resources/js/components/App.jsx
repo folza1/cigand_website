@@ -59,6 +59,7 @@ import CigandJarasiHivatal from "./contents/cigand_jarasi_hivatal_conts/CigandJa
 import Kiadvanyok from "./contents/kiadvanyok_conts/Kiadvanyok";
 import CivilSzervezetek from "./contents/civil_szervezetek_conts/CivilSzervezetek";
 import TelepulesUzemeltetes from "./contents/telepules_uzemeltetes_conts/TelepulesUzemeltetes";
+import MuveszetiCsoportok from "./contents/muveszeti_csoportok_conts/MuveszetiCsoportok";
 
 export default function App() {
     return (
@@ -113,6 +114,10 @@ export default function App() {
                     <Route path="/konyvtar" element={<Konyvtar />} />
                     <Route path="/ovodamuzeum" element={<Ovodamuzeum />} />
                     <Route path="/tajhaz" element={<Tajhaz />} />
+                    <Route
+                        path="/muveszeti_csoportok"
+                        element={<MuveszetiCsoportok />}
+                    />
 
                     {/* Sport */}
                     <Route
