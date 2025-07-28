@@ -97,6 +97,64 @@ export default function MuveszetiCsoportok() {
                         Felkészítő pedagógus : Oláhné Fojdl Adrienn, klasszikus
                         balett pedagógus.
                     </p>
+                    <div className="muveszeti_csoportok_img">
+                        <img
+                            src="/images/middle_content_pics/muveszeti_csoportok_pics/muveszeti2_citera.jpg"
+                            alt="A citerazenekar fellépése asszonykórussal a cigándi falumúzeum színpadán."
+                        />
+                    </div>
+                    <p>
+                        Legfontosabb feladatuknak tartjuk a népzenei
+                        hagyományaink felélesztését, illetve a megőrzését,
+                        különös tekintettel Cigándra, a helyi kultúra ápolására.
+                        Rendszeres szereplői vagyunk a helyi, környékbeli,
+                        megyei,regionális ünnepségeknek. Gyakran lépünk fel
+                        falunapokon, bornapokon, népzenei találkozókon. Számos
+                        esetben közös műsort adunk a” Sarkantyus”
+                        Néptánccsoporttal.
+                    </p>
+                    <p>
+                        Műsorunkat a Bodrogközi és Cigándi dallamok tükrében
+                        címmel mutatjuk be. Fontos számukra, hogy a népi kultúra
+                        ne tűnjön el nyomtalanul és ami még nagyszüleink
+                        emlékeiben felderengett azt nem engedjük tovatűnni ,
+                        hanem megőrizzük, citerán elzenéljük és elénekeljük. Az
+                        elmúlt 15 év fontosabb szereplései: Budapest /Magyar
+                        Borok Háza/, Szentendre Néprajzi Múzeum, Eger,
+                        Lillafüred, Szádellői-fesztivál, Nagytárkány Liba-Galiba
+                        fesztivál, Tiszacsernyő, Nagykövesd, Miskolc, Záhony,
+                        Kisgéres Pincefesztivál, Károlyfalva Német Nemzetiségi
+                        fesztivál, Dunajeci fesztivál , Marosmagyaró,
+                        Nagygéres,Királyhelmec Ladmóc,Szőllőske,Bari,Bély, Boly/
+                        2016-ban legfontosabb fellépésünk a Magyarországi
+                        Népzenei Együttesek Országos találkozóján való szereplés
+                        volt Kisvárdán és Ajakon . A csoport sikerei városunk
+                        hírnevét gazdagítják.A magunk örömére és mások
+                        szórakoztatására zenélünk és énekelünk. Reméljük ez még
+                        továbbra is így lesz.
+                    </p>
+                    <p>
+                        A helyi Cigándi dalok mellett más tájegységek dalait is
+                        szívesen énekeljük . / Rétközi,Abonyi, Sárközi, Erdélyi
+                        / Úgy gondolom dalainkban tükröződik legjobban
+                        lelkiségünk. Cigánd, mint ősi magyar település, gazdag
+                        néphagyománya, kiemelkedő szerepet tölt be
+                        életünkben.Mottónk: amíg a citerazenekar és asszonykórus
+                        énekel, messzire hallatszik, hogy Cigánd létezik,
+                        fejlődik és szépül.
+                    </p>
+                    <p className="margin_top_muveszeti_csoportok">
+                        Fellépeseink száma évente kb. 10-15 alkalom.
+                    </p>
+                    <p>A zenekar tagjai: iskolai tanulók és felnőttek</p>
+                    <p>Asszonykórus: óvónők és nyugdíjas asszonyok</p>
+                    <p>A csoport vezetője: Téglás Dezső</p>
+                    <p>A csoport elérhetősége: 06-20/ 318 1178</p>
+                    <p>email: teglasdezso@gmail.com</p>
+
+                    <p className="margin_top_muveszeti_csoportok bold">
+                        Téglás Dezső
+                    </p>
                 </div>
             </ContentContainer>
         </>
