@@ -97,7 +97,7 @@ export default function MuveszetiCsoportok() {
                         Felkészítő pedagógus : Oláhné Fojdl Adrienn, klasszikus
                         balett pedagógus.
                     </p>
-                    <div className="muveszeti_csoportok_img">
+                    <div className="muveszeti_csoportok_img margin_top_muveszeti_csoportok">
                         <img
                             src="/images/middle_content_pics/muveszeti_csoportok_pics/muveszeti2_citera.jpg"
                             alt="A citerazenekar fellépése asszonykórussal a cigándi falumúzeum színpadán."
